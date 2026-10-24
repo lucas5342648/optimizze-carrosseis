@@ -1,0 +1,113 @@
+{
+ "legenda": "Se seu vídeo tem view mas não vende, provavelmente é um desses 2 erros 👀 Comenta TTS que eu te mando o link da Optimizze na DM.\n\n#tiktokshop #tiktokshopbrasil #afiliadotiktokshop #dicastiktok #copywriting #rendaextra",
+ "slides": [
+  {
+   "pill": "AFILIADO TIKTOK SHOP",
+   "titulo": "Seu vídeo tem view mas *não vende*?",
+   "sub": "Quase sempre é um desses 2 erros. E dá pra corrigir pelo celular.",
+   "chips": [
+    "gancho fraco",
+    "roteiro inventado"
+   ],
+   "tipo": "cover",
+   "dados": {
+    "prod": "bottle"
+   },
+   "rodape": "salva esse post"
+  },
+  {
+   "pill": "ERRO 1",
+   "titulo": "Gancho que fala do *produto*, não da *dor*",
+   "sub": "Nos primeiros 2 segundos a pessoa decide se fica. Ninguém para pra ver “olha o que eu comprei”.",
+   "tipo": "compare",
+   "dados": {
+    "antes": "Olha esse sérum de vitamina C que eu comprei",
+    "depois": "Se sua pele fica opaca no fim do dia, para tudo e assiste isso",
+    "nota": "Exemplo de reescrita"
+   }
+  },
+  {
+   "pill": "ERRO 2",
+   "titulo": "Inventar o roteiro *do zero*",
+   "sub": "Os vídeos que vendem seguem padrões. Começa por um que **já provou** que vende.",
+   "tipo": "ranking",
+   "dados": {
+    "url": "kalodata.com",
+    "videos": [
+     {
+      "prod": "bottle",
+      "dur": "0:18",
+      "title": "Sérum facial vitamina C",
+      "vendidos": "6,1 mil",
+      "receita": "R$ 122 mil"
+     },
+     {
+      "prod": "shirt",
+      "dur": "0:24",
+      "title": "Camiseta segunda pele UV",
+      "vendidos": "9,9 mil",
+      "receita": "R$ 246 mil"
+     },
+     {
+      "prod": "bag",
+      "dur": "0:31",
+      "title": "Organizador de mala",
+      "vendidos": "5,2 mil",
+      "receita": "R$ 98 mil"
+     }
+    ]
+   }
+  },
+  {
+   "pill": "COMO EU CORRIJO",
+   "titulo": "Jogo o vídeo campeão na *Optimizze AI*",
+   "sub": "Ela quebra o vídeo e mostra o que fez ele vender.",
+   "tipo": "upload",
+   "dados": {
+    "arquivo": "serum_vitamina_c.mp4"
+   }
+  },
+  {
+   "pill": "COMO EU CORRIJO",
+   "titulo": "Ela reescreve o que está *fraco*",
+   "sub": "Gancho, estrutura da copy e CTA. Mantendo o que já vendeu.",
+   "tipo": "gauge",
+   "dados": {
+    "itens": [
+     [
+      "Hook",
+      "Abre na dor (pele opaca), não no produto"
+     ],
+     [
+      "Estrutura da Copy",
+      "Um benefício por frase"
+     ],
+     [
+      "CTA",
+      "Chamada direta pro carrinho laranja"
+     ]
+    ]
+   }
+  },
+  {
+   "pill": "COMO EU CORRIJO",
+   "titulo": "E já me dá os *prompts* pra gerar o vídeo",
+   "sub": "Copio, colo no gerador de vídeo com a foto do produto e posto.",
+   "tipo": "prompts",
+   "dados": {
+    "prompt": "<b>[IDENTIDADE VISUAL]</b> POV vertical 9:16, banheiro claro, luz natural. Mão segura o frasco perto do espelho…<br><b>[FALA]</b> “Se sua pele fica opaca no fim do dia, para tudo e assiste isso.”"
+   }
+  },
+  {
+   "pill": "QUER O LINK?",
+   "titulo": "Comenta *TTS*",
+   "sub": "que eu te mando o link da Optimizze na DM.",
+   "tipo": "cta",
+   "dados": {
+    "palavra": "TTS",
+    "resposta": "Te mandei o link da Optimizze AI"
+   },
+   "rodape": "segue pra mais"
+  }
+ ]
+}

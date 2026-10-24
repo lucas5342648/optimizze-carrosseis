@@ -1,0 +1,123 @@
+{
+ "legenda": "Passo a passo pra fazer vídeo POV de TikTok Shop sem gravar nada 📱🛍️ Salva pra não perder e comenta TTS que eu te mando o link da Optimizze na DM.\n\n#tiktokshop #tiktokshopbrasil #afiliadotiktokshop #videocomia #inteligenciaartificial #rendaextra #vendasonline",
+ "slides": [
+  {
+   "pill": "TIKTOK SHOP + IA",
+   "titulo": "Como eu faço vídeos POV que *vendem* sem gravar nada",
+   "sub": "O passo a passo completo, só pelo celular.",
+   "chips": [
+    "sem aparecer",
+    "sem gravar",
+    "sem ter o produto"
+   ],
+   "tipo": "cover",
+   "dados": {
+    "prod": "shirt"
+   },
+   "rodape": "salva esse post"
+  },
+  {
+   "pill": "PASSO 1",
+   "titulo": "Acha um vídeo que *já vendeu*",
+   "sub": "Não inventa do zero. Filtra os vídeos com mais vendas da semana no seu nicho. Eu uso a **Kalodata**.",
+   "tipo": "ranking",
+   "dados": {
+    "url": "kalodata.com",
+    "videos": [
+     {
+      "prod": "shirt",
+      "dur": "0:24",
+      "title": "Camiseta segunda pele UV",
+      "vendidos": "9,9 mil",
+      "receita": "R$ 246 mil"
+     },
+     {
+      "prod": "bed",
+      "dur": "0:25",
+      "title": "Jogo de lençol 400 fios",
+      "vendidos": "8,9 mil",
+      "receita": "R$ 185 mil"
+     },
+     {
+      "prod": "bottle",
+      "dur": "0:18",
+      "title": "Sérum facial vitamina C",
+      "vendidos": "6,1 mil",
+      "receita": "R$ 122 mil"
+     }
+    ]
+   }
+  },
+  {
+   "pill": "PASSO 2",
+   "titulo": "Joga esse vídeo na *Optimizze AI*",
+   "sub": "Ela assiste o vídeo e entende **por que ele vendeu**: gancho, ritmo, cenas e CTA.",
+   "tipo": "upload",
+   "dados": {
+    "arquivo": "camiseta_uv_campea.mp4"
+   }
+  },
+  {
+   "pill": "PASSO 3",
+   "titulo": "Ela reescreve a copy pra vender *ainda mais*",
+   "sub": "Mesma estrutura que já provou que vende, com o texto melhorado.",
+   "tipo": "gauge",
+   "dados": {
+    "itens": [
+     [
+      "Hook",
+      "Pergunta inicial mais forte, direto na dor do sol"
+     ],
+     [
+      "Estrutura da Copy",
+      "Benefícios ditos de forma mais direta"
+     ],
+     [
+      "CTA",
+      "Mais urgência no final"
+     ]
+    ]
+   }
+  },
+  {
+   "pill": "PASSO 4",
+   "titulo": "Copia o prompt de *cada cena*",
+   "sub": "O roteiro já vem dividido em cenas, com o prompt pronto pra IA de vídeo.",
+   "tipo": "prompts",
+   "dados": {
+    "prompt": "<b>[IDENTIDADE VISUAL]</b> Vídeo vertical 9:16 em POV, câmera de celular na mão. Só as mãos aparecem manipulando o produto…<br><b>[FALA]</b> “Quantas vezes você chegou em casa com a pele ardendo depois de um dia no sol?”"
+   }
+  },
+  {
+   "pill": "PASSO 5",
+   "titulo": "Cola no gerador + *foto do produto*",
+   "sub": "Flow, YouTube Create… qualquer gerador de vídeo com IA funciona.",
+   "tipo": "generator",
+   "dados": {
+    "prod": "shirt",
+    "prompt": "Vídeo vertical 9:16 em POV. As duas mãos entram pelo canto da tela e esticam a camiseta preta sobre a cama…",
+    "progresso": 64
+   }
+  },
+  {
+   "pill": "PASSO 6",
+   "titulo": "Junta as cenas, *baixa e posta*",
+   "sub": "Vídeo novo, com a estrutura de um que já vendeu. Sem estúdio e sem câmera.",
+   "tipo": "timeline",
+   "dados": {
+    "prod": "shirt"
+   }
+  },
+  {
+   "pill": "QUER O LINK?",
+   "titulo": "Comenta *TTS*",
+   "sub": "que eu te mando o link da Optimizze na DM.",
+   "tipo": "cta",
+   "dados": {
+    "palavra": "TTS",
+    "resposta": "Te mandei o link da Optimizze AI"
+   },
+   "rodape": "segue pra mais"
+  }
+ ]
+}

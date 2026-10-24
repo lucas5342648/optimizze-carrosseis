@@ -1,0 +1,126 @@
+{
+ "legenda": "1 vídeo que vendeu = 3 vídeos novos pra testar 🔁 Assim você descobre qual ângulo vende mais sem repostar vídeo de ninguém. Comenta TTS que eu te mando o link da Optimizze na DM.\n\n#tiktokshop #tiktokshopbrasil #afiliadotiktokshop #marketingdigital #videocomia #rendaextra",
+ "slides": [
+  {
+   "pill": "ESTRATÉGIA TIKTOK SHOP",
+   "titulo": "Pega *1 vídeo* que vendeu e transforma em *3 vídeos novos*",
+   "sub": "Sem repostar o vídeo de ninguém.",
+   "chips": [
+    "mesmo produto",
+    "3 ângulos",
+    "você testa qual vende mais"
+   ],
+   "tipo": "cover",
+   "dados": {
+    "prod": "bed"
+   },
+   "rodape": "salva esse post"
+  },
+  {
+   "pill": "PASSO 1",
+   "titulo": "Escolhe um *vídeo campeão*",
+   "sub": "Procura os que mais venderam nos últimos 7 dias no seu nicho.",
+   "tipo": "ranking",
+   "dados": {
+    "url": "kalodata.com",
+    "videos": [
+     {
+      "prod": "bed",
+      "dur": "0:25",
+      "title": "Jogo de lençol 400 fios",
+      "vendidos": "8,9 mil",
+      "receita": "R$ 185 mil"
+     },
+     {
+      "prod": "bag",
+      "dur": "0:31",
+      "title": "Organizador de mala",
+      "vendidos": "5,2 mil",
+      "receita": "R$ 98 mil"
+     },
+     {
+      "prod": "shoe",
+      "dur": "0:20",
+      "title": "Tênis casual unissex",
+      "vendidos": "3,7 mil",
+      "receita": "R$ 211 mil"
+     }
+    ]
+   }
+  },
+  {
+   "pill": "PASSO 2",
+   "titulo": "Sobe ele no *Remix Inteligente*",
+   "sub": "É a função da **Optimizze AI** que eu uso pra isso. Funciona direto no navegador do celular.",
+   "tipo": "upload",
+   "dados": {
+    "arquivo": "lencol_400_fios.mp4",
+    "modo": "Remix Inteligente"
+   }
+  },
+  {
+   "pill": "PASSO 3",
+   "titulo": "Ela te devolve *3 versões* completas",
+   "sub": "Cada uma com **roteiro, melhorias e prompts próprios**.",
+   "tipo": "variants",
+   "dados": {
+    "tabs": [
+     "Otimizada e Fiel",
+     "Variação de Contexto",
+     "Variação Criativa"
+    ],
+    "melhorias": [
+     [
+      "Hook",
+      "Abertura direto na dor do calor à noite"
+     ],
+     [
+      "Estrutura da Copy",
+      "Benefício do tecido antes do preço"
+     ],
+     [
+      "CTA",
+      "Urgência com o fim da promoção"
+     ]
+    ],
+    "cena": {
+     "nome": "Hook Visual",
+     "fala": "Você ainda dorme num lençol que esquenta a noite inteira?",
+     "acao": "Passa a mão no lençol esticado e puxa o tecido pra perto da câmera",
+     "tom": "Curioso e direto"
+    }
+   }
+  },
+  {
+   "pill": "PASSO 4",
+   "titulo": "Cada versão tem *os próprios prompts* por cena",
+   "sub": "Quer gravar? Usa o Modo Gravação. Não quer aparecer? Copia o prompt e gera com IA.",
+   "tipo": "prompts",
+   "dados": {
+    "prompt": "<b>[IDENTIDADE VISUAL]</b> POV vertical 9:16, quarto claro com luz da manhã. Mãos esticando o lençol sobre a cama…<br><b>[FALA]</b> “Você ainda dorme num lençol que esquenta a noite inteira?”"
+   }
+  },
+  {
+   "pill": "PASSO 5",
+   "titulo": "Posta as 3 em *dias diferentes*",
+   "sub": "Em uma semana você sabe qual ângulo vende mais desse produto. Aí é só repetir o que ganhou.",
+   "tipo": "generator",
+   "dados": {
+    "prod": "bed",
+    "prompt": "POV vertical 9:16, quarto claro com luz da manhã. Mãos esticando o lençol cinza sobre a cama…",
+    "progresso": 82
+   }
+  },
+  {
+   "pill": "QUER O LINK?",
+   "titulo": "Comenta *TTS*",
+   "sub": "que eu te mando o link da Optimizze na DM.",
+   "tipo": "cta",
+   "dados": {
+    "palavra": "TTS",
+    "resposta": "Te mandei o link da Optimizze AI"
+   },
+   "rodape": "segue pra mais"
+  }
+ ]
+}
