@@ -1,5 +1,5 @@
 {
- "legenda": "Se seu vídeo tem view mas não vende, provavelmente é um desses 2 erros 👀 Comenta TTS que eu te mando o link da Optimizze na DM.\n\n#tiktokshop #tiktokshopbrasil #afiliadotiktokshop #dicastiktok #copywriting #rendaextra",
+ "legenda": "Se seu vídeo tem view mas não vende, provavelmente é um desses 2 erros 👀 Comenta TTS e acessa a Optimizze pelo link da minha bio 👆\n\n#tiktokshop #tiktokshopbrasil #afiliadotiktokshop #dicastiktok #copywriting #rendaextra",
  "slides": [
   {
    "pill": "AFILIADO TIKTOK SHOP",
@@ -99,13 +99,14 @@
    }
   },
   {
-   "pill": "QUER O LINK?",
+   "pill": "QUER TESTAR?",
    "titulo": "Comenta *TTS*",
-   "sub": "que eu te mando o link da Optimizze na DM.",
+   "sub": "e acessa a Optimizze pelo **link da minha bio**.",
    "tipo": "cta",
    "dados": {
     "palavra": "TTS",
-    "resposta": "Te mandei o link da Optimizze AI"
+    "rotulo": "resposta do perfil",
+    "resposta": "O link da Optimizze tá na minha bio, é só clicar!"
    },
    "rodape": "segue pra mais"
   }

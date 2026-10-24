@@ -261,7 +261,7 @@ def c_cta(d):
         <div style="font-size:44px;font-weight:700;margin-top:4px">{html.escape(d.get("palavra","TTS"))}</div></div>
         <div style="margin-left:auto;font-size:44px;color:#F472B6">♥</div></div>
       <div class="card" style="margin-top:20px;margin-left:120px;padding:30px;border-color:rgba(139,92,246,.5)">
-        <div style="font-size:26px;color:var(--pl);font-weight:600">resposta no privado</div>
+        <div style="font-size:26px;color:var(--pl);font-weight:600">{html.escape(d.get("rotulo","resposta no privado"))}</div>
         <div style="font-size:34px;font-weight:600;margin-top:6px;line-height:1.35">{html.escape(d.get("resposta","Te mandei o link e o passo a passo completo"))}</div></div></div>'''
 
 

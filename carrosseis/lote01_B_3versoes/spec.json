@@ -1,5 +1,5 @@
 {
- "legenda": "1 vídeo que vendeu = 3 vídeos novos pra testar 🔁 Assim você descobre qual ângulo vende mais sem repostar vídeo de ninguém. Comenta TTS que eu te mando o link da Optimizze na DM.\n\n#tiktokshop #tiktokshopbrasil #afiliadotiktokshop #marketingdigital #videocomia #rendaextra",
+ "legenda": "1 vídeo que vendeu = 3 vídeos novos pra testar 🔁 Assim você descobre qual ângulo vende mais sem repostar vídeo de ninguém. Comenta TTS e acessa a Optimizze pelo link da minha bio 👆\n\n#tiktokshop #tiktokshopbrasil #afiliadotiktokshop #marketingdigital #videocomia #rendaextra",
  "slides": [
   {
    "pill": "ESTRATÉGIA TIKTOK SHOP",
@@ -112,13 +112,14 @@
    }
   },
   {
-   "pill": "QUER O LINK?",
+   "pill": "QUER TESTAR?",
    "titulo": "Comenta *TTS*",
-   "sub": "que eu te mando o link da Optimizze na DM.",
+   "sub": "e acessa a Optimizze pelo **link da minha bio**.",
    "tipo": "cta",
    "dados": {
     "palavra": "TTS",
-    "resposta": "Te mandei o link da Optimizze AI"
+    "rotulo": "resposta do perfil",
+    "resposta": "O link da Optimizze tá na minha bio, é só clicar!"
    },
    "rodape": "segue pra mais"
   }
