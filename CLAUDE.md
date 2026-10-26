@@ -20,17 +20,27 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
    Posts antigos do Lucas (externos) servem de referência de estilo: média ~800 views no estilo nativo.
 3. **Aprender**: atualize `aprendizados.md` com 2–4 linhas novas e concretas (o que subiu/caiu e a hipótese).
    Métrica principal: views e saves; secundária: comments (TTS = intenção de clique) e follows.
-4. **Decidir os 3 carrosséis do dia** (regra 2+1):
+4. **Modo VIRAL (verificar antes de tudo):** um post é "viral" se tiver **3x ou mais a mediana de views**
+   dos últimos 10 posts, ou **2.000+ views**, ou saves/comments muito acima do normal.
+   Se houver um post viral nos últimos 7 dias, os 3 carrosséis do dia seguem o estilo dele:
+   - 2 carrosséis **quase iguais** ao viral: mesmo estilo visual, mesmo ângulo e mesma estrutura de slides,
+     mudando só a redação do gancho, a ordem/escolha dos prints ou o exemplo.
+   - 1 carrossel **variação controlada**: mantém o que deu certo e muda UMA coisa só (gancho, CTA,
+     nº de slides ou horário), para descobrir o que exatamente fez viralizar.
+   - Registre em `aprendizados.md` qual post viralizou, os números e o que está sendo testado.
+   - Saia do modo viral quando 3 posts seguidos no estilo dele ficarem abaixo da mediana.
+   Sem post viral, use a regra normal abaixo.
+5. **Decidir os 3 carrosséis do dia** (regra normal 2+1):
    - 2 carrosséis "explorar o que funciona": estilo/ângulo/gancho do melhor desempenho recente.
    - 1 carrossel "teste": um ângulo ou gancho novo do `banco_angulos.md` (ou outro estilo).
    - Nunca repetir um gancho de capa usado nos últimos 14 dias (ver `historico.csv`).
-5. **Gerar**: escreva um spec em `specs/AAAA-MM-DD_<letra>_<slug>.json` e renderize:
+6. **Gerar**: escreva um spec em `specs/AAAA-MM-DD_<letra>_<slug>.json` e renderize:
    - Estilo **nativo** (padrão, performa melhor): `python3 motor/nativo.py <spec> carrosseis/<pasta> <PREFIXO>`
      usa os prints reais de `assets/base/` (ver `assets/base/base.json` pro papel de cada imagem).
    - Estilo **escuro** (só como teste): `python3 motor/render.py <spec> carrosseis/<pasta>` (formato dos specs em `carrosseis/lote01_*`).
    Monte uma prévia em grade (PIL) e OLHE com a ferramenta Read: texto cortado, caixa desalinhada ou
    legenda antiga aparecendo = corrigir antes de publicar.
-6. **Publicar**: `git add/commit/push` (o push precisa acontecer ANTES de agendar). Depois agende no Zernio
+7. **Publicar**: `git add/commit/push` (o push precisa acontecer ANTES de agendar). Depois agende no Zernio
    com `posts_create_post` (via `call_tool`), um por horário: **12:00, 19:00 e 21:00** (America/Sao_Paulo),
    com `timezone: America/Sao_Paulo`, `tags: ["carrossel", "<estilo>"]`, `metadata: {"carrossel": "<pasta>"}` e:
    ```
@@ -43,8 +53,8 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
    `draft: true` = chega como notificação na Caixa de entrada do TikTok; o Lucas escolhe a música viral e posta.
    Limite do TikTok: 5 rascunhos pendentes por 24h. Se o Zernio recusar por esse limite, NÃO insista:
    avise o Lucas que ele precisa finalizar os rascunhos pendentes.
-7. **Registrar**: acrescente uma linha por carrossel em `historico.csv`, commit e push.
-8. **Avisar o Lucas** (SendUserMessage, curto): o que foi agendado e quando, o top e o pior post recente
+8. **Registrar**: acrescente uma linha por carrossel em `historico.csv`, commit e push.
+9. **Avisar o Lucas** (SendUserMessage, curto): o que foi agendado e quando, o top e o pior post recente
    com números, e o aprendizado do dia em 1 linha.
 
 ## Regras de conteúdo (não negociáveis)
