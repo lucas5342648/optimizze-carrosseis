@@ -22,3 +22,9 @@
 - Seu vídeo tem view mas não vende? Olha isso
 - Vídeo de TikTok Shop sem aparecer, sem gravar, sem ter o produto
 - O passo a passo que eu queria ter quando comecei no TikTok Shop
+
+## Vindos da pesquisa de virais (26/10)
+- "Como vender no TikTok Shop com IA - PASSO A PASSO" com slide 2 "salva esse post" (estilo tablet).
+- Iniciante: "Dá pra ganhar comissão só indicando produto. Veja como começar" (Optimizze no passo do vídeo).
+- Dicas concretas antes da ferramenta: nicho específico, produto até R$100, +1.000 vendas.
+- Fechamento "Ficou dúvida? Comenta TTS que eu te ajudo".

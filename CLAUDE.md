@@ -34,9 +34,16 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
    - 2 carrosséis "explorar o que funciona": estilo/ângulo/gancho do melhor desempenho recente.
    - 1 carrossel "teste": um ângulo ou gancho novo do `banco_angulos.md` (ou outro estilo).
    - Nunca repetir um gancho de capa usado nos últimos 14 dias (ver `historico.csv`).
+   - **Fila**: se existir algum spec em `specs/fila/`, o mais antigo É o carrossel "teste" do dia
+     (formatos adaptados de posts virais pesquisados). Renderize com o motor do campo `estilo`
+     e depois mova o spec para `specs/` com a data do dia no nome.
+     Fora do modo viral, o estilo `tablet` também pode ser usado nos 2 de "explorar" se performar bem.
 6. **Gerar**: escreva um spec em `specs/AAAA-MM-DD_<letra>_<slug>.json` e renderize:
    - Estilo **nativo** (padrão, performa melhor): `python3 motor/nativo.py <spec> carrosseis/<pasta> <PREFIXO>`
      usa os prints reais de `assets/base/` (ver `assets/base/base.json` pro papel de cada imagem).
+   - Estilo **tablet** (formato do viral do nicho): `python3 motor/tablet.py <spec> carrosseis/<pasta> <PREFIXO>`;
+     legenda em 2 camadas (branco + vermelho), slide 2 pedindo pra salvar, passos numerados,
+     slide "o site da ferramenta tá no meu link da bio". Exemplo: `specs/fila/E_tablet_passo_a_passo.json`.
    - Estilo **escuro** (só como teste): `python3 motor/render.py <spec> carrosseis/<pasta>` (formato dos specs em `carrosseis/lote01_*`).
    Monte uma prévia em grade (PIL) e OLHE com a ferramenta Read: texto cortado, caixa desalinhada ou
    legenda antiga aparecendo = corrigir antes de publicar.
