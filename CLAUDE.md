@@ -43,7 +43,7 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
      usa os prints reais de `assets/base/` (ver `assets/base/base.json` pro papel de cada imagem).
    - Estilo **tablet** (formato do viral do nicho): `python3 motor/tablet.py <spec> carrosseis/<pasta> <PREFIXO>`;
      legenda em 2 camadas (branco + vermelho), slide 2 pedindo pra salvar, passos numerados,
-     slide "o site da ferramenta tá no meu link da bio". Exemplo: `specs/fila/E_tablet_passo_a_passo.json`.
+     slide "Quer o acesso à ferramenta? Comenta TTS". Exemplo: `specs/fila/E_tablet_passo_a_passo.json`.
    - Estilo **escuro** (só como teste): `python3 motor/render.py <spec> carrosseis/<pasta>` (formato dos specs em `carrosseis/lote01_*`).
    Monte uma prévia em grade (PIL) e OLHE com a ferramenta Read: texto cortado, caixa desalinhada ou
    legenda antiga aparecendo = corrigir antes de publicar.
@@ -67,11 +67,12 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
 ## Regras de conteúdo (não negociáveis)
 - Estrutura: "passo a passo" pra fazer vídeo pro TikTok Shop com IA, com a Optimizze entrando
   **naturalmente** como a ferramenta de um dos passos (nunca como anúncio).
-- CTA: "Comenta TTS e acessa a Optimizze pelo link da minha bio". Nunca prometer link por DM
-  (o TikTok não permite DM automática).
+- CTA (slides e legenda): "Comenta TTS pra receber o acesso à ferramenta" (ou variação curta com
+  "Comenta TTS"). NUNCA falar "link na bio" nos slides nem na legenda: o link da bio só aparece na
+  RESPOSTA AUTOMÁTICA a quem comenta TTS (automação já ativa). Nunca prometer link por DM.
 - PROIBIDO convidar a pedir ajuda ou contato: nada de "que eu te ajudo", "me chama", "qualquer dúvida
-  me chama", "manda DM", "fala comigo". O Lucas NÃO quer pedidos de ajuda na DM. O CTA sempre leva
-  pro link da bio (Optimizze).
+  me chama", "manda DM", "fala comigo". O Lucas NÃO quer pedidos de ajuda na DM. O CTA é só
+  "Comenta TTS"; quem entrega o link da bio é a resposta automática nos comentários.
 - Área segura: todo slide passa por `motor/seguro.py::enquadrar` (já embutido em nativo.py e tablet.py),
   que centraliza o conteúdo porque o TikTok corta as bordas de carrossel. Não remova isso. No estilo
   escuro (render.py), aplique `enquadrar` nas imagens antes de publicar.

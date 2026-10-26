@@ -27,4 +27,4 @@
 - "Como vender no TikTok Shop com IA - PASSO A PASSO" com slide 2 "salva esse post" (estilo tablet).
 - Iniciante: "Dá pra ganhar comissão só indicando produto. Veja como começar" (Optimizze no passo do vídeo).
 - Dicas concretas antes da ferramenta: nicho específico, produto até R$100, +1.000 vendas.
-- Fechamento "Não tem segredo, é fazer o básico bem feito" + "Comenta TTS e acessa a Optimizze pelo link da bio".
+- Fechamento "Não tem segredo, é fazer o básico bem feito" + "Comenta TTS pra receber o acesso à ferramenta".

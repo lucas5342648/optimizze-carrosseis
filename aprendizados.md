@@ -7,7 +7,8 @@
   (caixa branca + caixa vermelha); slide 2 = "Mas antes, já salva esse post"; passos numerados 1) 2) 3);
   dicas concretas antes da ferramenta (nicho, faixa de preço, +1.000 vendas); slide "o site da ferramenta
   tá no meu link da bio"; fecha com pedido de comentário. ATENÇÃO: nós NÃO usamos "te ajudo"/"me chama"
-  (o Lucas não quer pedidos de ajuda na DM); fechamos com "Comenta TTS e acessa a Optimizze pelo link da bio".
+  (o Lucas não quer pedidos de ajuda na DM); fechamos só com "Comenta TTS pra receber o acesso à ferramenta" (link da bio só na resposta automática).
+- No nosso formato, o slide "link da bio" virou "Quer o acesso à ferramenta? Comenta TTS".
 - Adaptado como estilo `tablet` (motor/tablet.py). Primeiro teste na fila: specs/fila/E_tablet_passo_a_passo.json.
 - Outros posts fortes na busca "tiktok shop afiliado ia": educação pra iniciante ("Dá pra ganhar comissão
   só indicando produtos", 4.749 curtidas) e "como ativar a conta de afiliado" (761). Ângulo iniciante funciona.

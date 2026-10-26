@@ -11,7 +11,7 @@ spec.json:
     {"base": "01_capa_camiseta.jpg", "texto": "Gancho da capa", "tam": 62},
     {"base": "02_kalodata.jpg", "texto": "Passo 1: ..."},
     ...
-    {"cta": {"base": "08_editor_pronto.jpg", "titulo": "Comenta TTS", "texto": "e acessa a Optimizze pelo link da minha bio"}}
+    {"cta": {"base": "08_editor_pronto.jpg", "titulo": "Comenta TTS", "texto": "pra receber o acesso à ferramenta"}}
   ]
 }
 Emojis NÃO são renderizados (sem fonte de emoji); use emojis só na legenda do post.
@@ -74,7 +74,11 @@ def carregar(nome):
 
 
 def slide_cta(c):
-    im, _, _ = carregar(c["base"])
+    im, off, sc = carregar(c["base"])
+    b = json.load(open(BASE / "base.json")).get(c["base"], {}).get("box")
+    if b:  # apaga a legenda antiga antes de desfocar
+        box = [int((b[0] - off) * sc) - 20, int(b[1] * sc) - 20, int((b[2] - off) * sc) + 20, int(b[3] * sc) + 20]
+        im.paste(im.filter(ImageFilter.GaussianBlur(60)).crop(box), box[:2])
     im = ImageEnhance.Brightness(im.filter(ImageFilter.GaussianBlur(18))).enhance(0.35)
     d = ImageDraw.Draw(im)
     ft = ImageFont.truetype(FONT_X, 150)
