@@ -1,0 +1,11 @@
+{
+ "_info": "box = area [x0,y0,x1,y1] em pixels da imagem original onde fica a legenda antiga (a nova legenda cobre essa area). style: white ou black.",
+ "01_capa_camiseta.jpg": {"box": [120, 250, 836, 445], "papel": "capa: maos esticando camiseta preta (video POV gerado)"},
+ "02_kalodata.jpg": {"box": [165, 318, 742, 495], "style": "black", "papel": "passo: achar video que ja vendeu (Kalodata, ranking de receita)"},
+ "03_upload_optimizze.jpg": {"box": [177, 1165, 723, 1323], "papel": "passo: enviar video na Optimizze (Remix Inteligente, upload)"},
+ "04_remix_copy.jpg": {"box": [147, 417, 753, 542], "papel": "passo: Optimizze otimiza a copy (velocimetro, V1/V2/V3)"},
+ "05_prompts_cena.jpg": {"box": [287, 836, 725, 968], "papel": "passo: copiar prompt de cada cena"},
+ "06_youtube_create.jpg": {"box": [253, 1053, 732, 1123], "papel": "passo: abrir YouTube Create"},
+ "07_colar_prompt.jpg": {"box": [200, 220, 700, 385], "papel": "passo: colar prompt + fotos do produto e gerar"},
+ "08_editor_pronto.jpg": {"box": [180, 887, 725, 997], "papel": "passo: juntar cenas no editor e postar"}
+}

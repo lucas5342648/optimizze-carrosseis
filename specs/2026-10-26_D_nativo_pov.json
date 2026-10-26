@@ -1,0 +1,17 @@
+{
+ "legenda": "Passo a passo do vídeo POV sem gravar nada 📱 Salva pra fazer depois! Comenta TTS e acessa a Optimizze pelo link da minha bio 👆\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Vídeo POV pro TikTok Shop sem gravar nada 📱",
+ "estilo": "nativo",
+ "angulo": "tutorial POV (kalodata > optimizze > yt create)",
+ "slides": [
+  {"base": "01_capa_camiseta.jpg", "texto": "Como eu faço vídeo POV pro TikTok Shop sem gravar nada", "tam": 60},
+  {"base": "02_kalodata.jpg", "texto": "Passo 1: acha um vídeo que JÁ vendeu no TikTok Shop"},
+  {"base": "03_upload_optimizze.jpg", "texto": "Passo 2: sobe esse vídeo na Optimizze AI"},
+  {"base": "04_remix_copy.jpg", "texto": "Ela reescreve a copy do vídeo campeão pra vender ainda mais"},
+  {"base": "05_prompts_cena.jpg", "texto": "Passo 3: copia o prompt de cada cena"},
+  {"base": "06_youtube_create.jpg", "texto": "Passo 4: abre o YouTube Create"},
+  {"base": "07_colar_prompt.jpg", "texto": "Cola o prompt + a foto do produto e clica em Generate"},
+  {"base": "08_editor_pronto.jpg", "texto": "Junta as cenas, baixa e posta. Pronto!"},
+  {"cta": {"base": "01_capa_camiseta.jpg", "titulo": "Comenta TTS", "texto": "e acessa a Optimizze pelo link da minha bio"}}
+ ]
+}
