@@ -14,6 +14,8 @@ spec.json:
 import json, sys
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from seguro import enquadrar
 
 W, H = 1080, 1920
 ROOT = Path(__file__).resolve().parent.parent
@@ -50,7 +52,7 @@ def box(img, y, text, bg, fg, size, font_path):
     return y + bh
 
 
-def legendas(img, s, y=150):
+def legendas(img, s, y=260):
     y = box(img, y, s["branco"], "white", "black", 54, FB)
     if s.get("vermelho"):
         y = box(img, y + 6, s["vermelho"], RED, "white", 40, FS)
@@ -81,9 +83,9 @@ def fundo(im):
 
 
 def aparelho(im, angulo):
-    tela = im.resize((640, 1138))
+    tela = im.resize((560, 996))
     pad = 26
-    dev = Image.new("RGBA", (640 + 2 * pad, 1138 + 2 * pad), (0, 0, 0, 0))
+    dev = Image.new("RGBA", (560 + 2 * pad, 996 + 2 * pad), (0, 0, 0, 0))
     d = ImageDraw.Draw(dev)
     d.rounded_rectangle([0, 0, dev.width - 1, dev.height - 1], radius=58, fill=(18, 18, 20, 255))
     mask = Image.new("L", tela.size, 0)
@@ -96,17 +98,17 @@ def slide(s, i):
     im = abrir(s["base"])
     if s.get("fullbleed"):
         out = im.resize((W, H), Image.LANCZOS)
-        legendas(out, s, 260)
+        legendas(out, s, 420)
         return out
     out = fundo(im)
     dev = aparelho(im, -4 if i % 2 else 4)
     sombra = Image.new("RGBA", dev.size, (0, 0, 0, 0))
     sombra.paste((0, 0, 0, 150), (0, 0), dev.split()[3])
     sombra = sombra.filter(ImageFilter.GaussianBlur(30))
-    x, y = (W - dev.width) // 2, 560
+    x, y = (W - dev.width) // 2, 620
     out.paste(sombra, (x + 20, y + 30), sombra)
     out.paste(dev, (x, y), dev)
-    legendas(out, s, 150)
+    legendas(out, s, 260)
     return out
 
 
@@ -114,7 +116,7 @@ def render(spec_path, out_dir, prefixo):
     spec = json.load(open(spec_path))
     out = Path(out_dir); out.mkdir(parents=True, exist_ok=True)
     for i, s in enumerate(spec["slides"], 1):
-        slide(s, i).save(out / f"{prefixo}_{i:02d}.jpg", quality=92)
+        enquadrar(slide(s, i)).save(out / f"{prefixo}_{i:02d}.jpg", quality=92)
     (out / "legenda.txt").write_text(spec.get("legenda", ""), encoding="utf-8")
     print("ok", len(spec["slides"]), "slides ->", out)
 

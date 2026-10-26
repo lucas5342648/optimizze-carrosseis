@@ -19,6 +19,8 @@ Emojis NÃO são renderizados (sem fonte de emoji); use emojis só na legenda do
 import json, sys
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from seguro import enquadrar
 
 W, H = 1080, 1920
 ROOT = Path(__file__).resolve().parent.parent
@@ -99,7 +101,7 @@ def render(spec_path, out_dir, prefixo):
             box = [(b[0] - off) * sc, b[1] * sc, (b[2] - off) * sc, b[3] * sc]
             caixa(im, s["texto"], box, mapa[s["base"]].get("style", "white"), s.get("tam", 56))
         f = out / f"{prefixo}_{i:02d}.jpg"
-        im.save(f, quality=93); arquivos.append(f.name)
+        enquadrar(im).save(f, quality=93); arquivos.append(f.name)
     (out / "legenda.txt").write_text(spec.get("legenda", ""), encoding="utf-8")
     print("ok", len(arquivos), "slides ->", out)
     return arquivos

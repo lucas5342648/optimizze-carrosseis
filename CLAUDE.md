@@ -69,6 +69,12 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
   **naturalmente** como a ferramenta de um dos passos (nunca como anúncio).
 - CTA: "Comenta TTS e acessa a Optimizze pelo link da minha bio". Nunca prometer link por DM
   (o TikTok não permite DM automática).
+- PROIBIDO convidar a pedir ajuda ou contato: nada de "que eu te ajudo", "me chama", "qualquer dúvida
+  me chama", "manda DM", "fala comigo". O Lucas NÃO quer pedidos de ajuda na DM. O CTA sempre leva
+  pro link da bio (Optimizze).
+- Área segura: todo slide passa por `motor/seguro.py::enquadrar` (já embutido em nativo.py e tablet.py),
+  que centraliza o conteúdo porque o TikTok corta as bordas de carrossel. Não remova isso. No estilo
+  escuro (render.py), aplique `enquadrar` nas imagens antes de publicar.
 - Honestidade: números só se estiverem num print real (ex.: R$ 185 mil da Kalodata) ou marcados
   como "exemplo". Não inventar depoimentos, resultados ou recursos que a Optimizze não tem.
 - Recursos reais da Optimizze: Remix Inteligente (envia vídeo que já vendeu; devolve V1 Otimizada e Fiel,
