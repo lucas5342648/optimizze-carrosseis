@@ -1,0 +1,16 @@
+{
+ "legenda": "Para de inventar roteiro do zero 🛑 Copia a ESTRUTURA de quem já vendeu (não o vídeo). Salva pra fazer depois! Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Copie a estrutura de quem já vendeu no TikTok Shop",
+ "estilo": "nativo",
+ "angulo": "copiar estrutura de video que vendeu (kalodata R$185 mil > optimizze > yt create)",
+ "slides": [
+  {"base": "01_capa_camiseta.jpg", "texto": "Pare de inventar roteiro: copie a estrutura de quem já vendeu", "tam": 58},
+  {"base": "02_kalodata.jpg", "texto": "Passo 1: acha um vídeo campeão. Esse fez R$ 185 mil"},
+  {"base": "03_upload_optimizze.jpg", "texto": "Passo 2: sobe ele na Optimizze AI"},
+  {"base": "04_remix_copy.jpg", "texto": "Ela pega o gancho, a estrutura e o CTA e reescreve"},
+  {"base": "05_prompts_cena.jpg", "texto": "Passo 3: copia o prompt de cada cena"},
+  {"base": "07_colar_prompt.jpg", "texto": "Passo 4: cola o prompt + foto do produto no gerador"},
+  {"base": "08_editor_pronto.jpg", "texto": "Mesma estrutura que vendeu, vídeo 100% novo"},
+  {"cta": {"base": "01_capa_camiseta.jpg", "titulo": "Comenta TTS", "texto": "pra receber o acesso à ferramenta"}}
+ ]
+}

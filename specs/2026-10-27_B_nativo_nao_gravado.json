@@ -1,0 +1,17 @@
+{
+ "legenda": "Nenhuma cena desse vídeo foi gravada 🤯 Passo a passo do vídeo com IA pro TikTok Shop. Salva pra testar depois! Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Esse vídeo não foi gravado: foi feito com IA",
+ "estilo": "nativo",
+ "angulo": "revelacao: video feito com IA (sem aparecer) > passo a passo",
+ "slides": [
+  {"base": "01_capa_camiseta.jpg", "texto": "Esse vídeo não foi gravado. Foi feito com IA", "tam": 62},
+  {"base": "02_kalodata.jpg", "texto": "Começa achando um vídeo que já vende no TikTok Shop"},
+  {"base": "03_upload_optimizze.jpg", "texto": "Joga ele no Remix Inteligente da Optimizze AI"},
+  {"base": "04_remix_copy.jpg", "texto": "Ela te devolve 3 versões novas da copy"},
+  {"base": "05_prompts_cena.jpg", "texto": "Cada cena já vem com o prompt pronto"},
+  {"base": "06_youtube_create.jpg", "texto": "Abre o YouTube Create"},
+  {"base": "07_colar_prompt.jpg", "texto": "Cola o prompt, sobe a foto do produto e gera"},
+  {"base": "08_editor_pronto.jpg", "texto": "Junta as cenas e posta. Sem aparecer, sem gravar"},
+  {"cta": {"base": "01_capa_camiseta.jpg", "titulo": "Comenta TTS", "texto": "pra receber o acesso à ferramenta"}}
+ ]
+}

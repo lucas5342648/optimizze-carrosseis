@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-10-27
+- Sem post viral nos últimos 7 dias (mediana dos últimos 10 ~186 views; nenhum >= 560). Regra normal 2+1.
+- Escuro estabilizou: A 212 / B 179 / C 187 views; completion 2–8%. Confirma: escuro abaixo dos nativos antigos (mediana ~240, picos 1.748 e 1.113 em 08/10 e 12/10).
+- D (primeiro nativo da rotina, 21h): 75 views em ~12h, mas 2 comments e 1 follow (melhor taxa de comment/follow por view até agora). Reavaliar amanhã com 24h+.
+- Hoje: 2 nativos explorando (A "copie a estrutura", B "não foi gravado") + 1º teste do estilo tablet (C, passo a passo com "salva esse post" no slide 2) às 21h. Testando também 12h pela primeira vez.
+
 ## 2026-10-26 (pesquisa de formatos virais no TikTok)
 - Referência: @igao.ia "Como vender no TikTok Shop com IA - PASSO A PASSO" (21/05): 8.874 curtidas,
   806 comentários, 8.918 salvamentos, 1.256 compartilhamentos. Saves ~= curtidas: formato "pra salvar".
