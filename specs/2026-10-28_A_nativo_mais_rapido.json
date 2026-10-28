@@ -1,0 +1,44 @@
+{
+ "legenda": "O jeito mais rápido que eu achei de fazer vídeo que vende ⚡ Sem roteiro do zero, sem gravar. Salva pra fazer depois! Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "O jeito mais rápido de fazer vídeo que vende no TikTok Shop",
+ "estilo": "nativo",
+ "angulo": "copiar estrutura de video que vendeu (variacao do 27/10 A)",
+ "slides": [
+  {
+   "base": "01_capa_camiseta.jpg",
+   "texto": "O jeito mais rápido de fazer vídeo que vende no TikTok Shop",
+   "tam": 58
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "Passo 1: acha o vídeo que mais vendeu no seu produto"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "Passo 2: joga esse vídeo na Optimizze AI"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Ela devolve o gancho e a copy prontos em 3 versões"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "Passo 3: copia o prompt de cada cena"
+  },
+  {
+   "base": "07_colar_prompt.jpg",
+   "texto": "Passo 4: cola no gerador com a foto do produto"
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "Junta as cenas e posta. Sem gravar nada"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}

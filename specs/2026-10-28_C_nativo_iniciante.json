@@ -1,0 +1,44 @@
+{
+ "legenda": "Se você tá começando como afiliado, faz isso antes do próximo vídeo 👀 Não tem segredo, é fazer o básico bem feito. Salva pra consultar depois! Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Afiliado iniciante: faz isso antes de postar o próximo vídeo",
+ "estilo": "nativo",
+ "angulo": "iniciante + dicas concretas antes da ferramenta (teste)",
+ "slides": [
+  {
+   "base": "01_capa_camiseta.jpg",
+   "texto": "Afiliado iniciante: faz isso antes de postar o próximo vídeo",
+   "tam": 58
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "1) Escolhe produto com +1.000 vendas e até R$ 100"
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "2) Vê qual vídeo desse produto mais vendeu"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "3) Sobe esse vídeo na Optimizze AI"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Ela mostra o gancho, a copy e o CTA que funcionaram"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "4) Usa os prompts de cena pra gerar o seu vídeo"
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "Não tem segredo: é o básico bem feito, todo dia"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}

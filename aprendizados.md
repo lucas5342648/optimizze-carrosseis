@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-10-28
+- Sem viral (mediana dos últimos 10 = ~158 views; nenhum >= 475 nos últimos 7 dias). Regra normal 2+1.
+- D (nativo POV, 21h) fechou 24h+ com 109 views, 2 comments, 1 follow, 2 saves: views ainda abaixo dos escuros, mas é o único com follow.
+- A de ontem (nativo "copie a estrutura", 12h) em ~16h: 106 views, 4 saves, completion 13,5% (melhor completion da rotina). 12h parece viável; B (19h) 75 views/5% em ~14h.
+- C tablet (10 slides) falhou como rascunho; apareceu um carrossel externo às 21:39 de 27/10 com 55 views e completion 1,8% (provável C postado à mão). Hipótese: tablet sem foto real de tablet não engata. Hoje: A/B nativo explorando (estrutura e sem aparecer) + C teste ângulo iniciante com dicas concretas (+1.000 vendas, até R$100).
+
 ## 2026-10-27
 - Sem post viral nos últimos 7 dias (mediana dos últimos 10 ~186 views; nenhum >= 560). Regra normal 2+1.
 - Escuro estabilizou: A 212 / B 179 / C 187 views; completion 2–8%. Confirma: escuro abaixo dos nativos antigos (mediana ~240, picos 1.748 e 1.113 em 08/10 e 12/10).

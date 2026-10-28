@@ -1,0 +1,48 @@
+{
+ "legenda": "Dá pra fazer vídeo pro TikTok Shop sem mostrar o rosto e sem gravar 🙈 Passo a passo aqui. Salva pra não perder! Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Vídeo de TikTok Shop sem aparecer e sem gravar",
+ "estilo": "nativo",
+ "angulo": "sem aparecer (POV so com maos, variacao do 26/10 D)",
+ "slides": [
+  {
+   "base": "01_capa_camiseta.jpg",
+   "texto": "Vídeo de TikTok Shop sem aparecer e sem gravar nada",
+   "tam": 60
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "Passo 1: escolhe um vídeo que JÁ vendeu"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "Passo 2: sobe ele na Optimizze AI"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Ela reescreve o roteiro pra você não copiar igual"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "Passo 3: pega o prompt de cada cena"
+  },
+  {
+   "base": "06_youtube_create.jpg",
+   "texto": "Passo 4: abre o YouTube Create"
+  },
+  {
+   "base": "07_colar_prompt.jpg",
+   "texto": "Cola o prompt + foto do produto e gera"
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "Só mãos na tela, ninguém vê seu rosto"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}
