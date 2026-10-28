@@ -60,6 +60,9 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
    `draft: true` = chega como notificação na Caixa de entrada do TikTok; o Lucas escolhe a música viral e posta.
    Limite do TikTok: 5 rascunhos pendentes por 24h. Se o Zernio recusar por esse limite, NÃO insista:
    avise o Lucas que ele precisa finalizar os rascunhos pendentes.
+   **Máximo 9 slides por carrossel.** Todos os de 8–9 slides chegaram como rascunho; o único de 10
+   (27/10 C, tablet) falhou com "TikTok could not process this video as an inbox draft". Até haver
+   prova do contrário, nunca passe de 9 (corte/junte slides do spec, inclusive os da fila).
 8. **Registrar**: acrescente uma linha por carrossel em `historico.csv`, commit e push.
 9. **Avisar o Lucas** (SendUserMessage, curto): o que foi agendado e quando, o top e o pior post recente
    com números, e o aprendizado do dia em 1 linha.
