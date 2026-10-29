@@ -1,0 +1,44 @@
+{
+ "legenda": "Se o vídeo não segura nos 2 primeiros segundos, não vende 👀 Gancho, copy e CTA: olha como eu deixo a IA arrumar os 3 a partir de um vídeo que já vendeu. Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Gancho, copy e CTA: deixa a IA arrumar os 3",
+ "estilo": "nativo",
+ "angulo": "antes e depois da copy / checklist do gancho (teste)",
+ "slides": [
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Gancho, copy e CTA: deixa a IA arrumar os 3",
+   "tam": 60
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "Começa com um vídeo que já vendeu no seu nicho"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "Sobe ele na Optimizze AI"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "1) Hook: o que prende nos 2 primeiros segundos"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "2) Copy: a ordem do que falar no vídeo"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "3) CTA: como chamar pra compra no final"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "Depois é só gerar cada cena com os prompts"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}

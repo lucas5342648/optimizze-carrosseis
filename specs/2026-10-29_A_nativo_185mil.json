@@ -1,0 +1,44 @@
+{
+ "legenda": "Esse vídeo de lençol fez R$ 185 mil no TikTok Shop (print real da Kalodata) 📊 Você não precisa copiar o vídeo, só a ESTRUTURA dele. Salva pra fazer depois! Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Esse vídeo fez R$ 185 mil: como copiar a estrutura dele",
+ "estilo": "nativo",
+ "angulo": "copiar estrutura de video que vendeu (print R$185 mil na capa)",
+ "slides": [
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "Esse vídeo de lençol fez R$ 185 mil. Olha como copiar a estrutura dele",
+   "tam": 54
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "Passo 1: baixa o vídeo e sobe na Optimizze AI"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Ela mostra o gancho, a copy e o CTA que venderam"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "Passo 2: copia o prompt de cada cena"
+  },
+  {
+   "base": "06_youtube_create.jpg",
+   "texto": "Passo 3: abre o YouTube Create"
+  },
+  {
+   "base": "07_colar_prompt.jpg",
+   "texto": "Cola o prompt com a foto do seu produto"
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "Junta as cenas e posta. Mesma estrutura, vídeo novo"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}

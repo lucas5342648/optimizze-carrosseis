@@ -1,0 +1,44 @@
+{
+ "legenda": "O vídeo que já vendeu é o seu roteiro pronto ✍️ Para de começar do zero: pega a estrutura que funcionou e adapta pro seu produto. Salva esse passo a passo! Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "O vídeo que já vendeu é o seu roteiro pronto",
+ "estilo": "nativo",
+ "angulo": "copiar estrutura de video que vendeu (variacao gancho roteiro)",
+ "slides": [
+  {
+   "base": "01_capa_camiseta.jpg",
+   "texto": "O vídeo que já vendeu é o seu roteiro pronto",
+   "tam": 60
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "Passo 1: acha o vídeo campeão do seu produto"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "Passo 2: envia ele no Remix Inteligente da Optimizze"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Recebe 3 versões: fiel, novo contexto e criativa"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "Passo 3: pega o prompt de cada cena"
+  },
+  {
+   "base": "07_colar_prompt.jpg",
+   "texto": "Passo 4: gera as cenas com a foto do produto"
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "Edita e posta. Sem escrever roteiro do zero"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}

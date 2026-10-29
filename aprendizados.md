@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-10-29
+- Sem viral (mediana dos últimos 10 = ~144 views; nenhum >= 432 nos últimos 7 dias). Regra normal 2+1; fila vazia.
+- Melhor da rotina fechado: 27/10 A nativo "copie a estrutura" (17h10) com 174 views, 4 saves, completion 11,6%. Pior: 27/10 B "não foi gravado" 86 views, 0 saves, 4,4%.
+- Tablet de 27/10 (postado à mão, 21h39) subiu pra 98 views, 2 comments, 1 follow: engaja, mas não espalha.
+- Alerta: últimos nativos em queda (174 > 98 > 86 > 62 > 57). Hipótese: os mesmos 8 prints em 9 carrosséis seguidos cansaram; pedi prints novos ao Lucas. Hoje testo trocar a CAPA (print Kalodata com R$ 185 mil no A, velocímetro da copy no C) em vez da camiseta.
+
 ## 2026-10-28
 - Sem viral (mediana dos últimos 10 = ~158 views; nenhum >= 475 nos últimos 7 dias). Regra normal 2+1.
 - D (nativo POV, 21h) fechou 24h+ com 109 views, 2 comments, 1 follow, 2 saves: views ainda abaixo dos escuros, mas é o único com follow.
