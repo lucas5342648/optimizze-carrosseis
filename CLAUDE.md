@@ -1,6 +1,6 @@
 # Rotina diária: carrosséis TikTok da Optimizze AI
 
-Este repositório gera, publica (como rascunho) e otimiza carrosséis de TikTok que divulgam a
+Este repositório gera, publica (direto, automático) e otimiza carrosséis de TikTok que divulgam a
 **Optimizze AI** (SaaS para afiliados do TikTok Shop). Dono: Lucas. Conta TikTok: **@silvaa.bnss**.
 Tudo em português do Brasil, fuso America/Sao_Paulo.
 
@@ -51,17 +51,21 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
    com `posts_create_post` (via `call_tool`), um por horário: **12:00, 19:00 e 21:00** (America/Sao_Paulo),
    com `timezone: America/Sao_Paulo`, `tags: ["carrossel", "<estilo>"]`, `metadata: {"carrossel": "<pasta>"}` e:
    ```
-   tiktok_settings: {draft: true, mediaType: "photo", photoCoverIndex: 0, privacyLevel: "PUBLIC_TO_EVERYONE",
-     allowComment: true, commercialContentType: "brand_organic", contentPreviewConfirmed: true,
-     expressConsentGiven: true, description: "<legenda completa com hashtags>"}
+   tiktok_settings: {draft: false, autoAddMusic: true, mediaType: "photo", photoCoverIndex: 0,
+     privacyLevel: "PUBLIC_TO_EVERYONE", allowComment: true, commercialContentType: "brand_organic",
+     contentPreviewConfirmed: true, expressConsentGiven: true, description: "<legenda completa com hashtags>"}
    content: "<título curto, até 90 caracteres, sem hashtags>"
    ```
    Se um horário do dia já passou, pule pro próximo horário livre (nunca agende no passado).
-   `draft: true` = chega como notificação na Caixa de entrada do TikTok; o Lucas escolhe a música viral e posta.
-   Limite do TikTok: 5 rascunhos pendentes por 24h. Se o Zernio recusar por esse limite, NÃO insista:
-   avise o Lucas que ele precisa finalizar os rascunhos pendentes.
-   **Máximo 9 slides por carrossel.** Todos os de 8–9 slides chegaram como rascunho; o único de 10
-   (27/10 C, tablet) falhou com "TikTok could not process this video as an inbox draft". Até haver
+   **PUBLICAÇÃO DIRETA (desde 29/10)**: `draft: false` + `autoAddMusic: true` = o Zernio publica sozinho
+   no horário e o TikTok escolhe a música. NUNCA use `draft: true`: os rascunhos da Caixa de entrada
+   chegavam com atraso de horas/dias e um falhou ("could not process as inbox draft"). O Lucas NÃO
+   quer postar manualmente.
+   Depois do horário, confira com `posts_get`/`posts_list_posts` se o status virou `published`;
+   se `failed`, leia `errorMessage`, corrija (ex.: reduzir slides) e reagende; se for erro de limite
+   diário do TikTok, avise o Lucas em vez de insistir.
+   Se o Zernio responder 409 (conteúdo duplicado), mude levemente o `content` (título) e tente de novo.
+   **Máximo 9 slides por carrossel.** O único de 10 (27/10 C, tablet) falhou no TikTok. Até haver
    prova do contrário, nunca passe de 9 (corte/junte slides do spec, inclusive os da fila).
 8. **Registrar**: acrescente uma linha por carrossel em `historico.csv`, commit e push.
 9. **Avisar o Lucas** (SendUserMessage, curto): o que foi agendado e quando, o top e o pior post recente
