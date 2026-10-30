@@ -1,0 +1,44 @@
+{
+ "legenda": "Parei de escrever roteiro do zero pro TikTok Shop 🛑 Agora eu pego o vídeo que já vendeu e adapto a estrutura pro meu produto. Salva esse passo a passo! Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Parei de escrever roteiro pro TikTok Shop. Faço assim",
+ "estilo": "nativo",
+ "angulo": "copiar estrutura de video que vendeu (gancho parei de escrever roteiro)",
+ "slides": [
+  {
+   "base": "01_capa_camiseta.jpg",
+   "texto": "Parei de escrever roteiro pro TikTok Shop. Faço assim",
+   "tam": 58
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "Passo 1: acho o vídeo que mais vendeu do produto"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "Passo 2: subo ele no Remix Inteligente da Optimizze"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Ela mostra o hook, a estrutura da copy e o CTA"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "Passo 3: copio o prompt de cada cena"
+  },
+  {
+   "base": "07_colar_prompt.jpg",
+   "texto": "Passo 4: gero as cenas com a foto do produto"
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "Junto tudo, posto e parto pro próximo"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "legenda": "O vídeo do seu concorrente que já vendeu é a melhor aula que existe 👀 Não copia o vídeo: copia a estrutura e faz o seu. Salva pra fazer hoje! Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "O vídeo do concorrente que já vendeu é a sua melhor aula",
+ "estilo": "nativo",
+ "angulo": "copiar estrutura de video que vendeu (gancho concorrente)",
+ "slides": [
+  {
+   "base": "01_capa_camiseta.jpg",
+   "texto": "O vídeo do concorrente que já vendeu é a sua melhor aula",
+   "tam": 56
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "Passo 1: acha quem mais vendeu o seu produto"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "Passo 2: envia o vídeo dele na Optimizze AI"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Recebe 3 versões novas: fiel, novo contexto e criativa"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "Passo 3: cada cena já vem com o prompt pronto"
+  },
+  {
+   "base": "07_colar_prompt.jpg",
+   "texto": "Passo 4: gera com a foto do seu produto"
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "Mesma estrutura que vendeu. Vídeo 100% seu"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}

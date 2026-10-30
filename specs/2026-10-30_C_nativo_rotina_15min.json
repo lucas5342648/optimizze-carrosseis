@@ -1,0 +1,44 @@
+{
+ "legenda": "Minha rotina de 15 minutos pra postar todo dia no TikTok Shop ⏱️ Sem gravar, sem aparecer, sem inventar roteiro. Salva e testa amanhã! Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Rotina de 15 minutos pra postar todo dia no TikTok Shop",
+ "estilo": "nativo",
+ "angulo": "rotina de 15 min por dia + capa diferente (editor) (teste)",
+ "slides": [
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "Rotina de 15 minutos pra postar todo dia no TikTok Shop",
+   "tam": 56
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "Minuto 1 a 3: acho um vídeo que já vendeu"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "Minuto 3 a 5: subo ele na Optimizze AI"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Ela me entrega a copy otimizada e 3 versões"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "Minuto 5 a 7: copio os prompts das cenas"
+  },
+  {
+   "base": "07_colar_prompt.jpg",
+   "texto": "Minuto 7 a 12: gero as cenas no YouTube Create"
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "Minuto 12 a 15: junto, coloco legenda e posto"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}

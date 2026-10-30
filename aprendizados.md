@@ -1,5 +1,12 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-10-30
+- Sem viral (mediana dos últimos 10 = ~97 views; nenhum >= 290 nos últimos 7 dias). Regra normal 2+1; fila vazia.
+- Publicação direta funcionou: 29/10 B saiu 19:03 e C 21:02 sem atraso. Mas o alcance seguiu baixo: 29/10 A (capa R$ 185 mil) 87 views/3,3% completion em ~20h; B 63 views em ~14h; C 50 views/1,9% em ~12h. Trocar a capa pro print da Kalodata NÃO ajudou.
+- Destaque de engajamento: 29/10 B "roteiro pronto" (camiseta na capa) com 13,2% de completion e 3 comments em ~14h, o melhor desde 27/10 A (175 views, 11,5%). Capa com camiseta + ângulo "copiar estrutura" segue o melhor par.
+- 28/10 B (postado à mão 19:56) fechou 104 views/3 saves; 28/10 A 73 views/0 saves (pior fechado). 28/10 C não aparece nas métricas (provável rascunho que nunca saiu).
+- Hoje: A/B nativo explorando "copiar estrutura" com ganchos novos (parei de escrever roteiro / concorrente) + C teste ângulo "rotina de 15 min" com capa do editor. Prints continuam os mesmos 8: reforçar pedido de prints novos.
+
 ## 2026-10-29
 - Sem viral (mediana dos últimos 10 = ~144 views; nenhum >= 432 nos últimos 7 dias). Regra normal 2+1; fila vazia.
 - Melhor da rotina fechado: 27/10 A nativo "copie a estrutura" (17h10) com 174 views, 4 saves, completion 11,6%. Pior: 27/10 B "não foi gravado" 86 views, 0 saves, 4,4%.
