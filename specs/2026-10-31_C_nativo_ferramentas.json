@@ -1,0 +1,44 @@
+{
+ "legenda": "As 4 ferramentas que eu uso como afiliado 🧰 Salva! Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "As 4 ferramentas que eu uso como afiliado do TikTok Shop",
+ "estilo": "nativo",
+ "angulo": "ferramentas que uso como afiliado + legenda curta (teste)",
+ "slides": [
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "As 4 ferramentas que eu uso como afiliado do TikTok Shop",
+   "tam": 54
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "1) Kalodata: pra achar o vídeo que já vendeu"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "2) Optimizze AI: subo o vídeo no Remix Inteligente"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Ela reescreve a copy e me dá 3 versões"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "E já entrega o prompt de cada cena"
+  },
+  {
+   "base": "06_youtube_create.jpg",
+   "texto": "3) YouTube Create: gero as cenas com IA"
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "4) Editor: junto as cenas e posto"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}

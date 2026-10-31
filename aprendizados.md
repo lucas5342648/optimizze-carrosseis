@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-10-31
+- Sem viral (mediana dos últimos 10 = ~89 views; nenhum >= 267 nos últimos 7 dias). Regra normal 2+1; fila vazia.
+- 29/10 A (capa Kalodata R$ 185 mil) cresceu devagar e fechou 170 views/11 likes/3 saves, o melhor da semana; 29/10 B "roteiro pronto" 149 views, 5 comments (TTS), 9,4% completion. Capa R$ 185 mil demora, mas chega. Pior fechado: 28/10 A 74 views/0 saves; 29/10 C (capa velocímetro) 76 views/1,2% completion.
+- Alerta de queda: 30/10 com ~20h tem 41 (A), 14 (B) e 24 (C) views, metade do ritmo de 29/10. Hipótese: mesmos 8 prints repetidos há 15 carrosséis; prints novos são a alavanca principal.
+- Observação: os virais antigos do Lucas (1.868 e 1.139 views) tinham legenda só com hashtags. Teste de hoje no C: ângulo "4 ferramentas que uso" + legenda curta. A/B exploram "copiar estrutura" (capa Kalodata no A, camiseta no B).
+
 ## 2026-10-30
 - Sem viral (mediana dos últimos 10 = ~97 views; nenhum >= 290 nos últimos 7 dias). Regra normal 2+1; fila vazia.
 - Publicação direta funcionou: 29/10 B saiu 19:03 e C 21:02 sem atraso. Mas o alcance seguiu baixo: 29/10 A (capa R$ 185 mil) 87 views/3,3% completion em ~20h; B 63 views em ~14h; C 50 views/1,9% em ~12h. Trocar a capa pro print da Kalodata NÃO ajudou.

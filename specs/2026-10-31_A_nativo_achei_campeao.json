@@ -1,0 +1,44 @@
+{
+ "legenda": "Achei o vídeo que mais vendeu do produto (print real da Kalodata: R$ 185 mil) 📊 Não copio o vídeo, copio a ESTRUTURA. Salva esse passo a passo! Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Achei o vídeo que mais vendeu do produto. Agora é minha vez",
+ "estilo": "nativo",
+ "angulo": "copiar estrutura (capa Kalodata R$185 mil, gancho achei o campeão)",
+ "slides": [
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "Achei o vídeo que mais vendeu do produto. Agora é minha vez",
+   "tam": 54
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "Passo 1: subo ele no Remix Inteligente da Optimizze"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Ela separa o hook, a copy e o CTA que venderam"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "Passo 2: copio o prompt de cada cena"
+  },
+  {
+   "base": "06_youtube_create.jpg",
+   "texto": "Passo 3: abro o YouTube Create"
+  },
+  {
+   "base": "07_colar_prompt.jpg",
+   "texto": "Colo o prompt com a foto do meu produto"
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "Junto as cenas e posto. Estrutura que já vendeu"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}

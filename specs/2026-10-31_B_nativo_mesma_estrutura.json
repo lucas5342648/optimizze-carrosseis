@@ -1,0 +1,44 @@
+{
+ "legenda": "Todo vídeo que vende no TikTok Shop segue a mesma estrutura: gancho, copy e CTA ✍️ Eu só pego a de quem já vendeu e adapto pro meu produto. Salva pra fazer hoje! Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Todo vídeo que vende tem a mesma estrutura. Copia ela",
+ "estilo": "nativo",
+ "angulo": "copiar estrutura (capa camiseta, gancho mesma estrutura)",
+ "slides": [
+  {
+   "base": "01_capa_camiseta.jpg",
+   "texto": "Todo vídeo que vende tem a mesma estrutura. Copia ela",
+   "tam": 58
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "Passo 1: acho o vídeo campeão do produto"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "Passo 2: envio ele na Optimizze AI"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Ela devolve a copy otimizada em 3 versões"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "Passo 3: copio o prompt de cada cena"
+  },
+  {
+   "base": "07_colar_prompt.jpg",
+   "texto": "Passo 4: gero as cenas com a foto do produto"
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "Passo 5: junto tudo e posto"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}
