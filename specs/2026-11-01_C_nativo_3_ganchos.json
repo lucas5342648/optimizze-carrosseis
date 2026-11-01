@@ -1,0 +1,44 @@
+{
+ "legenda": "Salva e testa no próximo vídeo. Comenta TTS 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "3 ganchos que seguram o cliente nos 2 primeiros segundos",
+ "estilo": "nativo",
+ "angulo": "checklist do gancho + legenda minima (teste)",
+ "slides": [
+  {
+   "base": "01_capa_camiseta.jpg",
+   "texto": "3 ganchos que seguram o cliente nos 2 primeiros segundos",
+   "tam": 54
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "1) Mostra o resultado primeiro, explica depois"
+  },
+  {
+   "base": "07_colar_prompt.jpg",
+   "texto": "2) Fala o problema. Ex.: \"Cansou de lençol que solta?\""
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "3) Abre com a mão já usando o produto"
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "Não sabe qual usar? Vê o gancho de quem já vendeu"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "Subo o vídeo campeão na Optimizze AI"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Ela mostra o Hook, a copy e o CTA que funcionaram"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}

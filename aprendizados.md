@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-01
+- Sem viral (mediana dos últimos 10 = ~75 views; nenhum >= 225 nos últimos 7 dias). Regra normal 2+1; fila vazia.
+- Queda forte do ângulo "copiar estrutura": 30/10 A 56 views/1 save, B "concorrente" 26 views (pior da rotina), C "rotina 15 min" 56. Parciais de 31/10: A 77, B 31, C 20. Seis posts seguidos do mesmo ângulo e mesmos 8 prints = cansou.
+- Pista: os 2 posts postados à mão com legenda só de hashtags (27/10 C e 28/10 B) fecharam 112–116 views, acima de todos os automáticos desde 29/10; os virais antigos (1.907 e 1.142) também tinham só hashtags. Hipótese: legenda longa/explicativa atrapalha.
+- Hoje: A explora "view mas não vende" (melhor fechado da rotina, 190 views em 25/10) no nativo; B explora capa Kalodata R$ 185 mil (173 views em 29/10) com gancho novo; C teste "3 ganchos" com legenda mínima (só CTA + hashtags). A/B com legenda curta.
+
 ## 2026-10-31
 - Sem viral (mediana dos últimos 10 = ~89 views; nenhum >= 267 nos últimos 7 dias). Regra normal 2+1; fila vazia.
 - 29/10 A (capa Kalodata R$ 185 mil) cresceu devagar e fechou 170 views/11 likes/3 saves, o melhor da semana; 29/10 B "roteiro pronto" 149 views, 5 comments (TTS), 9,4% completion. Capa R$ 185 mil demora, mas chega. Pior fechado: 28/10 A 74 views/0 saves; 29/10 C (capa velocímetro) 76 views/1,2% completion.

@@ -1,0 +1,48 @@
+{
+ "legenda": "3 motivos do seu vídeo ter view e não vender (e como eu corrijo) 👀 Salva! Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "3 motivos do seu vídeo ter view e não vender",
+ "estilo": "nativo",
+ "angulo": "erros que fazem nao vender (view sem venda) - explorar 25/10",
+ "slides": [
+  {
+   "base": "01_capa_camiseta.jpg",
+   "texto": "3 motivos do seu vídeo ter view e não vender",
+   "tam": 54
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "1) Roteiro inventado do zero, sem base em vídeo que vendeu"
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "2) Gancho fraco: ninguém passa dos 2 primeiros segundos"
+  },
+  {
+   "base": "07_colar_prompt.jpg",
+   "texto": "3) CTA solto no final, sem motivo pra clicar"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "Como eu corrijo: subo um vídeo que já vendeu na Optimizze AI"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Ela mostra o gancho, a copy e o CTA que venderam"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "E já entrega o prompt de cada cena"
+  },
+  {
+   "base": "06_youtube_create.jpg",
+   "texto": "Gero as cenas no YouTube Create e posto"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}
