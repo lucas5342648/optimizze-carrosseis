@@ -1,0 +1,48 @@
+{
+ "legenda": "Tá começando como afiliado? Salva esse passo a passo. Comenta TTS 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Dá pra ganhar comissão só indicando produto. Olha como começar",
+ "estilo": "nativo",
+ "angulo": "iniciante do zero + dicas concretas (teste; 28/10 C nunca saiu)",
+ "slides": [
+  {
+   "base": "01_capa_camiseta.jpg",
+   "texto": "Dá pra ganhar comissão só indicando produto. Olha como começar",
+   "tam": 52
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "Você posta vídeo do produto e ganha comissão na venda"
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "1) Escolhe produto com +1.000 vendas e até R$ 100"
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "2) Acha o vídeo desse produto que mais vendeu"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "3) Sobe esse vídeo na Optimizze AI"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Ela mostra o gancho, a copy e o CTA que funcionaram"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "4) Usa os prompts de cena pra gerar o seu vídeo"
+  },
+  {
+   "base": "07_colar_prompt.jpg",
+   "texto": "Não tem segredo: é o básico bem feito, todo dia"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "legenda": "Olha esse print antes de gravar o próximo vídeo 📊 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Antes de fazer vídeo pro TikTok Shop, olha esse print",
+ "estilo": "nativo",
+ "angulo": "copiar estrutura (capa Kalodata R$185 mil) + legenda minima - explorar 29/10 A",
+ "slides": [
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "Antes de fazer vídeo pro TikTok Shop, olha esse print",
+   "tam": 54
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "Esse vídeo de lençol fez R$ 185 mil. Eu começo por ele"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "Subo ele na Optimizze AI, no Remix Inteligente"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Ela mostra o Hook, a copy e o CTA"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "E entrega o prompt de cada cena"
+  },
+  {
+   "base": "07_colar_prompt.jpg",
+   "texto": "Colo no YouTube Create com as fotos do meu produto"
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "Junto as cenas e posto. Vídeo meu, estrutura que vendeu"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}

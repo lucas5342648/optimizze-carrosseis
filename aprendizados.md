@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-02
+- Sem viral (mediana dos últimos 10 fechados = 68 views; nenhum >= 204 nem 2.000+ nos últimos 7 dias). Regra normal 2+1; fila vazia.
+- Queda segue: 30/10 fechou em 58/27/59 views e 31/10 em 84/55/59, com 0–1 save e completion de 0–5%. Melhor fechado da semana segue 29/10 A (173 views, 12 likes, 3 saves, capa R$ 185 mil); pior: 30/10 B "concorrente" (27 views, 0 de tudo).
+- Parciais de 01/11: C "3 ganchos" com legenda mínima tem 51 views, 1 like e 1 save em ~12h, melhor ritmo dos últimos 3 dias (ainda só 1 post); A "view não vende" 69 em ~21h; B lençol 32 em ~14h. Hipótese: checklist numerado + legenda curta seguram mais que "copiar estrutura".
+- Hoje: A explora capa Kalodata com gancho de curiosidade ("olha esse print"); B explora checklist numerado ("3 coisas antes de postar"); C teste iniciante ("comissão só indicando produto"; o 28/10 C nunca saiu, então o ângulo segue sem dado). Os 3 com legenda mínima. Mesmos 8 prints há 20+ carrosséis: prints novos seguem sendo a alavanca principal.
+
 ## 2026-11-01
 - Sem viral (mediana dos últimos 10 = ~75 views; nenhum >= 225 nos últimos 7 dias). Regra normal 2+1; fila vazia.
 - Queda forte do ângulo "copiar estrutura": 30/10 A 56 views/1 save, B "concorrente" 26 views (pior da rotina), C "rotina 15 min" 56. Parciais de 31/10: A 77, B 31, C 20. Seis posts seguidos do mesmo ângulo e mesmos 8 prints = cansou.

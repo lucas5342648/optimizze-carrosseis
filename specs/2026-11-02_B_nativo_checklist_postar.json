@@ -1,0 +1,44 @@
+{
+ "legenda": "Salva e confere antes de postar. Comenta TTS 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Confere essas 3 coisas antes de postar no TikTok Shop",
+ "estilo": "nativo",
+ "angulo": "checklist numerado + legenda minima - explorar 01/11 C",
+ "slides": [
+  {
+   "base": "01_capa_camiseta.jpg",
+   "texto": "Confere essas 3 coisas antes de postar no TikTok Shop",
+   "tam": 54
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "1) O produto aparece nos 2 primeiros segundos?"
+  },
+  {
+   "base": "07_colar_prompt.jpg",
+   "texto": "2) A copy fala do problema de quem vai comprar?"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "3) O CTA dá um motivo pra clicar agora?"
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "Travou em algum? Vê como faz quem já vendeu"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "Subo o vídeo campeão na Optimizze AI"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Ela separa o Hook, a copy e o CTA que funcionaram"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}
