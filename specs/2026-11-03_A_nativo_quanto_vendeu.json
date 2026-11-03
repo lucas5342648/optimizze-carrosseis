@@ -1,0 +1,44 @@
+{
+ "legenda": "Esse print é real, da Kalodata 📊 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Olha quanto um vídeo de lençol vendeu no TikTok Shop",
+ "estilo": "nativo",
+ "angulo": "copiar estrutura (capa Kalodata R$185 mil) - explorar 29/10 A e 31/10 A",
+ "slides": [
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "Olha quanto um vídeo de lençol vendeu no TikTok Shop",
+   "tam": 54
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "R$ 185 mil em vendas. Print real da Kalodata"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "Eu pego um vídeo assim e subo na Optimizze AI"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Ela mostra o Hook, a copy e o CTA"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "E já entrega o prompt de cada cena"
+  },
+  {
+   "base": "07_colar_prompt.jpg",
+   "texto": "Colo no YouTube Create com as fotos do meu produto"
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "Junto as cenas e posto. Vídeo meu, estrutura que vendeu"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}

@@ -1,5 +1,12 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-03
+- Sem viral (mediana dos últimos 10 fechados = 66 views; nenhum >= 198 nem 2.000+ nos últimos 7 dias). Regra normal 2+1; fila vazia.
+- 01/11 fechou em 76/71/69 views, 1 save no total. Melhor dos últimos 7 dias segue 29/10 A (173 views, 12 likes, 3 saves); pior fechado: 30/10 B "concorrente" (30 views, 0 de tudo).
+- Parciais de 02/11 são as piores da rotina: A 32 (~18h), B 22 (~11h), C 18 (~9h, 1 comment), abaixo de 01/11 na mesma idade (C tinha 51 em ~12h). Legenda mínima NÃO segurou: a hipótese de 01/11 perde força.
+- Desde 30/10 nenhum post passou de 90 views, com os mesmos 8 prints há 20+ carrosséis. Publicação direta começou em 29/10, mas 29/10 B saiu direto e fez 149: não dá pra culpar só o método, seguir olhando.
+- Hoje: A explora capa Kalodata com gancho "olha quanto vendeu"; B leva "1 vira 3" (V1/V2/V3) pro nativo pela primeira vez; C teste volta ao tablet com gancho novo e 9 slides, pra ver se visual diferente com os mesmos prints muda o alcance (27/10 C fez 129 views e 1 follow).
+
 ## 2026-11-02
 - Sem viral (mediana dos últimos 10 fechados = 68 views; nenhum >= 204 nem 2.000+ nos últimos 7 dias). Regra normal 2+1; fila vazia.
 - Queda segue: 30/10 fechou em 58/27/59 views e 31/10 em 84/55/59, com 0–1 save e completion de 0–5%. Melhor fechado da semana segue 29/10 A (173 views, 12 likes, 3 saves, capa R$ 185 mil); pior: 30/10 B "concorrente" (27 views, 0 de tudo).

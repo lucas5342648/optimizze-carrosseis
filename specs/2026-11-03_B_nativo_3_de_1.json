@@ -1,0 +1,48 @@
+{
+ "legenda": "1 vídeo que vendeu, 3 versões pra testar 🔁 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Fiz 3 vídeos de 1 só que já vendeu",
+ "estilo": "nativo",
+ "angulo": "remix 3 versoes no nativo - explorar lote01_B (181 views, 2 comments)",
+ "slides": [
+  {
+   "base": "01_capa_camiseta.jpg",
+   "texto": "Fiz 3 vídeos de 1 só que já vendeu",
+   "tam": 60
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "Começo achando um vídeo que já vendeu no meu nicho"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "Subo ele na Optimizze AI, no Remix Inteligente"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "V1: Otimizada e Fiel. Mantém o que já vendeu"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "V2: Variação de Contexto. Mesma ideia, outro contexto"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "V3: Variação Criativa. Testa um caminho diferente"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "Copio os prompts de cena pra gerar cada vídeo"
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "Posto em dias diferentes e vejo qual vende mais"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}
