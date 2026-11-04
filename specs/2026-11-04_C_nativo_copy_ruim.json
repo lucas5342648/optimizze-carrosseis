@@ -1,0 +1,48 @@
+{
+ "legenda": "Salva e olha a copy do seu próximo vídeo 📌 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Seu vídeo não é ruim. A copy que é",
+ "estilo": "nativo",
+ "angulo": "antes e depois da copy, angulo 9 inedito (teste)",
+ "slides": [
+  {
+   "base": "01_capa_camiseta.jpg",
+   "texto": "Seu vídeo não é ruim.\nA copy que é",
+   "tam": 62
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "Copy fraca (exemplo): Esse lençol é muito bom, compra aí"
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "Copy forte (exemplo): Meu lençol soltava toda noite. Até achar esse"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "Pra acertar a minha, subo um vídeo que já vendeu na Optimizze AI"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Ela mostra o que mudou: hook, clareza e CTA"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "Depois copio o prompt de cada cena"
+  },
+  {
+   "base": "07_colar_prompt.jpg",
+   "texto": "Colo no YouTube Create com as fotos do meu produto"
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "Junto as cenas e posto"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}

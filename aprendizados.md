@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-04
+- Sem viral (mediana dos últimos 10 fechados = 65 views; nenhum >= 197 nem 2.000+ nos últimos 7 dias). Regra normal 2+1; fila vazia.
+- 02/11 fechou como o pior dia da rotina: A 38, B 33, C 48 views (só C com 2 likes e 2 comments; 0 saves nos 3). Ângulo iniciante é o único dos 3 com comment: fica a pista, ainda fraca.
+- Parciais de 03/11: C tablet 55 views em ~12h (melhor ritmo em dias, acima dos nativos na mesma idade); B "3 de 1" 40 views em ~14h, mas 12,8% de completion e 5,7 s de tempo médio (melhor retenção desde 27/10); A capa Kalodata 37 em ~21h, 2,8%. Capa Kalodata com gancho "quanto vendeu" esgotou.
+- Hoje: A nativo "1 vira 3" com gancho novo (explorar retenção do 03/11 B); B tablet + iniciante (explorar ritmo do tablet + comments do 02/11 C); C teste ângulo 9 inédito, copy antes/depois com exemplos marcados. Sem Kalodata na capa. Prints seguem os mesmos 8: pedir novos.
+
 ## 2026-11-03
 - Sem viral (mediana dos últimos 10 fechados = 66 views; nenhum >= 198 nem 2.000+ nos últimos 7 dias). Regra normal 2+1; fila vazia.
 - 01/11 fechou em 76/71/69 views, 1 save no total. Melhor dos últimos 7 dias segue 29/10 A (173 views, 12 likes, 3 saves); pior fechado: 30/10 B "concorrente" (30 views, 0 de tudo).

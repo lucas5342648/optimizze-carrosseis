@@ -1,0 +1,48 @@
+{
+ "legenda": "Um vídeo que vendeu rende 3 pra testar 🔁 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Não faço 1 vídeo por vez. Faço 3 de uma vez",
+ "estilo": "nativo",
+ "angulo": "1 vira 3 no nativo, gancho novo (explorar 03/11 B: 12,8% completion)",
+ "slides": [
+  {
+   "base": "01_capa_camiseta.jpg",
+   "texto": "Não faço 1 vídeo por vez. Faço 3 de uma vez",
+   "tam": 60
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "texto": "Primeiro acho um vídeo do meu produto que já vendeu"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "texto": "Subo ele no Remix Inteligente da Optimizze AI"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Vídeo 1: Otimizada e Fiel, perto do original"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Vídeo 2: mesma ideia em outro contexto"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "texto": "Vídeo 3: variação criativa, um caminho diferente"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "texto": "Copio o prompt de cada cena das 3 versões"
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "texto": "Posto um por dia e vejo qual vende mais"
+  },
+  {
+   "cta": {
+    "base": "01_capa_camiseta.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}
