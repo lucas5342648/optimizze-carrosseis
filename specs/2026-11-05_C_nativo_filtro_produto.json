@@ -1,0 +1,17 @@
+{
+ "legenda": "Salva antes de escolher o próximo produto 📌 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Não faz vídeo antes de passar o produto nesses 3 filtros",
+ "estilo": "nativo",
+ "angulo": "escolha de produto: 3 filtros antes do video, angulo inedito (teste)",
+ "slides": [
+  {"base": "01_capa_camiseta.jpg", "texto": "Não faz vídeo antes de passar o produto nesses 3 filtros", "tam": 58},
+  {"base": "02_kalodata.jpg", "texto": "Filtro 1: produto com mais de 1.000 vendas"},
+  {"base": "02_kalodata.jpg", "texto": "Filtro 2: preço até R$ 100, mais fácil de decidir"},
+  {"base": "02_kalodata.jpg", "texto": "Filtro 3: já tem vídeo de afiliado vendendo ele"},
+  {"base": "03_upload_optimizze.jpg", "texto": "Passou? Subo o vídeo que mais vendeu na Optimizze AI"},
+  {"base": "04_remix_copy.jpg", "texto": "Ela otimiza hook, copy e CTA"},
+  {"base": "05_prompts_cena.jpg", "texto": "Copio o prompt de cada cena"},
+  {"base": "07_colar_prompt.jpg", "texto": "Colo no YouTube Create com as fotos do produto"},
+  {"cta": {"base": "01_capa_camiseta.jpg", "titulo": "Comenta TTS", "texto": "pra receber o acesso à ferramenta"}}
+ ]
+}

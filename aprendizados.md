@@ -1,5 +1,12 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-05
+- Sem viral (mediana dos últimos 10 fechados = 67,5 views; nenhum >= 203 nem 2.000+ nos últimos 7 dias). Regra normal 2+1; fila vazia.
+- 03/11 fechou com o tablet na frente: C 85 views, 3 likes (melhor desde 01/11), B "3 de 1" 64 views, 1 share, 7,5%; A capa Kalodata 41 views, 2,4% (confirma: esgotou). 04/11 parcial: B tablet 44 em ~14h, à frente de A nativo 42 em ~21h. Tablet é o melhor alcance recente nos 2 dias testados.
+- "1 vira 3" retém mas não espalha: 03/11 B 7,5% e 04/11 A 11,4% de completion (melhores da semana), com só 42–64 views. Hipótese: o conteúdo segura, o problema está no gancho/capa ou na distribuição.
+- 0 saves nos 6 posts fechados de 02–03/11 e nos 3 parciais de 04/11; o último foi 01/11 C. "Salva" na legenda não tem gerado save.
+- Hoje: A nativo "1 vira 3" com gancho em pergunta e exemplos marcados; B tablet com gancho numerado "6 passos"; C teste ângulo inédito de escolha de produto (3 filtros). Mesmos 8 prints: seguem sendo o principal gargalo, pedir novos.
+
 ## 2026-11-04
 - Sem viral (mediana dos últimos 10 fechados = 65 views; nenhum >= 197 nem 2.000+ nos últimos 7 dias). Regra normal 2+1; fila vazia.
 - 02/11 fechou como o pior dia da rotina: A 38, B 33, C 48 views (só C com 2 likes e 2 comments; 0 saves nos 3). Ângulo iniciante é o único dos 3 com comment: fica a pista, ainda fraca.

@@ -1,0 +1,17 @@
+{
+ "legenda": "De 1 vídeo que vendeu saem 3 pra testar 🔁 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Por que fazer 1 vídeo se dá pra tirar 3 do mesmo?",
+ "estilo": "nativo",
+ "angulo": "1 vira 3 com exemplo de lencol (explorar retencao 03/11 B e 04/11 A)",
+ "slides": [
+  {"base": "01_capa_camiseta.jpg", "texto": "Por que fazer 1 vídeo se dá pra tirar 3 do mesmo?", "tam": 60},
+  {"base": "02_kalodata.jpg", "texto": "Começo achando o vídeo do produto que mais vendeu"},
+  {"base": "03_upload_optimizze.jpg", "texto": "Subo ele no Remix Inteligente da Optimizze AI"},
+  {"base": "04_remix_copy.jpg", "texto": "V1: mesma ideia, com a copy melhorada"},
+  {"base": "04_remix_copy.jpg", "texto": "V2: outro contexto (exemplo: lençol pro quarto de visita)"},
+  {"base": "04_remix_copy.jpg", "texto": "V3: caminho criativo (exemplo: lençol que não solta)"},
+  {"base": "05_prompts_cena.jpg", "texto": "Copio o prompt de cada cena"},
+  {"base": "08_editor_pronto.jpg", "texto": "Posto em dias diferentes e vejo qual vende mais"},
+  {"cta": {"base": "01_capa_camiseta.jpg", "titulo": "Comenta TTS", "texto": "pra receber o acesso à ferramenta"}}
+ ]
+}
