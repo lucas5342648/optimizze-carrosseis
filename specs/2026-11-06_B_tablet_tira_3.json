@@ -1,0 +1,17 @@
+{
+ "legenda": "Salva pra usar no próximo produto 📌 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Sem ideia de vídeo pro TikTok Shop? Tira 3 de um que já vendeu",
+ "estilo": "tablet",
+ "angulo": "1 vira 3 no tablet: junta a retencao do 1 vira 3 com o alcance do tablet (explorar)",
+ "slides": [
+  {"base": "01_capa_camiseta.jpg", "branco": "Sem ideia de vídeo pro TikTok Shop?", "vermelho": "Tira 3 de um que já vendeu", "fullbleed": true},
+  {"base": "08_editor_pronto.jpg", "branco": "Mas antes, salva esse post pra usar depois", "vermelho": "E me segue pra ver os próximos"},
+  {"base": "02_kalodata.jpg", "branco": "1) Acha o vídeo que mais vendeu do produto", "vermelho": "Esse aqui fez R$ 185 mil em vendas"},
+  {"base": "03_upload_optimizze.jpg", "branco": "2) Sobe ele no Remix Inteligente", "vermelho": "Da Optimizze AI"},
+  {"base": "04_remix_copy.jpg", "branco": "V1: mesma ideia, copy otimizada", "vermelho": "Otimizada e Fiel"},
+  {"base": "04_remix_copy.jpg", "branco": "V2: muda o contexto", "vermelho": "Exemplo: lençol pro quarto de visita"},
+  {"base": "04_remix_copy.jpg", "branco": "V3: vai por um caminho criativo", "vermelho": "Exemplo: lençol que não solta"},
+  {"base": "05_prompts_cena.jpg", "branco": "3) Copia os prompts de cada cena", "vermelho": "E posta em dias diferentes"},
+  {"base": "01_capa_camiseta.jpg", "branco": "Quer o acesso à ferramenta?", "vermelho": "Comenta TTS"}
+ ]
+}

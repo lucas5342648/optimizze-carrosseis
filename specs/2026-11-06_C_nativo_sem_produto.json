@@ -1,0 +1,17 @@
+{
+ "legenda": "Sem amostra não é desculpa 📦 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Não tem o produto em mãos? Dá pra fazer o vídeo só com as fotos",
+ "estilo": "nativo",
+ "angulo": "objecao sem amostra: video so com fotos do produto, legenda sem pedir save (teste)",
+ "slides": [
+  {"base": "01_capa_camiseta.jpg", "texto": "Não tem o produto em mãos? Dá pra fazer o vídeo só com as fotos", "tam": 56},
+  {"base": "02_kalodata.jpg", "texto": "Primeiro acho o vídeo que mais vendeu desse produto"},
+  {"base": "03_upload_optimizze.jpg", "texto": "Subo ele no Remix Inteligente da Optimizze AI"},
+  {"base": "04_remix_copy.jpg", "texto": "Ela otimiza hook, copy e CTA"},
+  {"base": "05_prompts_cena.jpg", "texto": "Copio o prompt de cada cena"},
+  {"base": "07_colar_prompt.jpg", "texto": "Colo no YouTube Create junto com as fotos do produto"},
+  {"base": "07_colar_prompt.jpg", "texto": "Pode usar as fotos da própria página do produto"},
+  {"base": "08_editor_pronto.jpg", "texto": "Junta as cenas e marca como conteúdo de IA"},
+  {"cta": {"base": "01_capa_camiseta.jpg", "titulo": "Comenta TTS", "texto": "pra receber o acesso à ferramenta"}}
+ ]
+}

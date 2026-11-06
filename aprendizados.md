@@ -1,5 +1,12 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-06
+- Sem viral (mediana dos últimos 10 fechados = 52 views; nenhum >= 156 nem 2.000+ nos últimos 7 dias). Regra normal 2+1; fila vazia.
+- Tablet liderou o dia 3 vezes seguidas: 03/11 C 88 views, 04/11 B 65, 05/11 B 59 em só ~14h (nativos de 05/11: A 22 em ~21h, C 16 em ~12h). Por isso os 2 de "explorar" de hoje são tablet. Ressalva: todos os tablets saíram à noite, então hoje o A testa tablet às 12h.
+- Fundo do poço de engajamento: 0 saves nos 12 posts desde 02/11 e 0 comments nos 9 desde 03/11 (o último foi 02/11 C, iniciante, 2). Hipótese: pedir "salva" na legenda não muda nada; o C de hoje tira esse pedido da legenda pra comparar.
+- "1 vira 3" retém (04/11 A 10,9% e 8 s de tempo médio), mas no nativo não espalha. Hoje o B junta os dois: "1 vira 3" no tablet.
+- Hoje: A tablet "sem abrir a câmera" às 12h; B tablet "tira 3 de um que já vendeu" às 19h; C nativo, teste da objeção "sem amostra, só com as fotos" às 21h. Mesmos 8 prints: seguem sendo o principal gargalo, pedir novos.
+
 ## 2026-11-05
 - Sem viral (mediana dos últimos 10 fechados = 67,5 views; nenhum >= 203 nem 2.000+ nos últimos 7 dias). Regra normal 2+1; fila vazia.
 - 03/11 fechou com o tablet na frente: C 85 views, 3 likes (melhor desde 01/11), B "3 de 1" 64 views, 1 share, 7,5%; A capa Kalodata 41 views, 2,4% (confirma: esgotou). 04/11 parcial: B tablet 44 em ~14h, à frente de A nativo 42 em ~21h. Tablet é o melhor alcance recente nos 2 dias testados.
