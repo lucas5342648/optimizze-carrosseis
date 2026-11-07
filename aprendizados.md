@@ -1,5 +1,12 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-07
+- Sem viral (mediana dos últimos 10 fechados = 52,5 views; nenhum >= 158 nem 2.000+ nos últimos 7 dias). Regra normal 2+1; fila vazia.
+- Tablet às 12h funcionou: 06/11 A "sem abrir a câmera" 65 views em ~21h, contra 24–53 dos nativos no mesmo horário. Fechados de 05/11: B tablet 67 (melhor do dia), C nativo 28, A nativo 24 (pior da semana).
+- Mas tablet não é garantia: 06/11 B tablet "tira 3" só 19 views em ~14h; C nativo sem pedir save na legenda 15 em ~12h (tirar o "salva" não mudou nada por enquanto). Saves seguem em 0 há 15 posts e comments em 0 há 12.
+- Completion dos tablets de 9 slides é baixa (1,5–6,5%). Hipótese: carrossel longo perde gente no meio; o C de hoje testa tablet CURTO (5 slides, sem slide de salvar).
+- Hoje: A tablet "1 vídeo por dia só com IA" às 12h; B tablet iniciante com dicas concretas (nicho, até R$ 100, +1.000 vendas) às 19h; C tablet curto "3 passos" às 21h. Mesmos 8 prints: gargalo principal, pedir novos.
+
 ## 2026-11-06
 - Sem viral (mediana dos últimos 10 fechados = 52 views; nenhum >= 156 nem 2.000+ nos últimos 7 dias). Regra normal 2+1; fila vazia.
 - Tablet liderou o dia 3 vezes seguidas: 03/11 C 88 views, 04/11 B 65, 05/11 B 59 em só ~14h (nativos de 05/11: A 22 em ~21h, C 16 em ~12h). Por isso os 2 de "explorar" de hoje são tablet. Ressalva: todos os tablets saíram à noite, então hoje o A testa tablet às 12h.

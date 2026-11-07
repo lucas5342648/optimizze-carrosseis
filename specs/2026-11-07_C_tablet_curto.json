@@ -1,0 +1,13 @@
+{
+ "legenda": "Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "3 passos e o vídeo do TikTok Shop tá pronto",
+ "estilo": "tablet",
+ "angulo": "tablet CURTO 5 slides, sem slide de salvar (teste: menos slides sobe completion/alcance?)",
+ "slides": [
+  {"base": "01_capa_camiseta.jpg", "branco": "3 passos e o vídeo do TikTok Shop", "vermelho": "Tá pronto", "fullbleed": true},
+  {"base": "02_kalodata.jpg", "branco": "1) Acha o vídeo que mais vendeu do produto", "vermelho": "Esse aqui fez R$ 185 mil"},
+  {"base": "04_remix_copy.jpg", "branco": "2) Joga no Remix Inteligente da Optimizze AI", "vermelho": "Sai com hook, copy e CTA otimizados"},
+  {"base": "07_colar_prompt.jpg", "branco": "3) Cola os prompts no gerador com as fotos", "vermelho": "E junta as cenas no editor"},
+  {"base": "01_capa_camiseta.jpg", "branco": "Quer o acesso à ferramenta?", "vermelho": "Comenta TTS"}
+ ]
+}
