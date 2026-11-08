@@ -1,0 +1,54 @@
+{
+ "legenda": "Sem câmera, só IA 🎬 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Parei de gravar vídeo pro TikTok Shop. Agora faço tudo com IA",
+ "estilo": "tablet",
+ "angulo": "tablet 9 slides com save, gancho 'parei de gravar' (explorar: tablet 12h = melhor slot, 65 e 47)",
+ "slides": [
+  {
+   "base": "01_capa_camiseta.jpg",
+   "branco": "Parei de gravar vídeo pro TikTok Shop",
+   "vermelho": "Agora faço tudo com IA",
+   "fullbleed": true
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "branco": "Mas antes, já salva esse post pra não perder",
+   "vermelho": "E me segue pra ver os próximos"
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "branco": "1) Acho o vídeo que mais vendeu do produto",
+   "vermelho": "Esse aqui fez R$ 185 mil"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "branco": "2) Mando ele pra Optimizze AI",
+   "vermelho": "No Remix Inteligente"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "branco": "3) Ela otimiza hook, copy e CTA",
+   "vermelho": "Sem perder o que já vendeu"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "branco": "4) Copio o prompt de cada cena",
+   "vermelho": "Ninguém precisa aparecer"
+  },
+  {
+   "base": "06_youtube_create.jpg",
+   "branco": "5) Gero as cenas no YouTube Create",
+   "vermelho": "Com as fotos do produto"
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "branco": "6) Junto as cenas e posto",
+   "vermelho": "Marco como conteúdo de IA"
+  },
+  {
+   "base": "01_capa_camiseta.jpg",
+   "branco": "Quer o acesso à ferramenta?",
+   "vermelho": "Comenta TTS"
+  }
+ ]
+}

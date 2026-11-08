@@ -1,0 +1,44 @@
+{
+ "legenda": "Testa no próximo vídeo 🔁 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Seu vídeo do TikTok Shop não vende? Olha o que eu mudo antes de postar",
+ "estilo": "tablet",
+ "angulo": "tablet 7 slides sem slide de salvar, angulo erro/correcao (explorar tablet, tamanho medio)",
+ "slides": [
+  {
+   "base": "01_capa_camiseta.jpg",
+   "branco": "Seu vídeo do TikTok Shop não vende?",
+   "vermelho": "Olha o que eu mudo antes de postar",
+   "fullbleed": true
+  },
+  {
+   "base": "02_kalodata.jpg",
+   "branco": "1) Comparo com o vídeo que mais vendeu",
+   "vermelho": "Esse aqui fez R$ 185 mil"
+  },
+  {
+   "base": "03_upload_optimizze.jpg",
+   "branco": "2) Envio esse vídeo no Remix Inteligente",
+   "vermelho": "Da Optimizze AI"
+  },
+  {
+   "base": "04_remix_copy.jpg",
+   "branco": "3) Leio o resumo da otimização",
+   "vermelho": "Hook, estrutura da copy e CTA"
+  },
+  {
+   "base": "05_prompts_cena.jpg",
+   "branco": "4) Uso os prompts de cada cena",
+   "vermelho": "Pra refazer o vídeo com IA"
+  },
+  {
+   "base": "08_editor_pronto.jpg",
+   "branco": "5) Junto, posto e testo de novo",
+   "vermelho": "Um gancho novo por vídeo"
+  },
+  {
+   "base": "01_capa_camiseta.jpg",
+   "branco": "Quer o acesso à ferramenta?",
+   "vermelho": "Comenta TTS"
+  }
+ ]
+}
