@@ -1,5 +1,12 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-08
+- Sem viral (mediana dos últimos 10 fechados = 48 views; nenhum >= 144 nem 2.000+ nos últimos 7 dias). Regra normal 2+1; fila vazia.
+- Fechados de 06/11: A tablet 12h 65 views (melhor do dia), B tablet "tira 3" 43, C nativo "sem amostra" 36 (0 de tudo). 07/11 parcial: A tablet 12h 47 em ~20h, B tablet iniciante 22 em ~13h, C tablet curto 17 em ~11h mas 11,8% de completion (melhor desde 04/11).
+- Tablet às 12h é o slot mais consistente (65 e 47); tablet curto retém mais. Saves e comments seguem em 0 há ~18 posts: o alcance está preso em 20–90 views em qualquer estilo com os mesmos 8 prints.
+- Teste de hoje: volta do ESCURO (mockups, sem os 8 prints) no C. O escuro fez 184–212 em 23–25/10, mais que tudo desde 30/10. Se ele passar dos tablets, a queda é cansaço dos prints; se ficar em ~50, é queda geral da conta.
+- Hoje: A tablet 9 slides "parei de gravar" 12h; B tablet 7 slides "não vende? olha o que eu mudo" 19h; C escuro "a IA monta o roteiro" (Modo Gravação) 21h.
+
 ## 2026-11-07
 - Sem viral (mediana dos últimos 10 fechados = 52,5 views; nenhum >= 158 nem 2.000+ nos últimos 7 dias). Regra normal 2+1; fila vazia.
 - Tablet às 12h funcionou: 06/11 A "sem abrir a câmera" 65 views em ~21h, contra 24–53 dos nativos no mesmo horário. Fechados de 05/11: B tablet 67 (melhor do dia), C nativo 28, A nativo 24 (pior da semana).
