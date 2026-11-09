@@ -1,0 +1,134 @@
+{
+ "legenda": "1 vídeo que vendeu, 3 versões novas 🔁 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Pega um vídeo que já vendeu e a IA te devolve 3 novos",
+ "estilo": "escuro",
+ "angulo": "escuro (explorar: 08/11 C escuro 77 views em ~12h, melhor ritmo do mês) + ângulo 1 vira 3",
+ "slides": [
+  {
+   "pill": "TIKTOK SHOP + IA",
+   "titulo": "Pega um vídeo que *já vendeu*",
+   "sub": "A IA te devolve 3 versões novas pra testar.",
+   "chips": [
+    "sem gravar",
+    "sem roteiro do zero",
+    "só com IA"
+   ],
+   "tipo": "cover",
+   "dados": {
+    "prod": "bag"
+   },
+   "rodape": "salva esse post"
+  },
+  {
+   "pill": "PASSO 1",
+   "titulo": "Acha o vídeo que *mais vendeu*",
+   "sub": "Na ferramenta de dados de vendas. Exemplo:",
+   "tipo": "ranking",
+   "dados": {
+    "url": "ferramenta de dados de vendas",
+    "videos": [
+     {
+      "prod": "bag",
+      "dur": "0:21",
+      "title": "Organizador de mala",
+      "vendidos": "5,2 mil",
+      "receita": "R$ 98 mil"
+     },
+     {
+      "prod": "bottle",
+      "dur": "0:18",
+      "title": "Garrafa térmica 1L",
+      "vendidos": "4,8 mil",
+      "receita": "R$ 76 mil"
+     },
+     {
+      "prod": "shoe",
+      "dur": "0:26",
+      "title": "Tênis de corrida leve",
+      "vendidos": "2,1 mil",
+      "receita": "R$ 61 mil"
+     }
+    ]
+   }
+  },
+  {
+   "pill": "PASSO 2",
+   "titulo": "Envia ele no *Remix Inteligente*",
+   "sub": "Da **Optimizze AI**.",
+   "tipo": "upload",
+   "dados": {
+    "arquivo": "organizador_que_vendeu.mp4"
+   }
+  },
+  {
+   "pill": "PASSO 3",
+   "titulo": "Recebe *3 versões* do mesmo vídeo",
+   "sub": "Exemplo de cena:",
+   "tipo": "variants",
+   "dados": {
+    "tabs": [
+     "Otimizada e Fiel",
+     "Variação de Contexto",
+     "Variação Criativa"
+    ],
+    "melhorias": [
+     [
+      "Hook",
+      "Abre na bagunça da mala"
+     ],
+     [
+      "CTA",
+      "Fecha mandando pro carrinho"
+     ]
+    ],
+    "cena": {
+     "nome": "Hook Visual",
+     "fala": "Sua mala sempre fecha no tapa?",
+     "acao": "Mãos tentam fechar mala lotada",
+     "tom": "Bem-humorado"
+    }
+   }
+  },
+  {
+   "pill": "PASSO 4",
+   "titulo": "Copia o prompt de *cada cena*",
+   "sub": "Já vem separado, pronto pra IA de vídeo.",
+   "tipo": "prompts",
+   "dados": {
+    "prompt": "<b>[CENA 1]</b> Vídeo vertical 9:16 em POV. Mãos tentam fechar uma mala lotada em cima da cama.",
+    "prompt2": "<b>[CENA 2]</b> As mãos encaixam o organizador e a mala fecha fácil."
+   }
+  },
+  {
+   "pill": "PASSO 5",
+   "titulo": "Gera com a *foto do produto*",
+   "sub": "YouTube Create ou outro gerador com IA.",
+   "tipo": "generator",
+   "dados": {
+    "prod": "bag",
+    "prompt": "Vídeo vertical 9:16 em POV. Mãos encaixam o organizador e a mala fecha fácil"
+   }
+  },
+  {
+   "pill": "PASSO 6",
+   "titulo": "Posta *uma versão por dia*",
+   "sub": "E vê qual o público prefere.",
+   "tipo": "timeline",
+   "dados": {
+    "prod": "bag"
+   }
+  },
+  {
+   "pill": "QUER O ACESSO?",
+   "titulo": "Comenta *TTS*",
+   "sub": "pra receber o acesso à ferramenta.",
+   "tipo": "cta",
+   "dados": {
+    "palavra": "TTS",
+    "rotulo": "resposta automática",
+    "resposta": "Aqui está o acesso à ferramenta"
+   },
+   "rodape": "segue pra mais"
+  }
+ ]
+}

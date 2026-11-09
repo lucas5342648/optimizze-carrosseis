@@ -1,5 +1,12 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-09
+- Sem viral (mediana dos últimos 10 fechados = 40 views; nenhum >= 120 nem 2.000+ nos últimos 7 dias). Regra normal 2+1; fila vazia.
+- Teste de ontem deu sinal: 08/11 C ESCURO (mockups, sem os 8 prints) fez 77 views em só ~12h, contra tablets do mesmo dia com 56 (A, ~21h) e 19 (B, ~14h). Melhor ritmo desde 01/11. Hipótese ganhando força: a queda é cansaço dos 8 prints, não da conta.
+- Fechados de 07/11: A tablet 12h 53, B iniciante 36, C tablet curto 36 (5,6%). Tablet estabilizou em 35–55; o 12h deixou de se destacar. Saves seguem 0 desde 01/11; comments 0 desde 02/11.
+- Ressalva: completion do escuro é baixa (1,25%): espalha mais, mas quase ninguém vai até o fim. Se o escuro de hoje passar de 70 views de novo, o escuro vira padrão de "explorar" até chegarem prints novos.
+- Hoje: A escuro "1 vira 3" (organizador de mala, 12h) e B escuro quase igual ao 08/11 C (fala de cada cena, garrafa, 19h) explorando; C teste escuro CURTO (6 slides) com erros de gancho em antes/depois (21h).
+
 ## 2026-11-08
 - Sem viral (mediana dos últimos 10 fechados = 48 views; nenhum >= 144 nem 2.000+ nos últimos 7 dias). Regra normal 2+1; fila vazia.
 - Fechados de 06/11: A tablet 12h 65 views (melhor do dia), B tablet "tira 3" 43, C nativo "sem amostra" 36 (0 de tudo). 07/11 parcial: A tablet 12h 47 em ~20h, B tablet iniciante 22 em ~13h, C tablet curto 17 em ~11h mas 11,8% de completion (melhor desde 04/11).

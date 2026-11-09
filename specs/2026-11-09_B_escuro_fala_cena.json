@@ -1,0 +1,124 @@
+{
+ "legenda": "A fala de cada cena já vem pronta 🎬 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Sem roteiro? A IA te entrega a fala de cada cena",
+ "estilo": "escuro",
+ "angulo": "escuro quase igual ao 08/11 C (Modo Gravação), gancho e produto novos (explorar)",
+ "slides": [
+  {
+   "pill": "TIKTOK SHOP + IA",
+   "titulo": "Sem roteiro? A IA te dá *a fala de cada cena*",
+   "sub": "Fala, ação e tom. Você só segue.",
+   "chips": [
+    "sem travar",
+    "sem roteiro do zero",
+    "só com IA"
+   ],
+   "tipo": "cover",
+   "dados": {
+    "prod": "bottle"
+   },
+   "rodape": "salva esse post"
+  },
+  {
+   "pill": "PASSO 1",
+   "titulo": "Envia um vídeo que *já vendeu*",
+   "sub": "No **Remix Inteligente** da Optimizze AI.",
+   "tipo": "upload",
+   "dados": {
+    "arquivo": "garrafa_que_vendeu.mp4"
+   }
+  },
+  {
+   "pill": "PASSO 2",
+   "titulo": "Ela aponta o que *dá pra melhorar*",
+   "sub": "Resumo da otimização. Exemplo:",
+   "tipo": "gauge",
+   "dados": {
+    "itens": [
+     [
+      "Hook",
+      "Abre no calor, não na garrafa"
+     ],
+     [
+      "Estrutura da Copy",
+      "Prova antes do preço"
+     ],
+     [
+      "CTA",
+      "Chamada clara pro carrinho"
+     ]
+    ]
+   }
+  },
+  {
+   "pill": "PASSO 3",
+   "titulo": "O *Modo Gravação* monta cada cena",
+   "sub": "Exemplo de cena:",
+   "tipo": "variants",
+   "dados": {
+    "tabs": [
+     "Otimizada e Fiel",
+     "Variação de Contexto",
+     "Variação Criativa"
+    ],
+    "melhorias": [
+     [
+      "Hook",
+      "Pergunta direto na dor"
+     ],
+     [
+      "CTA",
+      "Fecha mandando pro carrinho"
+     ]
+    ],
+    "cena": {
+     "nome": "Hook Visual",
+     "fala": "Sua água esquenta antes do almoço?",
+     "acao": "Mão tira o gelo da garrafa às 15h",
+     "tom": "Surpreso e direto"
+    }
+   }
+  },
+  {
+   "pill": "PASSO 4",
+   "titulo": "Copia o prompt de *cada cena*",
+   "sub": "Já vem separado, pronto pra IA de vídeo.",
+   "tipo": "prompts",
+   "dados": {
+    "prompt": "<b>[CENA 1]</b> Vídeo vertical 9:16 em POV. Mão abre a garrafa térmica e mostra gelo inteiro à tarde.",
+    "prompt2": "<b>[CENA 2]</b> Close na garrafa suando em cima da mesa de trabalho."
+   }
+  },
+  {
+   "pill": "PASSO 5",
+   "titulo": "Cola no gerador com a *foto do produto*",
+   "sub": "YouTube Create ou outro gerador com IA.",
+   "tipo": "generator",
+   "dados": {
+    "prod": "bottle",
+    "prompt": "Vídeo vertical 9:16 em POV. Mão abre a garrafa térmica e mostra gelo inteiro à tarde"
+   }
+  },
+  {
+   "pill": "PASSO 6",
+   "titulo": "Junta as cenas e *posta*",
+   "sub": "Sem câmera e sem estúdio.",
+   "tipo": "timeline",
+   "dados": {
+    "prod": "bottle"
+   }
+  },
+  {
+   "pill": "QUER O ACESSO?",
+   "titulo": "Comenta *TTS*",
+   "sub": "pra receber o acesso à ferramenta.",
+   "tipo": "cta",
+   "dados": {
+    "palavra": "TTS",
+    "rotulo": "resposta automática",
+    "resposta": "Aqui está o acesso à ferramenta"
+   },
+   "rodape": "segue pra mais"
+  }
+ ]
+}
