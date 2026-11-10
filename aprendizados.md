@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-10
+- MODO VIRAL (relativo): 08/11 C ESCURO "A IA monta o roteiro do seu próximo vídeo" (Modo Gravação, camiseta, 8 slides, 21h) fechou 139 views, 2 likes, 3,4% de completion = 3,5x a mediana dos últimos 10 fechados (40 views). Melhor post desde 31/10. Não é viral absoluto (longe de 2.000), mas bate a regra dos 3x.
+- Escuro confirmado como o estilo que mais espalha agora: 09/11 B (quase igual ao 08/11 C) 73 views em ~11h e 1 save (primeiro save desde 02/11); 09/11 A "1 vira 3" 68 em ~18h. Tablets de 08/11 fecharam 63 e 28. Hipótese reforçada: cansaço dos 8 prints.
+- 09/11 C escuro curto (6 slides, ângulo erros de gancho) 33 views em ~9h: ângulo diferente rendeu menos. O que puxa parece ser o ângulo "roteiro/Modo Gravação", não só o visual escuro.
+- Hoje: A (12h) e B (19h) quase iguais ao 08/11 C (mesmos 8 slides, gancho e produto novos: tênis e lençol); C (21h) variação controlada: mesmo 08/11 C cortado pra 6 slides (sem Resumo e sem "junta e posta"), testando se o comprimento importa. Sair do modo viral se 3 seguidos nesse estilo ficarem abaixo da mediana.
+
 ## 2026-11-09
 - Sem viral (mediana dos últimos 10 fechados = 40 views; nenhum >= 120 nem 2.000+ nos últimos 7 dias). Regra normal 2+1; fila vazia.
 - Teste de ontem deu sinal: 08/11 C ESCURO (mockups, sem os 8 prints) fez 77 views em só ~12h, contra tablets do mesmo dia com 56 (A, ~21h) e 19 (B, ~14h). Melhor ritmo desde 01/11. Hipótese ganhando força: a queda é cansaço dos 8 prints, não da conta.

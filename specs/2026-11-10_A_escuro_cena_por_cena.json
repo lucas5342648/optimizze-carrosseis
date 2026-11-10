@@ -1,0 +1,124 @@
+{
+ "legenda": "Cada cena já vem com a fala 🎬 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Vídeo pro TikTok Shop cena por cena, sem escrever nada",
+ "estilo": "escuro",
+ "angulo": "MODO VIRAL: quase igual ao 08/11 C (Modo Gravação, 8 slides), gancho e produto novos (tênis)",
+ "slides": [
+  {
+   "pill": "TIKTOK SHOP + IA",
+   "titulo": "Vídeo pro TikTok Shop *cena por cena*, sem escrever nada",
+   "sub": "A IA te dá a fala, a ação e o tom.",
+   "chips": [
+    "sem gravar",
+    "sem roteiro do zero",
+    "só com IA"
+   ],
+   "tipo": "cover",
+   "dados": {
+    "prod": "shoe"
+   },
+   "rodape": "salva esse post"
+  },
+  {
+   "pill": "PASSO 1",
+   "titulo": "Envia um vídeo que *já vendeu*",
+   "sub": "No **Remix Inteligente** da Optimizze AI.",
+   "tipo": "upload",
+   "dados": {
+    "arquivo": "tenis_que_vendeu.mp4"
+   }
+  },
+  {
+   "pill": "PASSO 2",
+   "titulo": "Ela mostra o que *dá pra melhorar*",
+   "sub": "Resumo da otimização. Exemplo:",
+   "tipo": "gauge",
+   "dados": {
+    "itens": [
+     [
+      "Hook",
+      "Abre na dor, não no tênis"
+     ],
+     [
+      "Estrutura da Copy",
+      "Conforto antes do preço"
+     ],
+     [
+      "CTA",
+      "Chamada clara pro carrinho"
+     ]
+    ]
+   }
+  },
+  {
+   "pill": "PASSO 3",
+   "titulo": "Devolve *3 versões* com Modo Gravação",
+   "sub": "Exemplo de cena:",
+   "tipo": "variants",
+   "dados": {
+    "tabs": [
+     "Otimizada e Fiel",
+     "Variação de Contexto",
+     "Variação Criativa"
+    ],
+    "melhorias": [
+     [
+      "Hook",
+      "Pergunta direto na dor"
+     ],
+     [
+      "CTA",
+      "Fecha mandando pro carrinho"
+     ]
+    ],
+    "cena": {
+     "nome": "Hook Visual",
+     "fala": "Seu pé dói depois de 20 minutos de caminhada?",
+     "acao": "Mão aperta a palmilha do tênis",
+     "tom": "Curioso e direto"
+    }
+   }
+  },
+  {
+   "pill": "PASSO 4",
+   "titulo": "Copia o prompt de *cada cena*",
+   "sub": "Já vem separado, pronto pra IA de vídeo.",
+   "tipo": "prompts",
+   "dados": {
+    "prompt": "<b>[CENA 1]</b> Vídeo vertical 9:16 em POV. Mão aperta a palmilha macia do tênis branco em cima da cama.",
+    "prompt2": "<b>[CENA 2]</b> Close no solado, dedo dobrando o tênis devagar."
+   }
+  },
+  {
+   "pill": "PASSO 5",
+   "titulo": "Cola no gerador com a *foto do produto*",
+   "sub": "YouTube Create ou outro gerador com IA.",
+   "tipo": "generator",
+   "dados": {
+    "prod": "shoe",
+    "prompt": "Vídeo vertical 9:16 em POV. Mão aperta a palmilha macia do tênis branco"
+   }
+  },
+  {
+   "pill": "PASSO 6",
+   "titulo": "Junta as cenas e *posta*",
+   "sub": "Sem câmera e sem estúdio.",
+   "tipo": "timeline",
+   "dados": {
+    "prod": "shoe"
+   }
+  },
+  {
+   "pill": "QUER O ACESSO?",
+   "titulo": "Comenta *TTS*",
+   "sub": "pra receber o acesso à ferramenta.",
+   "tipo": "cta",
+   "dados": {
+    "palavra": "TTS",
+    "rotulo": "resposta automática",
+    "resposta": "Aqui está o acesso à ferramenta"
+   },
+   "rodape": "segue pra mais"
+  }
+ ]
+}
