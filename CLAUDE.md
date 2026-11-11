@@ -83,14 +83,37 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
 - Área segura: todo slide passa por `motor/seguro.py::enquadrar` (já embutido em nativo.py e tablet.py),
   que centraliza o conteúdo porque o TikTok corta as bordas de carrossel. Não remova isso. No estilo
   escuro (render.py), aplique `enquadrar` nas imagens antes de publicar.
-- Honestidade: números só se estiverem num print real (ex.: R$ 185 mil da Kalodata) ou marcados
-  como "exemplo". Não inventar depoimentos, resultados ou recursos que a Optimizze não tem.
+- Honestidade: números só se estiverem num print real (ex.: R$ 185 mil da Kalodata), vierem da
+  biblioteca da Optimizze (conector, ver abaixo) ou marcados como "exemplo". Não inventar depoimentos, resultados ou recursos que a Optimizze não tem.
 - Recursos reais da Optimizze: Remix Inteligente (envia vídeo que já vendeu; devolve V1 Otimizada e Fiel,
   V2 Variação de Contexto, V3 Variação Criativa), Resumo da otimização (Hook, Estrutura da Copy, CTA),
   Modo Gravação (cenas com FALA/AÇÃO/TOM), Prompts de vídeo por cena, plano mensal R$29,90 e anual R$197.
 - Sem emoji dentro dos slides (não há fonte de emoji); emojis só na legenda.
 - Hashtags que performaram: `#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes`.
 - Textos curtos por slide (máx. ~12 palavras), linguagem de afiliado brasileiro, direta.
+
+## Biblioteca da Optimizze (conector "Optimizze mcp bot", desde 11/11)
+Conector MCP com a biblioteca de vídeos e produtos mais vendidos do TikTok Shop da Optimizze.
+Ferramentas: `listar_em_alta` (tipo video|produto), `ver_video`, `criar_variacoes`, `ver_projeto`,
+`listar_meus_projetos`, `exportar_imagens`, `uso_de_hoje`.
+- **Use todo dia para trocar os "exemplos" inventados por dados reais.** Para cada carrossel do dia:
+  escolha um vídeo de `listar_em_alta` (tipo video, só com `tem_fala`, produtos variados entre os 3,
+  de preferência nichos de afiliado: beleza, casa, moda, utilidades), rode `criar_variacoes` e, 1 a 3 min
+  depois, `ver_projeto`. Use o resultado REAL nos slides: produto, Resumo da otimização (`improvements`
+  da V1), hooks de V1/V2/V3 (`scenes_data[0].fala`), uma cena do Modo Gravação (FALA/AÇÃO/TOM).
+- Mantém o estilo e a estrutura decididos pelas regras acima (modo viral ou 2+1): a biblioteca muda
+  o EXEMPLO, não o formato. No estilo escuro, os blocos "Exemplo:" passam a ter o conteúdo real
+  (pode tirar o "Exemplo" e escrever "Gerado pela Optimizze" ou nada).
+- Passo novo e real que pode virar slide: "Acha um vídeo que já vende na **biblioteca** da Optimizze"
+  (ranking com vendas de 7 dias) e "Clica em **Criar variações**".
+- Números reais da biblioteca podem ir no slide (vendas e faturamento de 7 dias, views), sempre
+  como "estimado" e sem citar o nome/@ do criador do vídeo original. Nunca usar capa ou trecho do
+  vídeo de outro criador como se fosse do Lucas.
+- Limite: 6 variações por dia (`uso_de_hoje`). A rotina usa no máximo 3.
+- `exportar_imagens` só funciona se o Lucas configurar o token do GitHub; se responder "desligado",
+  siga sem imagens da biblioteca (motores de sempre).
+- Se o conector falhar ou não estiver disponível, siga a rotina normal com exemplos marcados
+  como "exemplo" e avise o Lucas no resumo do dia. Nunca trave a publicação por causa dele.
 
 ## Quando pedir ajuda ao Lucas
 - Faltam prints/fotos novos (os 8 de `assets/base/` cansam rápido): peça prints SEM legenda.
