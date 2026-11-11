@@ -99,11 +99,13 @@ ICONS = {
     "bottle": '<path d="M10 2h4v3l2 2v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V7l2-2z" fill="currentColor"/>',
     "bag": '<path d="M6 7h12l1.5 14h-15zM9 7a3 3 0 0 1 6 0" fill="none" stroke="currentColor" stroke-width="2"/>',
     "shoe": '<path d="M3 16v-5l4-1 3 3 5 1.5 5 1V19H3z" fill="currentColor"/>',
+    "tube": '<path d="M9 2h6v3H9zM8 6h8l1 15a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1z" fill="currentColor"/>',
 }
 GRADS = {
     "shirt": "linear-gradient(160deg,#334155,#0F172A)", "bed": "linear-gradient(160deg,#78716C,#292524)",
     "bottle": "linear-gradient(160deg,#BE185D,#4C0519)", "bag": "linear-gradient(160deg,#B45309,#451A03)",
     "shoe": "linear-gradient(160deg,#0E7490,#083344)",
+    "tube": "linear-gradient(160deg,#F59E0B,#7C2D12)",
 }
 CHECK = '<svg viewBox="0 0 24 24"><path d="M5 12.5 10 17 19 7" fill="none" stroke="#22C55E" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>'
 LOCK = '<svg viewBox="0 0 24 24"><path d="M7 11V8a5 5 0 0 1 10 0v3M5 11h14v10H5z" fill="none" stroke="#A1A1AA" stroke-width="2"/></svg>'
@@ -142,8 +144,8 @@ def c_ranking(d):
         rows += f'''<div class="row" style="padding:22px 0;border-top:1.5px solid var(--bd)">
           <div class="rank">{i}</div>{thumb(v["prod"], v.get("dur"), 120, 160)}
           <div><div class="vt">{html.escape(v["title"])}</div>
-          <div class="stats"><div><b>{v["vendidos"]}</b>vendidos</div><div><b>{v["receita"]}</b>em vendas</div></div></div></div>'''
-    head = f'<div class="lbl">Mais vendidos · últimos 7 dias <span class="tag">exemplo</span></div>'
+          <div class="stats"><div><b>{v["vendidos"]}</b>{v.get("lv","vendidos")}</div><div><b>{v["receita"]}</b>{v.get("lr","em vendas")}</div></div></div></div>'''
+    head = f'<div class="lbl">{html.escape(d.get("lbl","Mais vendidos · últimos 7 dias"))} <span class="tag">{html.escape(d.get("tag","exemplo"))}</span></div>'
     return phone(head + rows, url=d.get("url", "ferramenta de dados de vendas"), app=None)
 
 
@@ -201,13 +203,13 @@ def c_generator(d):
 
 def c_timeline(d):
     p = d.get("prod", "shirt")
-    cols = ["#4C1D95", "#5B21B6", "#6D28D9", "#7C3AED", "#8B5CF6", "#A78BFA"]
+    cols = ["#4C1D95", "#5B21B6", "#6D28D9", "#7C3AED", "#8B5CF6", "#A78BFA", "#C4B5FD"][:d.get("n", 6)]
     clips = "".join(f'<div class="clip" style="background:{c}">C{i+1}</div>' for i, c in enumerate(cols))
     inner = f'''<div style="display:flex;justify-content:center">{thumb(p, None, 380, 520)}</div>
-      <div class="lbl" style="margin-top:30px">Linha do tempo · 6 cenas</div>
+      <div class="lbl" style="margin-top:30px">Linha do tempo · {len(cols)} cenas</div>
       <div class="row" style="gap:8px">{clips}</div>
       <div style="display:flex;justify-content:space-between;align-items:center;margin-top:32px">
-      <span style="font-size:26px;color:var(--m)">0:48 · 1080p</span><span class="btn">Exportar e postar</span></div>'''
+      <span style="font-size:26px;color:var(--m)">{d.get("dur","0:48")} · 1080p</span><span class="btn">Exportar e postar</span></div>'''
     return phone(inner, url=None, app="Editor de vídeo")
 
 
@@ -219,15 +221,15 @@ def c_variants(d):
     c = d["cena"]
     cena = f'''<div class="card" style="margin-top:24px;padding:24px 26px">
         <div class="row" style="gap:16px;margin-bottom:14px"><div style="width:44px;height:44px;border-radius:50%;background:rgba(139,92,246,.25);
-        display:grid;place-items:center;font-weight:700;font-size:24px;color:var(--pl)">1</div><span style="font-weight:700;font-size:28px">{html.escape(c["nome"])}</span></div>
+        display:grid;place-items:center;font-weight:700;font-size:24px;color:var(--pl)">{c.get("n", 1)}</div><span style="font-weight:700;font-size:28px">{html.escape(c["nome"])}</span></div>
         <div style="font-size:22px;font-weight:700;color:#A78BFA;letter-spacing:.05em">FALA</div>
         <div style="font-size:27px;font-weight:600;line-height:1.38;margin:4px 0 12px">{html.escape(c["fala"])}</div>
         <div style="font-size:22px;font-weight:700;color:#4ADE80;letter-spacing:.05em">AÇÃO</div>
         <div style="font-size:25px;color:#C9C9D1;line-height:1.38;margin:4px 0 12px">{html.escape(c["acao"])}</div>
         <div style="font-size:22px;font-weight:700;color:#FACC15;letter-spacing:.05em">TOM</div>
         <div style="font-size:25px;color:#C9C9D1;font-style:italic;margin-top:4px">{html.escape(c["tom"])}</div></div>'''
-    inner = f'''<div class="tabs">{tabs}</div>
-      <div style="font-family:D;font-weight:800;font-size:36px;margin:26px 0 4px">Resumo da otimização</div>{mel}
+    res = f'<div style="font-family:D;font-weight:800;font-size:36px;margin:26px 0 4px">Resumo da otimização</div>{mel}' if d["melhorias"] else ""
+    inner = f'''<div class="tabs">{tabs}</div>{res}
       <div style="font-family:D;font-weight:800;font-size:36px;margin-top:28px">Modo Gravação</div>{cena}'''
     return phone(inner, url=None, app="Remix Inteligente")
 
@@ -238,6 +240,16 @@ def c_compare(d):
       <div style="text-align:center;font-size:60px;color:var(--pl);margin:18px 0">↓</div>
       <div class="card good"><div class="lbl" style="color:#4ADE80">Gancho reescrito</div><div class="quote">“{html.escape(d["depois"])}”</div></div>
       <div style="font-size:26px;color:var(--m);margin-top:24px;text-align:center">{md(d.get("nota",""))}</div></div>'''
+
+
+def c_hooks(d):
+    """Ganchos de cada versão (cena 1): d["hooks"] = [[rotulo, fala], ...]"""
+    cards = "".join(f'''<div class="card" style="margin-top:20px;padding:24px 26px{";border-color:rgba(139,92,246,.6)" if i==0 else ""}">
+        <div class="row" style="gap:14px;margin-bottom:10px"><span style="font-family:D;font-weight:800;font-size:34px;color:var(--pl)">V{i+1}</span>
+        <span style="font-size:24px;color:var(--m);font-weight:600">{html.escape(r)}</span></div>
+        <div style="font-size:29px;font-weight:600;line-height:1.38">“{html.escape(f)}”</div></div>''' for i, (r, f) in enumerate(d["hooks"]))
+    inner = f'<div class="lbl">{html.escape(d.get("lbl","Hook · cena 1 de cada versão"))}</div>{cards}'
+    return phone(inner, url=None, app="Remix Inteligente")
 
 
 def c_cover(d):
@@ -266,7 +278,7 @@ def c_cta(d):
 
 
 COMP = dict(ranking=c_ranking, upload=c_upload, gauge=c_gauge, prompts=c_prompts, generator=c_generator,
-            timeline=c_timeline, variants=c_variants, compare=c_compare, cover=c_cover, cta=c_cta)
+            timeline=c_timeline, variants=c_variants, hooks=c_hooks, compare=c_compare, cover=c_cover, cta=c_cta)
 
 
 def slide_html(s, i, n):

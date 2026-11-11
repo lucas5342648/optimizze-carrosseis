@@ -1,0 +1,61 @@
+{
+ "legenda": "Achei na biblioteca o vídeo que mais vende protetor e a IA me deu 3 versões novas ☀️ Vendas estimadas de 7 dias. Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Esse vídeo vendeu quase 2 mil protetores em 7 dias. A IA fez 3 novos",
+ "estilo": "escuro",
+ "angulo": "TESTE BIBLIOTECA: estrutura do 08/11 C (Modo Gravação) com conteúdo real do projeto (Hidrabene FPS 70)",
+ "slides": [
+  {"pill": "TIKTOK SHOP + IA",
+   "titulo": "Esse vídeo vendeu *~2 mil protetores* em 7 dias",
+   "sub": "Peguei ele e a IA me deu **3 versões novas**.",
+   "chips": ["vendas estimadas", "roteiro pronto", "só com IA"],
+   "tipo": "cover", "dados": {"prod": "tube"}, "rodape": "salva esse post"},
+  {"pill": "PASSO 1",
+   "titulo": "Acha um vídeo que *já vende*",
+   "sub": "Na **biblioteca** da Optimizze AI.",
+   "tipo": "ranking",
+   "dados": {"url": "optimizzeai.com · biblioteca", "lbl": "Em alta · últimos 7 dias", "tag": "estimado",
+    "videos": [
+     {"prod": "bed", "dur": "2:25", "title": "Travesseiro cervical", "vendidos": "2.689", "receita": "R$ 654 mil"},
+     {"prod": "shirt", "dur": "1:05", "title": "Kit bermuda dry fit", "vendidos": "2.218", "receita": "R$ 161 mil"},
+     {"prod": "tube", "dur": "0:48", "title": "Protetor solar FPS 70", "vendidos": "1.962", "receita": "R$ 115 mil"}
+    ]}},
+  {"pill": "PASSO 2",
+   "titulo": "Clica em *Criar variações*",
+   "sub": "Ela mostra o que melhorou. **Gerado pela Optimizze:**",
+   "tipo": "gauge",
+   "dados": {"itens": [
+     ["Hook", "Liga o fim das manchas à volta da autoestima."],
+     ["Fluidez", "Jump cuts entre a dor e a prova visual."],
+     ["CTA", "Mais direto pro carrinho, com o benefício de preço."]
+   ]}},
+  {"pill": "PASSO 3",
+   "titulo": "Recebe *3 ganchos novos*",
+   "sub": "Mesma estrutura do vídeo que já vende.",
+   "tipo": "hooks",
+   "dados": {"hooks": [
+     ["Otimizada e Fiel", "Minha pele simplesmente mudou depois que sumiram aquelas marcas escuras de melasma e de espinha."],
+     ["Variação de Contexto", "Eu consegui apagar quase por completo o melasma e as cicatrizes de espinha do meu rosto."],
+     ["Variação Criativa", "Se você sofre com manchas de sol ou marca escura de acne, presta atenção nesse resultado."]
+   ]}},
+  {"pill": "PASSO 4",
+   "titulo": "Cada cena vem com *fala, ação e tom*",
+   "sub": "É o **Modo Gravação**. Cena real:",
+   "tipo": "variants",
+   "dados": {"tabs": ["Otimizada e Fiel", "Variação de Contexto", "Variação Criativa"],
+    "melhorias": [],
+    "cena": {"n": 4, "nome": "Prova visual",
+     "fala": "Mas olha o estado da minha pele hoje: tá tudo uniforme e praticamente sumiu tudo!",
+     "acao": "Aproximar o rosto da câmera exibindo a pele viçosa e clara",
+     "tom": "Empolgado e confiante"}}},
+  {"pill": "PASSO 5",
+   "titulo": "Grava *cena por cena* e posta",
+   "sub": "7 cenas, sem escrever nada do zero.",
+   "tipo": "timeline", "dados": {"prod": "tube", "n": 7, "dur": "0:45"}},
+  {"pill": "QUER O ACESSO?",
+   "titulo": "Comenta *TTS*",
+   "sub": "pra receber o acesso à ferramenta.",
+   "tipo": "cta",
+   "dados": {"palavra": "TTS", "rotulo": "resposta automática", "resposta": "Aqui está o acesso à ferramenta"},
+   "rodape": "segue pra mais"}
+ ]
+}
