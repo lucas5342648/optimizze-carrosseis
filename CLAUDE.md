@@ -88,6 +88,12 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
 - Recursos reais da Optimizze: Remix Inteligente (envia vídeo que já vendeu; devolve V1 Otimizada e Fiel,
   V2 Variação de Contexto, V3 Variação Criativa), Resumo da otimização (Hook, Estrutura da Copy, CTA),
   Modo Gravação (cenas com FALA/AÇÃO/TOM), Prompts de vídeo por cena, plano mensal R$29,90 e anual R$197.
+- **Nome da marca (desde 11/11):** NÃO citar "Optimizze" nos slides nem na legenda (ainda não se sabe
+  se o nome pode ser usado). Falar "a ferramenta" / "a IA". Nos prints reais, o logo fica borrado.
+- **Como descrever o recurso:** nunca "a IA gera roteiros". O certo: gera **variações** baseadas na
+  **estrutura validada** de vídeos que já venderam (V1/V2/V3 com cenas fala/ação/tom).
+- **Vídeo citado = só ele na tela:** quando o slide fala de um vídeo específico, o print mostra só
+  aquele vídeo (sem a grade de outros vídeos), e o @ do criador sempre borrado.
 - Sem emoji dentro dos slides (não há fonte de emoji); emojis só na legenda.
 - Hashtags que performaram: `#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes`.
 - Textos curtos por slide (máx. ~12 palavras), linguagem de afiliado brasileiro, direta.
@@ -107,8 +113,11 @@ Ferramentas: `listar_em_alta` (tipo video|produto), `ver_video`, `criar_variacoe
 - Mantém o estilo e a estrutura decididos pelas regras acima (modo viral ou 2+1): a biblioteca muda
   o EXEMPLO, não o formato. No estilo escuro, os blocos "Exemplo:" passam a ter o conteúdo real
   (pode tirar o "Exemplo" e escrever "Gerado pela Optimizze" ou nada).
-- Passo novo e real que pode virar slide: "Acha um vídeo que já vende na **biblioteca** da Optimizze"
-  (ranking com vendas de 7 dias) e "Clica em **Criar variações**".
+- Passo novo e real que pode virar slide: "Acha um vídeo que já vende" (biblioteca, ranking com vendas
+  de 7 dias) e "Cria variações na estrutura que já vendeu". Sem citar o nome da marca.
+- **Estilo `prints` (motor/prints.py, desde 11/11):** prints REAIS das telas do app (abertas a partir do
+  código do repositório viralsafeai com os dados do conector) + legenda em caixa branca. Exemplo:
+  specs/2026-11-11_E_prints_protetor.json. A captura ainda é feita fora da rotina (sessão do Lucas).
 - Números reais da biblioteca podem ir no slide (vendas e faturamento de 7 dias, views), sempre
   como "estimado" e sem citar o nome/@ do criador do vídeo original. Nunca usar capa ou trecho do
   vídeo de outro criador como se fosse do Lucas.

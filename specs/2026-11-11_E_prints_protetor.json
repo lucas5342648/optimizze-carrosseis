@@ -1,46 +1,15 @@
 {
- "titulo_post": "Achei o vídeo que mais vende protetor e a IA refez o roteiro",
+ "titulo_post": "Achei o vídeo que mais vende protetor e criei 3 variações dele",
  "estilo": "prints",
- "angulo": "PROVA PRINTS REAIS: mesmo conteúdo do D (protetor), com telas reais da Optimizze no lugar dos desenhos",
- "legenda": "Achei na biblioteca da Optimizze o vídeo que mais vende protetor e a IA me deu 3 roteiros novos ☀️ Vendas estimadas de 7 dias. Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "angulo": "PROVA PRINTS REAIS: protetor (1.962 vendas 7d), só o vídeo citado na tela, marca borrada, 'variações na estrutura validada'",
+ "legenda": "Achei o vídeo que mais vende esse protetor e a IA me deu 3 variações na mesma estrutura que já vendeu ☀️ Vendas estimadas de 7 dias. Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
  "slides": [
-  {
-   "print": "assets/prints/2026-11-11_protetor/s1.jpg",
-   "texto": "Esse vídeo vendeu 2 mil protetores em 7 dias",
-   "y": 0.8,
-   "tam": 66
-  },
-  {
-   "print": "assets/prints/2026-11-11_protetor/s2.jpg",
-   "texto": "Passo 1: abre a biblioteca e vê o que mais vende",
-   "y": 0.43
-  },
-  {
-   "print": "assets/prints/2026-11-11_protetor/s3.jpg",
-   "texto": "Passo 2: escolhe o vídeo e gera roteiros novos",
-   "y": 0.72
-  },
-  {
-   "print": "assets/prints/2026-11-11_protetor/s4.jpg",
-   "texto": "Passo 3: a IA devolve o roteiro cena por cena",
-   "y": 0.36
-  },
-  {
-   "print": "assets/prints/2026-11-11_protetor/s5.jpg",
-   "texto": "Passo 4: e mais 2 versões com outro gancho",
-   "y": 0.36
-  },
-  {
-   "print": "assets/prints/2026-11-11_protetor/s6.jpg",
-   "texto": "Passo 5: segue as dicas de gravação e posta",
-   "y": 0.62
-  },
-  {
-   "cta": {
-    "print": "assets/prints/2026-11-11_protetor/s4.jpg",
-    "titulo": "Comenta TTS",
-    "texto": "pra receber o acesso à ferramenta"
-   }
-  }
+  {"print": "assets/prints/2026-11-11_protetor/s1.jpg", "texto": "Esse vídeo vendeu 2 mil protetores em 7 dias", "y": 0.085, "tam": 64},
+  {"print": "assets/prints/2026-11-11_protetor/s2.jpg", "texto": "Passo 1: acha um vídeo que já vende", "y": 0.44},
+  {"print": "assets/prints/2026-11-11_protetor/s3.jpg", "texto": "Passo 2: cria variações na estrutura que já vendeu", "y": 0.72},
+  {"print": "assets/prints/2026-11-11_protetor/s4.jpg", "texto": "Passo 3: cada variação vem cena por cena", "y": 0.36},
+  {"print": "assets/prints/2026-11-11_protetor/s5.jpg", "texto": "Passo 4: mais 2 variações, cada uma com outro gancho", "y": 0.36},
+  {"print": "assets/prints/2026-11-11_protetor/s6.jpg", "texto": "Passo 5: segue as dicas de gravação e posta", "y": 0.62},
+  {"cta": {"print": "assets/prints/2026-11-11_protetor/s4.jpg", "titulo": "Comenta TTS", "texto": "pra receber o acesso à ferramenta"}}
  ]
 }
