@@ -8,6 +8,7 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
 - Zernio account (TikTok): `6add0b0455ea8ab9cbf6f9d4`
 - Zernio profile: `6add09dda7307722fa8314be`
 - Automação de comentário "TTS" (resposta pública apontando pro link da bio): `6add19e6b29a00ca1771edee` — já ativa, NÃO recriar.
+  Desde 11/11 também responde "link", "aplicativo", "app" e "ferramenta", e as respostas não citam o nome da marca.
 - Imagens públicas: `https://raw.githubusercontent.com/lucas5342648/optimizze-carrosseis/main/<caminho>`
 
 ## A rotina (roda todo dia de manhã)
