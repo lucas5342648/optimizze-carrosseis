@@ -1,0 +1,124 @@
+{
+ "legenda": "Sem rosto e sem câmera 🎬 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Vídeo pro TikTok Shop sem mostrar o rosto",
+ "estilo": "escuro",
+ "angulo": "explorar: escuro Modo Gravação (08/11 C 139, 09/11 B 102) + ângulo 'sem aparecer' (mala)",
+ "slides": [
+  {
+   "pill": "TIKTOK SHOP + IA",
+   "titulo": "Vídeo pro TikTok Shop *sem mostrar o rosto*",
+   "sub": "A IA diz o que falar e o que mostrar.",
+   "chips": [
+    "sem rosto",
+    "sem câmera",
+    "só com IA"
+   ],
+   "tipo": "cover",
+   "dados": {
+    "prod": "bag"
+   },
+   "rodape": "salva esse post"
+  },
+  {
+   "pill": "PASSO 1",
+   "titulo": "Envia um vídeo que *já vendeu*",
+   "sub": "No **Remix Inteligente** da Optimizze AI.",
+   "tipo": "upload",
+   "dados": {
+    "arquivo": "organizador_que_vendeu.mp4"
+   }
+  },
+  {
+   "pill": "PASSO 2",
+   "titulo": "Ela mostra o que *dá pra melhorar*",
+   "sub": "Resumo da otimização. Exemplo:",
+   "tipo": "gauge",
+   "dados": {
+    "itens": [
+     [
+      "Hook",
+      "Abre na mala bagunçada"
+     ],
+     [
+      "Estrutura da Copy",
+      "Problema, solução, resultado"
+     ],
+     [
+      "CTA",
+      "Chamada clara pro carrinho"
+     ]
+    ]
+   }
+  },
+  {
+   "pill": "PASSO 3",
+   "titulo": "Cada cena vem com *fala e ação*",
+   "sub": "Modo Gravação. Só mãos e produto. Exemplo:",
+   "tipo": "variants",
+   "dados": {
+    "tabs": [
+     "Otimizada e Fiel",
+     "Variação de Contexto",
+     "Variação Criativa"
+    ],
+    "melhorias": [
+     [
+      "Hook",
+      "Mostra o problema em 2 segundos"
+     ],
+     [
+      "CTA",
+      "Fecha mandando pro carrinho"
+     ]
+    ],
+    "cena": {
+     "nome": "Hook Visual",
+     "fala": "Sua mala nunca fecha?",
+     "acao": "Só as mãos forçando o zíper da mala",
+     "tom": "Bem-humorado"
+    }
+   }
+  },
+  {
+   "pill": "PASSO 4",
+   "titulo": "Copia o prompt de *cada cena*",
+   "sub": "Já vem separado, pronto pra IA de vídeo.",
+   "tipo": "prompts",
+   "dados": {
+    "prompt": "<b>[CENA 1]</b> Vídeo vertical 9:16 em POV, só mãos. Mãos forçam o zíper de uma mala lotada.",
+    "prompt2": "<b>[CENA 2]</b> Mãos encaixam o organizador e a mala fecha fácil."
+   }
+  },
+  {
+   "pill": "PASSO 5",
+   "titulo": "Gera com a *foto do produto*",
+   "sub": "YouTube Create ou outro gerador com IA.",
+   "tipo": "generator",
+   "dados": {
+    "prod": "bag",
+    "prompt": "Vídeo vertical 9:16 em POV, só mãos. Mãos encaixam o organizador na mala"
+   }
+  },
+  {
+   "pill": "PASSO 6",
+   "titulo": "Junta as cenas e *posta*",
+   "sub": "Sem rosto, sem câmera, sem estúdio.",
+   "tipo": "timeline",
+   "dados": {
+    "prod": "bag"
+   }
+  },
+  {
+   "pill": "QUER O ACESSO?",
+   "titulo": "Comenta *TTS*",
+   "sub": "pra receber o acesso à ferramenta.",
+   "tipo": "cta",
+   "dados": {
+    "palavra": "TTS",
+    "rotulo": "resposta automática",
+    "resposta": "Aqui está o acesso à ferramenta"
+   },
+   "rodape": "segue pra mais"
+  }
+ ]
+}

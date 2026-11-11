@@ -1,0 +1,133 @@
+{
+ "legenda": "Um vídeo campeão, 3 roteiros novos 🔁 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Um vídeo que já vendeu vira 3 roteiros novos",
+ "estilo": "escuro",
+ "angulo": "explorar: escuro 1 vira 3 (09/11 A 71 views), gancho e produto novos (garrafa)",
+ "slides": [
+  {
+   "pill": "TIKTOK SHOP + IA",
+   "titulo": "Um vídeo que já vendeu vira *3 roteiros novos*",
+   "sub": "Sem gravar e sem escrever do zero.",
+   "chips": [
+    "sem câmera",
+    "sem roteiro do zero",
+    "só com IA"
+   ],
+   "tipo": "cover",
+   "dados": {
+    "prod": "bottle"
+   },
+   "rodape": "salva esse post"
+  },
+  {
+   "pill": "PASSO 1",
+   "titulo": "Acha o vídeo que *mais vendeu*",
+   "sub": "Na ferramenta de dados de vendas. Exemplo:",
+   "tipo": "ranking",
+   "dados": {
+    "videos": [
+     {
+      "prod": "bottle",
+      "dur": "0:19",
+      "title": "Garrafa térmica 1L",
+      "vendidos": "4,8 mil",
+      "receita": "R$ 76 mil"
+     },
+     {
+      "prod": "shirt",
+      "dur": "0:24",
+      "title": "Camiseta dry fit",
+      "vendidos": "3,9 mil",
+      "receita": "R$ 58 mil"
+     },
+     {
+      "prod": "bed",
+      "dur": "0:31",
+      "title": "Jogo de lençol",
+      "vendidos": "2,6 mil",
+      "receita": "R$ 52 mil"
+     }
+    ]
+   }
+  },
+  {
+   "pill": "PASSO 2",
+   "titulo": "Envia ele no *Remix Inteligente*",
+   "sub": "Da **Optimizze AI**.",
+   "tipo": "upload",
+   "dados": {
+    "arquivo": "garrafa_que_vendeu.mp4"
+   }
+  },
+  {
+   "pill": "PASSO 3",
+   "titulo": "Recebe *V1, V2 e V3*",
+   "sub": "Fiel, outro contexto e criativa. Exemplo:",
+   "tipo": "variants",
+   "dados": {
+    "tabs": [
+     "Otimizada e Fiel",
+     "Variação de Contexto",
+     "Variação Criativa"
+    ],
+    "melhorias": [
+     [
+      "Hook",
+      "Abre no café que esfriou"
+     ],
+     [
+      "CTA",
+      "Fecha mandando pro carrinho"
+     ]
+    ],
+    "cena": {
+     "nome": "Hook Visual",
+     "fala": "Seu café esfria antes da metade?",
+     "acao": "Mão vira a garrafa e o café sai fumegando",
+     "tom": "Curioso e direto"
+    }
+   }
+  },
+  {
+   "pill": "PASSO 4",
+   "titulo": "Copia o prompt de *cada cena*",
+   "sub": "Já vem separado, pronto pra IA de vídeo.",
+   "tipo": "prompts",
+   "dados": {
+    "prompt": "<b>[CENA 1]</b> Vídeo vertical 9:16 em POV. Mão serve café fumegando de uma garrafa térmica preta na mesa.",
+    "prompt2": "<b>[CENA 2]</b> Close na tampa girando e no vapor saindo."
+   }
+  },
+  {
+   "pill": "PASSO 5",
+   "titulo": "Gera com a *foto do produto*",
+   "sub": "YouTube Create ou outro gerador com IA.",
+   "tipo": "generator",
+   "dados": {
+    "prod": "bottle",
+    "prompt": "Vídeo vertical 9:16 em POV. Mão serve café fumegando da garrafa térmica"
+   }
+  },
+  {
+   "pill": "PASSO 6",
+   "titulo": "Posta *uma versão por dia*",
+   "sub": "E vê qual o público prefere.",
+   "tipo": "timeline",
+   "dados": {
+    "prod": "bottle"
+   }
+  },
+  {
+   "pill": "QUER O ACESSO?",
+   "titulo": "Comenta *TTS*",
+   "sub": "pra receber o acesso à ferramenta.",
+   "tipo": "cta",
+   "dados": {
+    "palavra": "TTS",
+    "rotulo": "resposta automática",
+    "resposta": "Aqui está o acesso à ferramenta"
+   },
+   "rodape": "segue pra mais"
+  }
+ ]
+}

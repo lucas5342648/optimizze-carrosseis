@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-11
+- SAÍDA DO MODO VIRAL: os 3 posts de 10/11 no estilo do 08/11 C ficaram abaixo da mediana dos últimos 10 fechados (52,5 views): A 51 (~20h), B 33 (~13h), C 30 (~11h). Copiar o 08/11 C de perto cansou rápido; o 09/11 B (102, 1 save) foi o único "clone" que pegou.
+- Escuro segue sendo o melhor estilo da semana (139, 102, 71 vs tablets 28–63), mas o ângulo "roteiro/Modo Gravação" repetido 4x seguidas caiu. Hipótese: o público reage a gancho novo, não à mesma promessa com outro produto.
+- Variação controlada (6 slides) não mostrou ganho até agora (30 em ~11h); comprimento não parece ser a alavanca. Saves voltaram tímidos (1 em A e C de 10/11).
+- Hoje (regra 2+1, escuro): A 12h "1 vira 3" com gancho novo (garrafa); B 19h Modo Gravação com ângulo "sem mostrar o rosto" (mala); C 21h teste ângulo novo "semana de vídeos em lote" (2 vídeos x 3 versões, 7 slides).
+
 ## 2026-11-10
 - MODO VIRAL (relativo): 08/11 C ESCURO "A IA monta o roteiro do seu próximo vídeo" (Modo Gravação, camiseta, 8 slides, 21h) fechou 139 views, 2 likes, 3,4% de completion = 3,5x a mediana dos últimos 10 fechados (40 views). Melhor post desde 31/10. Não é viral absoluto (longe de 2.000), mas bate a regra dos 3x.
 - Escuro confirmado como o estilo que mais espalha agora: 09/11 B (quase igual ao 08/11 C) 73 views em ~11h e 1 save (primeiro save desde 02/11); 09/11 A "1 vira 3" 68 em ~18h. Tablets de 08/11 fecharam 63 e 28. Hipótese reforçada: cansaço dos 8 prints.

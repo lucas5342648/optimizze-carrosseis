@@ -1,0 +1,116 @@
+{
+ "legenda": "2 vídeos que venderam = 6 vídeos novos 📅 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Como eu tiro uma semana de vídeos de 2 que já venderam",
+ "estilo": "escuro",
+ "angulo": "teste: ângulo novo 'semana de vídeos em lote' (2 vídeos x 3 versões), 7 slides",
+ "slides": [
+  {
+   "pill": "TIKTOK SHOP + IA",
+   "titulo": "Como eu tiro *uma semana de vídeos* de 2 que já venderam",
+   "sub": "2 vídeos campeões, 6 vídeos novos.",
+   "chips": [
+    "em lote",
+    "sem gravar",
+    "só com IA"
+   ],
+   "tipo": "cover",
+   "dados": {
+    "prod": "shirt"
+   },
+   "rodape": "salva esse post"
+  },
+  {
+   "pill": "PASSO 1",
+   "titulo": "Escolhe *2 vídeos* que já venderam",
+   "sub": "De produtos diferentes. Exemplo:",
+   "tipo": "ranking",
+   "dados": {
+    "videos": [
+     {
+      "prod": "shirt",
+      "dur": "0:24",
+      "title": "Camiseta dry fit",
+      "vendidos": "3,9 mil",
+      "receita": "R$ 58 mil"
+     },
+     {
+      "prod": "shoe",
+      "dur": "0:26",
+      "title": "Tênis de corrida leve",
+      "vendidos": "2,1 mil",
+      "receita": "R$ 61 mil"
+     }
+    ]
+   }
+  },
+  {
+   "pill": "PASSO 2",
+   "titulo": "Envia os 2 no *Remix Inteligente*",
+   "sub": "Da **Optimizze AI**. Um de cada vez.",
+   "tipo": "upload",
+   "dados": {
+    "arquivo": "camiseta_que_vendeu.mp4"
+   }
+  },
+  {
+   "pill": "PASSO 3",
+   "titulo": "Cada um volta em *3 versões*",
+   "sub": "2 x 3 = 6 roteiros. Exemplo de cena:",
+   "tipo": "variants",
+   "dados": {
+    "tabs": [
+     "Otimizada e Fiel",
+     "Variação de Contexto",
+     "Variação Criativa"
+    ],
+    "melhorias": [
+     [
+      "Hook",
+      "Abre no suor do treino"
+     ],
+     [
+      "CTA",
+      "Fecha mandando pro carrinho"
+     ]
+    ],
+    "cena": {
+     "nome": "Hook Visual",
+     "fala": "Sua camiseta gruda no corpo no treino?",
+     "acao": "Mão puxa a camiseta molhada do corpo",
+     "tom": "Direto"
+    }
+   }
+  },
+  {
+   "pill": "PASSO 4",
+   "titulo": "Gera as cenas *de uma vez*",
+   "sub": "Prompt pronto + foto do produto.",
+   "tipo": "generator",
+   "dados": {
+    "prod": "shirt",
+    "prompt": "Vídeo vertical 9:16 em POV. Mão puxa a camiseta dry fit do cabide"
+   }
+  },
+  {
+   "pill": "PASSO 5",
+   "titulo": "Posta *1 por dia*",
+   "sub": "6 dias de vídeo pronto.",
+   "tipo": "timeline",
+   "dados": {
+    "prod": "shirt"
+   }
+  },
+  {
+   "pill": "QUER O ACESSO?",
+   "titulo": "Comenta *TTS*",
+   "sub": "pra receber o acesso à ferramenta.",
+   "tipo": "cta",
+   "dados": {
+    "palavra": "TTS",
+    "rotulo": "resposta automática",
+    "resposta": "Aqui está o acesso à ferramenta"
+   },
+   "rodape": "segue pra mais"
+  }
+ ]
+}
