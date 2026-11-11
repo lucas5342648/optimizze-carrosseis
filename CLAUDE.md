@@ -96,7 +96,10 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
 Conector MCP com a biblioteca de vídeos e produtos mais vendidos do TikTok Shop da Optimizze.
 Ferramentas: `listar_em_alta` (tipo video|produto), `ver_video`, `criar_variacoes`, `ver_projeto`,
 `listar_meus_projetos`, `exportar_imagens`, `uso_de_hoje`.
-- **Use todo dia para trocar os "exemplos" inventados por dados reais.** Para cada carrossel do dia:
+- **FASE DE TESTE (desde 11/11):** por enquanto só a tarefa "Carrossel teste com a biblioteca Optimizze"
+  usa o conector (1 carrossel extra, às 16:00). A rotina diária das 08:46 NÃO usa: segue com os exemplos
+  de sempre até o Lucas aprovar o resultado. Quando ele aprovar, esta linha sai e vale o abaixo.
+- Uso: trocar os "exemplos" inventados por dados reais. Para cada carrossel:
   escolha um vídeo de `listar_em_alta` (tipo video, só com `tem_fala`, produtos variados entre os 3,
   de preferência nichos de afiliado: beleza, casa, moda, utilidades), rode `criar_variacoes` e, 1 a 3 min
   depois, `ver_projeto`. Use o resultado REAL nos slides: produto, Resumo da otimização (`improvements`
@@ -112,8 +115,8 @@ Ferramentas: `listar_em_alta` (tipo video|produto), `ver_video`, `criar_variacoe
 - Limite: 6 variações por dia (`uso_de_hoje`). A rotina usa no máximo 3.
 - `exportar_imagens` só funciona se o Lucas configurar o token do GitHub; se responder "desligado",
   siga sem imagens da biblioteca (motores de sempre).
-- Se o conector falhar ou não estiver disponível, siga a rotina normal com exemplos marcados
-  como "exemplo" e avise o Lucas no resumo do dia. Nunca trave a publicação por causa dele.
+- Se o conector falhar ou não estiver disponível, a rotina diária segue normal com exemplos marcados
+  como "exemplo". Nunca trave os 3 carrosséis do dia por causa dele.
 
 ## Quando pedir ajuda ao Lucas
 - Faltam prints/fotos novos (os 8 de `assets/base/` cansam rápido): peça prints SEM legenda.
