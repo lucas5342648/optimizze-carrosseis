@@ -1,0 +1,116 @@
+{
+ "legenda": "6 vídeos de 2 que já venderam 📅 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "6 vídeos pro TikTok Shop numa tarde, sem gravar nada",
+ "estilo": "escuro",
+ "angulo": "explorar: 'semana em lote' (11/11 C, 62 views em ~12h, melhor do dia) com gancho e produtos novos (garrafa + lençol), 7 slides",
+ "slides": [
+  {
+   "pill": "TIKTOK SHOP + IA",
+   "titulo": "*6 vídeos* pro TikTok Shop numa tarde, sem gravar",
+   "sub": "Tudo a partir de 2 vídeos que já venderam.",
+   "chips": [
+    "em lote",
+    "sem gravar",
+    "só com IA"
+   ],
+   "tipo": "cover",
+   "dados": {
+    "prod": "bottle"
+   },
+   "rodape": "salva esse post"
+  },
+  {
+   "pill": "PASSO 1",
+   "titulo": "Escolhe *2 vídeos* que já venderam",
+   "sub": "De produtos diferentes. Exemplo:",
+   "tipo": "ranking",
+   "dados": {
+    "videos": [
+     {
+      "prod": "bottle",
+      "dur": "0:22",
+      "title": "Garrafa térmica 1L",
+      "vendidos": "2,4 mil",
+      "receita": "R$ 43 mil"
+     },
+     {
+      "prod": "bed",
+      "dur": "0:27",
+      "title": "Jogo de lençol 400 fios",
+      "vendidos": "1,8 mil",
+      "receita": "R$ 52 mil"
+     }
+    ]
+   }
+  },
+  {
+   "pill": "PASSO 2",
+   "titulo": "Envia os 2 no *Remix Inteligente*",
+   "sub": "Um de cada vez. Sem escrever nada.",
+   "tipo": "upload",
+   "dados": {
+    "arquivo": "garrafa_que_vendeu.mp4"
+   }
+  },
+  {
+   "pill": "PASSO 3",
+   "titulo": "Cada um volta em *3 variações*",
+   "sub": "Na estrutura que já vendeu. Exemplo:",
+   "tipo": "variants",
+   "dados": {
+    "tabs": [
+     "Otimizada e Fiel",
+     "Variação de Contexto",
+     "Variação Criativa"
+    ],
+    "melhorias": [
+     [
+      "Hook",
+      "Abre no café que esfria rápido"
+     ],
+     [
+      "CTA",
+      "Fecha mandando pro carrinho"
+     ]
+    ],
+    "cena": {
+     "nome": "Hook Visual",
+     "fala": "Seu café esfria antes das 10?",
+     "acao": "Mão abre a garrafa e sai vapor",
+     "tom": "Curioso"
+    }
+   }
+  },
+  {
+   "pill": "PASSO 4",
+   "titulo": "Gera as cenas *de uma vez*",
+   "sub": "Prompt pronto + foto do produto.",
+   "tipo": "generator",
+   "dados": {
+    "prod": "bottle",
+    "prompt": "Vídeo vertical 9:16 em POV. Mão abre a garrafa térmica e sai vapor"
+   }
+  },
+  {
+   "pill": "PASSO 5",
+   "titulo": "*6 vídeos*, 1 por dia",
+   "sub": "A semana inteira postada.",
+   "tipo": "timeline",
+   "dados": {
+    "prod": "bottle"
+   }
+  },
+  {
+   "pill": "QUER O ACESSO?",
+   "titulo": "Comenta *TTS*",
+   "sub": "pra receber o acesso à ferramenta.",
+   "tipo": "cta",
+   "dados": {
+    "palavra": "TTS",
+    "rotulo": "resposta automática",
+    "resposta": "Aqui está o acesso à ferramenta"
+   },
+   "rodape": "segue pra mais"
+  }
+ ]
+}

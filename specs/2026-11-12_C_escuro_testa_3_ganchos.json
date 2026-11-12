@@ -1,0 +1,88 @@
+{
+ "legenda": "Qual gancho vende mais? Testa os 3 🎯 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Não sabe qual gancho usar? Testa 3 no mesmo produto",
+ "estilo": "escuro",
+ "angulo": "teste: ângulo novo '3 ganchos no mesmo produto' (V1/V2/V3 como teste A/B de gancho), 6 slides, tênis",
+ "slides": [
+  {
+   "pill": "TIKTOK SHOP + IA",
+   "titulo": "Não sabe qual gancho usar? *Testa 3* no mesmo produto",
+   "sub": "Um vídeo que já vendeu, 3 aberturas diferentes.",
+   "chips": [
+    "3 ganchos",
+    "mesmo produto",
+    "sem gravar"
+   ],
+   "tipo": "cover",
+   "dados": {
+    "prod": "shoe"
+   },
+   "rodape": "salva esse post",
+   "tam": 80
+  },
+  {
+   "pill": "PASSO 1",
+   "titulo": "Envia um vídeo que *já vendeu*",
+   "sub": "No **Remix Inteligente**.",
+   "tipo": "upload",
+   "dados": {
+    "arquivo": "tenis_que_vendeu.mp4"
+   }
+  },
+  {
+   "pill": "PASSO 2",
+   "titulo": "Cada variação abre de *um jeito*",
+   "sub": "Mesma estrutura, gancho diferente. Exemplo:",
+   "tipo": "hooks",
+   "dados": {
+    "hooks": [
+     [
+      "Otimizada e Fiel",
+      "Seu pé dói depois de 5 km?"
+     ],
+     [
+      "Variação de Contexto",
+      "Corri a semana toda com o mesmo tênis"
+     ],
+     [
+      "Variação Criativa",
+      "Olha o que acontece quando eu piso nesse tênis"
+     ]
+    ]
+   }
+  },
+  {
+   "pill": "PASSO 3",
+   "titulo": "Gera as *3 aberturas*",
+   "sub": "Prompt pronto + foto do produto.",
+   "tipo": "generator",
+   "dados": {
+    "prod": "shoe",
+    "prompt": "Vídeo vertical 9:16 em POV. Mão aperta a sola do tênis e ela volta na hora"
+   }
+  },
+  {
+   "pill": "PASSO 4",
+   "titulo": "Posta 1 por dia e *vê qual vende*",
+   "sub": "O gancho que vender vira o padrão.",
+   "tipo": "timeline",
+   "dados": {
+    "prod": "shoe",
+    "n": 3,
+    "dur": "0:21"
+   }
+  },
+  {
+   "pill": "QUER O ACESSO?",
+   "titulo": "Comenta *TTS*",
+   "sub": "pra receber o acesso à ferramenta.",
+   "tipo": "cta",
+   "dados": {
+    "palavra": "TTS",
+    "rotulo": "resposta automática",
+    "resposta": "Aqui está o acesso à ferramenta"
+   },
+   "rodape": "segue pra mais"
+  }
+ ]
+}

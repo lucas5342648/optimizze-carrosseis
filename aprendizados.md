@@ -1,5 +1,13 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-12
+- Sem viral (mediana dos últimos 10 fechados = 62 views; nenhum >= 186 nem 2.000+ nos últimos 7 dias). Regra normal 2+1; fila vazia.
+- 10/11 fechou: B 79 (19h), C 59 (1 save), A 56 (1 save). 19h segue o melhor slot do escuro (09/11 B 107, 10/11 B 79). Top dos 7 dias: 08/11 C 140; pior: 08/11 B tablet 30.
+- Parciais de 11/11: C "semana em lote" 62 em ~12h (melhor ritmo do dia, o teste ganhou dos 2 de explorar); A "1 vira 3" 49 em ~21h; B "sem mostrar o rosto" só 25 em ~14h (ângulo "sem aparecer" não pega no escuro).
+- E (prints reais da biblioteca, postado pelo Lucas às 22:05) 54 views em ~11h, 1 save e 8,6% de completion: a melhor retenção desde 04/11. Pista: print real + número real segura mais que mockup.
+- Desde 11/11 o render.py não mostra mais "Optimizze AI"/URL no cabeçalho dos mockups (vira "Remix Inteligente" com ícone "IA").
+- Hoje: A 12h "6 vídeos numa tarde" (explorar lote, garrafa + lençol); B 19h estrutura do 08/11 C com gancho "pare de inventar roteiro" (sérum, beleza); C 21h teste "3 ganchos no mesmo produto" (6 slides, tênis).
+
 ## 2026-11-11
 - SAÍDA DO MODO VIRAL: os 3 posts de 10/11 no estilo do 08/11 C ficaram abaixo da mediana dos últimos 10 fechados (52,5 views): A 51 (~20h), B 33 (~13h), C 30 (~11h). Copiar o 08/11 C de perto cansou rápido; o 09/11 B (102, 1 save) foi o único "clone" que pegou.
 - Escuro segue sendo o melhor estilo da semana (139, 102, 71 vs tablets 28–63), mas o ângulo "roteiro/Modo Gravação" repetido 4x seguidas caiu. Hipótese: o público reage a gancho novo, não à mesma promessa com outro produto.

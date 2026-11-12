@@ -131,9 +131,10 @@ def thumb(prod, dur=None, w=150, h=200):
     return f'<div class="thumb" style="background:{GRADS[prod]};width:{w}px;height:{h}px">{icon(prod)}{d}</div>'
 
 
-def phone(inner, url="optimizzeai.com", app="Optimizze AI"):
+def phone(inner, url=None, app="Remix Inteligente"):
+    # desde 11/11: sem nome/URL da marca nos slides
     u = f'<div class="url">{LOCK}{url}</div>' if url else ""
-    a = f'<div class="apphead"><div class="logo">O</div>{app}</div>' if app else ""
+    a = f'<div class="apphead"><div class="logo">IA</div>{app}</div>' if app else ""
     return f'<div class="phone">{u}{a}{inner}</div>'
 
 

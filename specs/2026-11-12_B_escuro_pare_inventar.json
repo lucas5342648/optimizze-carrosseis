@@ -1,0 +1,125 @@
+{
+ "legenda": "Estrutura de quem já vendeu, cena por cena 🎬 Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "titulo_post": "Pare de inventar roteiro: copie a estrutura de quem já vendeu",
+ "estilo": "escuro",
+ "angulo": "explorar: estrutura do 08/11 C (Modo Gravação, 8 slides, 140 views) com gancho do banco 'pare de inventar roteiro' e nicho beleza (sérum)",
+ "slides": [
+  {
+   "pill": "TIKTOK SHOP + IA",
+   "titulo": "Pare de inventar roteiro. *Copia a estrutura* de quem já vendeu",
+   "sub": "Cena por cena, com fala, ação e tom.",
+   "chips": [
+    "sem roteiro",
+    "sem câmera",
+    "só com IA"
+   ],
+   "tipo": "cover",
+   "dados": {
+    "prod": "tube"
+   },
+   "rodape": "salva esse post",
+   "tam": 78
+  },
+  {
+   "pill": "PASSO 1",
+   "titulo": "Envia um vídeo que *já vendeu*",
+   "sub": "No **Remix Inteligente**.",
+   "tipo": "upload",
+   "dados": {
+    "arquivo": "serum_que_vendeu.mp4"
+   }
+  },
+  {
+   "pill": "PASSO 2",
+   "titulo": "Ela mostra o que *dá pra melhorar*",
+   "sub": "Resumo da otimização. Exemplo:",
+   "tipo": "gauge",
+   "dados": {
+    "itens": [
+     [
+      "Hook",
+      "Abre na pele oleosa, não no produto"
+     ],
+     [
+      "Estrutura da Copy",
+      "Dor, textura, resultado"
+     ],
+     [
+      "CTA",
+      "Chamada clara pro carrinho"
+     ]
+    ]
+   }
+  },
+  {
+   "pill": "PASSO 3",
+   "titulo": "Devolve *3 variações* com Modo Gravação",
+   "sub": "Na estrutura que já vendeu. Exemplo de cena:",
+   "tipo": "variants",
+   "dados": {
+    "tabs": [
+     "Otimizada e Fiel",
+     "Variação de Contexto",
+     "Variação Criativa"
+    ],
+    "melhorias": [
+     [
+      "Hook",
+      "Pergunta direto na dor"
+     ],
+     [
+      "CTA",
+      "Fecha mandando pro carrinho"
+     ]
+    ],
+    "cena": {
+     "nome": "Hook Visual",
+     "fala": "Sua pele brilha antes do almoço?",
+     "acao": "Mão passa o lenço na testa e mostra o brilho",
+     "tom": "Direto"
+    }
+   }
+  },
+  {
+   "pill": "PASSO 4",
+   "titulo": "Copia o prompt de *cada cena*",
+   "sub": "Já vem separado, pronto pra IA de vídeo.",
+   "tipo": "prompts",
+   "dados": {
+    "prompt": "<b>[CENA 1]</b> Vídeo vertical 9:16 em POV. Só as mãos aparecem pingando o sérum no dorso da mão.",
+    "prompt2": "<b>[CENA 2]</b> Close na textura do sérum escorrendo do conta-gotas."
+   }
+  },
+  {
+   "pill": "PASSO 5",
+   "titulo": "Cola no gerador com a *foto do produto*",
+   "sub": "YouTube Create ou outro gerador com IA.",
+   "tipo": "generator",
+   "dados": {
+    "prod": "tube",
+    "prompt": "Vídeo vertical 9:16 em POV. As mãos pingam o sérum no dorso da mão"
+   }
+  },
+  {
+   "pill": "PASSO 6",
+   "titulo": "Junta as cenas e *posta*",
+   "sub": "Sem câmera e sem estúdio.",
+   "tipo": "timeline",
+   "dados": {
+    "prod": "tube"
+   }
+  },
+  {
+   "pill": "QUER O ACESSO?",
+   "titulo": "Comenta *TTS*",
+   "sub": "pra receber o acesso à ferramenta.",
+   "tipo": "cta",
+   "dados": {
+    "palavra": "TTS",
+    "rotulo": "resposta automática",
+    "resposta": "Aqui está o acesso à ferramenta"
+   },
+   "rodape": "segue pra mais"
+  }
+ ]
+}
