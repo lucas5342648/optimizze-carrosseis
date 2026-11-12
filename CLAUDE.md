@@ -31,7 +31,11 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
    - Registre em `aprendizados.md` qual post viralizou, os números e o que está sendo testado.
    - Saia do modo viral quando 3 posts seguidos no estilo dele ficarem abaixo da mediana.
    Sem post viral, use a regra normal abaixo.
-5. **Decidir os 3 carrosséis do dia** (regra normal 2+1):
+5. **Decidir os 3 carrosséis do dia** — desde 13/11 os 3 são no estilo `prints`, cada um com um vídeo/produto
+   DIFERENTE da biblioteca (variar nichos: moda, beleza, casa, ferramentas, utilidades). A regra 2+1 abaixo
+   vale dentro do estilo prints: 2 repetem a estrutura do melhor post prints recente; 1 muda UMA coisa
+   (tipo de gancho, nº de slides, passos numerados "1." vs "Passo 1:", texto do CTA).
+   Regra normal 2+1 (e o modo viral acima, que tem prioridade):
    - 2 carrosséis "explorar o que funciona": estilo/ângulo/gancho do melhor desempenho recente.
    - 1 carrossel "teste": um ângulo ou gancho novo do `banco_angulos.md` (ou outro estilo).
    - Nunca repetir um gancho de capa usado nos últimos 14 dias (ver `historico.csv`).
@@ -40,7 +44,10 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
      e depois mova o spec para `specs/` com a data do dia no nome.
      Fora do modo viral, o estilo `tablet` também pode ser usado nos 2 de "explorar" se performar bem.
 6. **Gerar**: escreva um spec em `specs/AAAA-MM-DD_<letra>_<slug>.json` e renderize:
-   - Estilo **nativo** (padrão, performa melhor): `python3 motor/nativo.py <spec> carrosseis/<pasta> <PREFIXO>`
+   - Estilo **prints** (PADRÃO desde 13/11): prints REAIS das telas do app com dados reais da biblioteca
+     (conector Optimizze). Passo a passo completo em `captura/README.md`; motor `motor/prints.py`.
+     Exemplos: `specs/2026-11-12_F_prints_bermuda.json` (Passo 1..5) e `specs/2026-11-12_G_prints_parafusadeira.json` (1. 2. 3.).
+   - Estilo **nativo** (antigo padrão; usar se a captura falhar): `python3 motor/nativo.py <spec> carrosseis/<pasta> <PREFIXO>`
      usa os prints reais de `assets/base/` (ver `assets/base/base.json` pro papel de cada imagem).
    - Estilo **tablet** (formato do viral do nicho): `python3 motor/tablet.py <spec> carrosseis/<pasta> <PREFIXO>`;
      legenda em 2 camadas (branco + vermelho), slide 2 pedindo pra salvar, passos numerados,
@@ -58,6 +65,8 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
    content: "<título curto, até 90 caracteres, sem hashtags>"
    ```
    Se um horário do dia já passou, pule pro próximo horário livre (nunca agende no passado).
+   **Antes de agendar**, liste os posts já agendados pra hoje na conta (`posts_list_posts`): se já houver
+   carrossel agendado num horário, NÃO agende outro por cima (não duplicar) e avise o Lucas no resumo.
    **PUBLICAÇÃO DIRETA (desde 29/10)**: `draft: false` + `autoAddMusic: true` = o Zernio publica sozinho
    no horário e o TikTok escolhe a música. NUNCA use `draft: true`: os rascunhos da Caixa de entrada
    chegavam com atraso de horas/dias e um falhou ("could not process as inbox draft"). O Lucas NÃO
@@ -103,9 +112,7 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
 Conector MCP com a biblioteca de vídeos e produtos mais vendidos do TikTok Shop da Optimizze.
 Ferramentas: `listar_em_alta` (tipo video|produto), `ver_video`, `criar_variacoes`, `ver_projeto`,
 `listar_meus_projetos`, `exportar_imagens`, `uso_de_hoje`.
-- **FASE DE TESTE (desde 11/11):** por enquanto só a tarefa "Carrossel teste com a biblioteca Optimizze"
-  usa o conector (1 carrossel extra, às 16:00). A rotina diária das 08:46 NÃO usa: segue com os exemplos
-  de sempre até o Lucas aprovar o resultado. Quando ele aprovar, esta linha sai e vale o abaixo.
+- **Em uso diário desde 13/11** (o Lucas aprovou o estilo prints em 12/11).
 - Uso: trocar os "exemplos" inventados por dados reais. Para cada carrossel:
   escolha um vídeo de `listar_em_alta` (tipo video, só com `tem_fala`, produtos variados entre os 3,
   de preferência nichos de afiliado: beleza, casa, moda, utilidades), rode `criar_variacoes` e, 1 a 3 min
@@ -118,15 +125,15 @@ Ferramentas: `listar_em_alta` (tipo video|produto), `ver_video`, `criar_variacoe
   de 7 dias) e "Cria variações na estrutura que já vendeu". Sem citar o nome da marca.
 - **Estilo `prints` (motor/prints.py, desde 11/11):** prints REAIS das telas do app (abertas a partir do
   código do repositório viralsafeai com os dados do conector) + legenda em caixa branca. Exemplo:
-  specs/2026-11-11_E_prints_protetor.json. A captura ainda é feita fora da rotina (sessão do Lucas).
+  specs/2026-11-11_E_prints_protetor.json. A rotina faz a captura sozinha (ver `captura/README.md`).
 - Números reais da biblioteca podem ir no slide (vendas e faturamento de 7 dias, views), sempre
   como "estimado" e sem citar o nome/@ do criador do vídeo original. Nunca usar capa ou trecho do
   vídeo de outro criador como se fosse do Lucas.
 - Limite: 6 variações por dia (`uso_de_hoje`). A rotina usa no máximo 3.
 - `exportar_imagens` só funciona se o Lucas configurar o token do GitHub; se responder "desligado",
   siga sem imagens da biblioteca (motores de sempre).
-- Se o conector falhar ou não estiver disponível, a rotina diária segue normal com exemplos marcados
-  como "exemplo". Nunca trave os 3 carrosséis do dia por causa dele.
+- Se o conector ou a captura falharem, a rotina segue com o estilo nativo/escuro e exemplos marcados como
+  "exemplo", e avisa o Lucas no resumo do dia. Nunca trave os 3 carrosséis do dia por causa disso.
 
 ## Quando pedir ajuda ao Lucas
 - Faltam prints/fotos novos (os 8 de `assets/base/` cansam rápido): peça prints SEM legenda.
