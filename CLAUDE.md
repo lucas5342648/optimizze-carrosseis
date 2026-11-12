@@ -102,6 +102,12 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
   se o nome pode ser usado). Falar "a ferramenta" / "a IA". Nos prints reais, o logo fica borrado.
 - **Como descrever o recurso:** nunca "a IA gera roteiros". O certo: gera **variações** baseadas na
   **estrutura validada** de vídeos que já venderam (V1/V2/V3 com cenas fala/ação/tom).
+- **Gancho que conecta com o afiliado (desde 12/11):** o carrossel NUNCA começa direto no passo a passo.
+  Slide 1 = HEADLINE grande no topo falando com o afiliado e dizendo o que o post vai mostrar
+  (ex.: "Afiliado: para de gravar vídeo que não vende", "Não sabe o que gravar hoje?") + subtítulo na caixa
+  com a prova real (vendas do vídeo) + card do vídeo. Slide 2 = dor/promessa ou "salva esse passo a passo"
+  (ex.: "O segredo não é o produto" / "É a estrutura do vídeo. Te mostro como usar a de quem já vende").
+  Só depois vêm os passos. Ver specs/2026-11-12_F_prints_bermuda.json e _G_prints_parafusadeira.json.
 - **Vídeo citado = só ele na tela:** quando o slide fala de um vídeo específico, o print mostra só
   aquele vídeo (sem a grade de outros vídeos), e o @ do criador sempre borrado.
 - Sem emoji dentro dos slides (não há fonte de emoji); emojis só na legenda.
