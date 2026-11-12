@@ -6,9 +6,25 @@
  "slides": [
   {
    "print": "assets/prints/2026-11-12_bermuda/s1.jpg",
-   "texto": "Esse vídeo vendeu 2 mil kits de bermuda em 7 dias",
-   "y": 0.085,
-   "tam": 64
+   "headline": {
+    "texto": "Afiliado: para de gravar vídeo que não vende",
+    "y": 0.055,
+    "tam": 88,
+    "cor": "white"
+   },
+   "texto": "Esse aqui vendeu 2 mil kits de bermuda em 7 dias",
+   "y": 0.285,
+   "tam": 52
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-12_bermuda/s2.jpg",
+    "titulo": "O segredo não é o produto",
+    "tam": 118,
+    "y": 0.3,
+    "texto": "É a estrutura do vídeo. Te mostro como usar a de quem já vende",
+    "tam_texto": 52
+   }
   },
   {
    "print": "assets/prints/2026-11-12_bermuda/s2.jpg",

@@ -6,9 +6,25 @@
  "slides": [
   {
    "print": "assets/prints/2026-11-12_parafusadeira/s1.jpg",
-   "texto": "Um vídeo de 54 segundos vendeu mil parafusadeiras",
-   "y": 0.085,
-   "tam": 64
+   "headline": {
+    "texto": "Não sabe o que gravar hoje?",
+    "y": 0.055,
+    "tam": 88,
+    "cor": "amarelo"
+   },
+   "texto": "Esse vídeo de 54 segundos vendeu mil parafusadeiras",
+   "y": 0.285,
+   "tam": 52
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-12_parafusadeira/s2.jpg",
+    "titulo": "Salva esse passo a passo",
+    "tam": 118,
+    "y": 0.3,
+    "texto": "Pra gravar seu próximo vídeo com estrutura que já vende",
+    "tam_texto": 52
+   }
   },
   {
    "print": "assets/prints/2026-11-12_parafusadeira/s2.jpg",
