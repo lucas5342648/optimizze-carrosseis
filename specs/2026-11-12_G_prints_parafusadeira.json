@@ -1,0 +1,46 @@
+{
+ "titulo_post": "Um vídeo de 54 segundos vendeu mil parafusadeiras",
+ "estilo": "prints",
+ "angulo": "PRINTS REAIS (variação: gancho de duração do vídeo + passos numerados sem 'Passo'), parafusadeira 1.025 vendas 7d",
+ "legenda": "Um vídeo de 54 segundos vendeu mais de mil parafusadeiras em 7 dias 🔧 Peguei a estrutura dele e a IA me deu 3 variações prontas pra gravar. Vendas estimadas. Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "slides": [
+  {
+   "print": "assets/prints/2026-11-12_parafusadeira/s1.jpg",
+   "texto": "Um vídeo de 54 segundos vendeu mil parafusadeiras",
+   "y": 0.085,
+   "tam": 64
+  },
+  {
+   "print": "assets/prints/2026-11-12_parafusadeira/s2.jpg",
+   "texto": "1. Abre o ranking do que mais vende na semana",
+   "y": 0.44
+  },
+  {
+   "print": "assets/prints/2026-11-12_parafusadeira/s3.jpg",
+   "texto": "2. Escolhe o vídeo e mantém a estrutura dele",
+   "y": 0.72
+  },
+  {
+   "print": "assets/prints/2026-11-12_parafusadeira/s4.jpg",
+   "texto": "3. Recebe a variação pronta: fala, ação e tom",
+   "y": 0.36
+  },
+  {
+   "print": "assets/prints/2026-11-12_parafusadeira/s5.jpg",
+   "texto": "4. Testa outro gancho com a V3",
+   "y": 0.36
+  },
+  {
+   "print": "assets/prints/2026-11-12_parafusadeira/s6.jpg",
+   "texto": "5. Grava seguindo as dicas e posta",
+   "y": 0.62
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-12_parafusadeira/s4.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}

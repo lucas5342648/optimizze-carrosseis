@@ -1,0 +1,46 @@
+{
+ "titulo_post": "Esse vídeo vendeu 2 mil kits de bermuda e eu criei 3 variações",
+ "estilo": "prints",
+ "angulo": "PRINTS REAIS (explorar: mesma estrutura do E 11/11), bermuda dry fit 2.218 vendas 7d",
+ "legenda": "Achei o vídeo que mais vende esse kit de bermuda e a IA me deu 3 variações na mesma estrutura que já vendeu 🩳 Vendas estimadas de 7 dias. Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "slides": [
+  {
+   "print": "assets/prints/2026-11-12_bermuda/s1.jpg",
+   "texto": "Esse vídeo vendeu 2 mil kits de bermuda em 7 dias",
+   "y": 0.085,
+   "tam": 64
+  },
+  {
+   "print": "assets/prints/2026-11-12_bermuda/s2.jpg",
+   "texto": "Passo 1: acha um vídeo que já vende",
+   "y": 0.44
+  },
+  {
+   "print": "assets/prints/2026-11-12_bermuda/s3.jpg",
+   "texto": "Passo 2: cria variações na estrutura que já vendeu",
+   "y": 0.72
+  },
+  {
+   "print": "assets/prints/2026-11-12_bermuda/s4.jpg",
+   "texto": "Passo 3: cada variação vem cena por cena",
+   "y": 0.36
+  },
+  {
+   "print": "assets/prints/2026-11-12_bermuda/s5.jpg",
+   "texto": "Passo 4: mais 2 variações, cada uma com outro gancho",
+   "y": 0.36
+  },
+  {
+   "print": "assets/prints/2026-11-12_bermuda/s6.jpg",
+   "texto": "Passo 5: segue as dicas de gravação e posta",
+   "y": 0.62
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-12_bermuda/s4.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}
