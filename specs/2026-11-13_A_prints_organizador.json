@@ -1,0 +1,62 @@
+{
+ "titulo_post": "Esse vídeo vendeu 2,5 mil organizadores e eu criei 3 variações",
+ "estilo": "prints",
+ "angulo": "PRINTS REAIS (explorar: estrutura do F 12/11, Passo 1..5, 8 slides), organizador de roupas 2.575 vendas 7d",
+ "legenda": "Achei o vídeo que mais vende esse organizador de roupas e a IA me deu 3 variações na mesma estrutura que já vendeu 🧺 Vendas estimadas de 7 dias. Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "slides": [
+  {
+   "print": "assets/prints/2026-11-13_organizador/s1.jpg",
+   "headline": {
+    "texto": "Afiliado: copia a estrutura de quem já vende",
+    "y": 0.055,
+    "tam": 88,
+    "cor": "white"
+   },
+   "texto": "Esse vídeo vendeu 2,5 mil organizadores em 7 dias",
+   "y": 0.285,
+   "tam": 52
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-13_organizador/s2.jpg",
+    "titulo": "O segredo não é o produto",
+    "tam": 118,
+    "y": 0.3,
+    "texto": "É a estrutura do vídeo. Te mostro como usar a de quem já vende",
+    "tam_texto": 52
+   }
+  },
+  {
+   "print": "assets/prints/2026-11-13_organizador/s2.jpg",
+   "texto": "Passo 1: acha um vídeo que já vende",
+   "y": 0.44
+  },
+  {
+   "print": "assets/prints/2026-11-13_organizador/s3.jpg",
+   "texto": "Passo 2: cria variações na estrutura que já vendeu",
+   "y": 0.72
+  },
+  {
+   "print": "assets/prints/2026-11-13_organizador/s4.jpg",
+   "texto": "Passo 3: cada variação vem cena por cena",
+   "y": 0.36
+  },
+  {
+   "print": "assets/prints/2026-11-13_organizador/s5.jpg",
+   "texto": "Passo 4: mais 2 variações, cada uma com outro gancho",
+   "y": 0.36
+  },
+  {
+   "print": "assets/prints/2026-11-13_organizador/s6.jpg",
+   "texto": "Passo 5: segue as dicas de gravação e posta",
+   "y": 0.62
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-13_organizador/s4.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}

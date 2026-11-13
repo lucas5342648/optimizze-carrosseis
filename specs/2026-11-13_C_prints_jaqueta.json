@@ -1,0 +1,57 @@
+{
+ "titulo_post": "Esse vídeo vendeu 860 jaquetas e eu criei variações dele",
+ "estilo": "prints",
+ "angulo": "PRINTS REAIS (variação controlada do F 12/11: só muda nº de slides, 7 em vez de 8, sem o slide da V3), jaqueta fitness 860 vendas 7d",
+ "legenda": "Esse vídeo de jaqueta fitness vendeu 860 unidades em 7 dias 🧥 Peguei a estrutura dele e a IA me deu variações prontas pra gravar. Vendas estimadas. Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "slides": [
+  {
+   "print": "assets/prints/2026-11-13_jaqueta/s1.jpg",
+   "headline": {
+    "texto": "Afiliado: grava o que já tá vendendo",
+    "y": 0.055,
+    "tam": 88,
+    "cor": "white"
+   },
+   "texto": "Esse vídeo vendeu 860 jaquetas em 7 dias",
+   "y": 0.285,
+   "tam": 52
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-13_jaqueta/s2.jpg",
+    "titulo": "O segredo não é o produto",
+    "tam": 118,
+    "y": 0.3,
+    "texto": "É a estrutura do vídeo. Te mostro como usar a de quem já vende",
+    "tam_texto": 52
+   }
+  },
+  {
+   "print": "assets/prints/2026-11-13_jaqueta/s2.jpg",
+   "texto": "Passo 1: acha um vídeo que já vende",
+   "y": 0.44
+  },
+  {
+   "print": "assets/prints/2026-11-13_jaqueta/s3.jpg",
+   "texto": "Passo 2: cria variações na estrutura que já vendeu",
+   "y": 0.72
+  },
+  {
+   "print": "assets/prints/2026-11-13_jaqueta/s4.jpg",
+   "texto": "Passo 3: cada variação vem cena por cena",
+   "y": 0.36
+  },
+  {
+   "print": "assets/prints/2026-11-13_jaqueta/s6.jpg",
+   "texto": "Passo 4: segue as dicas de gravação e posta",
+   "y": 0.62
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-13_jaqueta/s4.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}
