@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-13
+- Sem viral (mediana dos últimos 10 fechados ≈ 66 views; nenhum >= 198 nem 2.000+ nos últimos 7 dias). Regra 2+1 dentro do estilo prints (padrão desde hoje).
+- F prints bermuda (19h, "Afiliado: para de gravar vídeo que não vende") 80 views e 2 saves em ~13h: melhor ritmo e mais saves de toda a semana. G prints parafusadeira (21h, gancho pergunta + "1." "2.") 41 em ~11h, 0 saves. Hipótese: headline "Afiliado: ..." + slide "o segredo não é o produto" > pergunta + "salva esse passo a passo".
+- E prints protetor fechou 93 views (melhor post da semana depois do 09/11 B 110). Prints reais seguem acima do escuro (12/11 A escuro 27 em ~20h, pior recente).
+- Hoje: A 12h (organizador) e B 19h (travesseiro) = estrutura do F com gancho novo "Afiliado: ..."; C 21h (jaqueta) = mesma estrutura cortada pra 7 slides (sem o slide da V3), testando só o comprimento.
+
 ## 2026-11-12
 - Sem viral (mediana dos últimos 10 fechados = 62 views; nenhum >= 186 nem 2.000+ nos últimos 7 dias). Regra normal 2+1; fila vazia.
 - 10/11 fechou: B 79 (19h), C 59 (1 save), A 56 (1 save). 19h segue o melhor slot do escuro (09/11 B 107, 10/11 B 79). Top dos 7 dias: 08/11 C 140; pior: 08/11 B tablet 30.
