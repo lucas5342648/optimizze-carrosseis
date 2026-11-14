@@ -1,0 +1,62 @@
+{
+ "titulo_post": "Esse vídeo fez R$ 65 mil em 7 dias e eu copiei a estrutura",
+ "estilo": "prints",
+ "angulo": "PRINTS REAIS (variação controlada do F 12/11: só muda o tipo de gancho da capa, número real no headline em vez de 'Afiliado: ...'), séruns corporais 367 vendas 7d",
+ "legenda": "Esse vídeo de sérum corporal faturou R$ 65 mil em 7 dias (estimado) ✨ Copiei a estrutura dele e a IA me deu 3 variações na mesma estrutura que já vendeu. Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "slides": [
+  {
+   "print": "assets/prints/2026-11-14_serum/s1.jpg",
+   "headline": {
+    "texto": "Esse vídeo fez\nR$ 65 mil em 7 dias",
+    "y": 0.055,
+    "tam": 88,
+    "cor": "white"
+   },
+   "texto": "367 kits vendidos (estimado). Copia a estrutura dele",
+   "y": 0.285,
+   "tam": 52
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-14_serum/s2.jpg",
+    "titulo": "O segredo não é o produto",
+    "tam": 118,
+    "y": 0.3,
+    "texto": "É a estrutura do vídeo. Te mostro como usar a de quem já vende",
+    "tam_texto": 52
+   }
+  },
+  {
+   "print": "assets/prints/2026-11-14_serum/s2.jpg",
+   "texto": "Passo 1: acha um vídeo que já vende",
+   "y": 0.44
+  },
+  {
+   "print": "assets/prints/2026-11-14_serum/s3.jpg",
+   "texto": "Passo 2: cria variações na estrutura que já vendeu",
+   "y": 0.72
+  },
+  {
+   "print": "assets/prints/2026-11-14_serum/s4.jpg",
+   "texto": "Passo 3: cada variação vem cena por cena",
+   "y": 0.36
+  },
+  {
+   "print": "assets/prints/2026-11-14_serum/s5.jpg",
+   "texto": "Passo 4: mais 2 variações, cada uma com outro gancho",
+   "y": 0.36
+  },
+  {
+   "print": "assets/prints/2026-11-14_serum/s6.jpg",
+   "texto": "Passo 5: segue as dicas de gravação e posta",
+   "y": 0.62
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-14_serum/s4.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}

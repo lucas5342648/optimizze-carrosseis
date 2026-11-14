@@ -1,0 +1,62 @@
+{
+ "titulo_post": "Esse vídeo vendeu 778 projetores e eu criei 3 variações dele",
+ "estilo": "prints",
+ "angulo": "PRINTS REAIS (explorar: estrutura do F 12/11, Passo 1..5, 8 slides), projetor portátil 778 vendas 7d",
+ "legenda": "Achei um vídeo de projetor que vendeu 778 unidades em 7 dias (estimado) 📽️ Peguei a estrutura dele e a IA me deu 3 variações prontas, cena por cena. Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "slides": [
+  {
+   "print": "assets/prints/2026-11-14_projetor/s1.jpg",
+   "headline": {
+    "texto": "Afiliado: seu próximo vídeo já foi validado",
+    "y": 0.055,
+    "tam": 88,
+    "cor": "white"
+   },
+   "texto": "Esse vídeo vendeu 778 projetores em 7 dias",
+   "y": 0.285,
+   "tam": 52
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-14_projetor/s2.jpg",
+    "titulo": "O segredo não é o produto",
+    "tam": 118,
+    "y": 0.3,
+    "texto": "É a estrutura do vídeo. Te mostro como usar a de quem já vende",
+    "tam_texto": 52
+   }
+  },
+  {
+   "print": "assets/prints/2026-11-14_projetor/s2.jpg",
+   "texto": "Passo 1: acha um vídeo que já vende",
+   "y": 0.44
+  },
+  {
+   "print": "assets/prints/2026-11-14_projetor/s3.jpg",
+   "texto": "Passo 2: cria variações na estrutura que já vendeu",
+   "y": 0.72
+  },
+  {
+   "print": "assets/prints/2026-11-14_projetor/s4.jpg",
+   "texto": "Passo 3: cada variação vem cena por cena",
+   "y": 0.36
+  },
+  {
+   "print": "assets/prints/2026-11-14_projetor/s5.jpg",
+   "texto": "Passo 4: mais 2 variações, cada uma com outro gancho",
+   "y": 0.36
+  },
+  {
+   "print": "assets/prints/2026-11-14_projetor/s6.jpg",
+   "texto": "Passo 5: segue as dicas de gravação e posta",
+   "y": 0.62
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-14_projetor/s4.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}
