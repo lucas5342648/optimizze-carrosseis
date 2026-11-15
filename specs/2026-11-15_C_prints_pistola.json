@@ -1,0 +1,62 @@
+{
+ "titulo_post": "Esse vídeo vendeu 773 pistolas de pintura e eu criei 3 variações",
+ "estilo": "prints",
+ "angulo": "PRINTS REAIS (variação controlada do F 12/11: só a numeração dos passos '1.' em vez de 'Passo 1:'), pistola de pintura 773 vendas 7d",
+ "legenda": "Achei um vídeo de pistola de pintura que vendeu 773 unidades em 7 dias (estimado) 🎨 Peguei a estrutura dele e a IA me deu 3 variações prontas, cena por cena. Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "slides": [
+  {
+   "print": "assets/prints/2026-11-15_pistola/s1.jpg",
+   "headline": {
+    "texto": "Afiliado: para de postar no escuro",
+    "y": 0.055,
+    "tam": 88,
+    "cor": "white"
+   },
+   "texto": "Esse vídeo vendeu 773 pistolas de pintura em 7 dias",
+   "y": 0.285,
+   "tam": 52
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-15_pistola/s2.jpg",
+    "titulo": "O segredo não é o produto",
+    "tam": 118,
+    "y": 0.3,
+    "texto": "É a estrutura do vídeo. Te mostro como usar a de quem já vende",
+    "tam_texto": 52
+   }
+  },
+  {
+   "print": "assets/prints/2026-11-15_pistola/s2.jpg",
+   "texto": "1. Acha um vídeo que já vende",
+   "y": 0.44
+  },
+  {
+   "print": "assets/prints/2026-11-15_pistola/s3.jpg",
+   "texto": "2. Cria variações na estrutura que já vendeu",
+   "y": 0.72
+  },
+  {
+   "print": "assets/prints/2026-11-15_pistola/s4.jpg",
+   "texto": "3. Cada variação vem cena por cena",
+   "y": 0.36
+  },
+  {
+   "print": "assets/prints/2026-11-15_pistola/s5.jpg",
+   "texto": "4. Mais 2 variações, cada uma com outro gancho",
+   "y": 0.36
+  },
+  {
+   "print": "assets/prints/2026-11-15_pistola/s6.jpg",
+   "texto": "5. Segue as dicas de gravação e posta",
+   "y": 0.62
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-15_pistola/s4.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "pra receber o acesso à ferramenta"
+   }
+  }
+ ]
+}
