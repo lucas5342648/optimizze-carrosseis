@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-15
+- Sem viral (mediana dos últimos 10 fechados = 71,5 views; teto 3x = 214; nenhum perto nem de 2.000 nos últimos 7 dias). Regra 2+1 dentro do estilo prints.
+- Estrutura F estável em 80–92 quando fecha: F bermuda 92 (2 saves), B travesseiro 83, A organizador 80. Ainda abaixo do E protetor (114, número na capa). O G parafusadeira (pergunta + "1.") fechou 67 e o C jaqueta 7 slides 43 (mas 7,7% de completion, a melhor da semana): cortar slide não traz alcance.
+- Sábado fraco: parciais de 14/11 bem abaixo do ritmo (A projetor 35 em ~20h, B bolsa 15 em ~13h, C sérum 23 em ~11h com 1 save). O teste do número na capa (C) só dá pra julgar amanhã; por enquanto empata.
+- Hoje: A coberdrom 12h e B camiseta 19h = estrutura F com "Afiliado: ..." novo; C pistola 21h = estrutura F idêntica, mudando só "Passo 1:" para "1." (isola o efeito da numeração, que no G veio junto com o gancho pergunta).
+
 ## 2026-11-14
 - Sem viral (mediana dos últimos 10 fechados = 60,5 views; nenhum >= 182 nem 2.000+ nos últimos 7 dias). Regra 2+1 dentro do estilo prints.
 - Prints fechados lideram a semana: 11/11 E protetor 98 (1 save, 6,6% completion), 12/11 F bermuda 88 (2 saves), 12/11 G parafusadeira 60 (0 saves). Escuro recente: 12/11 A 32 (pior), mas foi o único com comments (3).
