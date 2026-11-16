@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-16
+- Sem viral (mediana dos últimos 10 fechados = 64 views; teto 3x = 192; nenhum perto de 2.000 nos últimos 7 dias). Regra 2+1 dentro do estilo prints.
+- O teste do número na capa venceu o dia: 14/11 C sérum ("Esse vídeo fez R$ 65 mil em 7 dias") fechou 60 views, 2 likes, 2 saves e 1 share, contra 42 (A projetor) e 38 (B bolsa) com "Afiliado: ...". Somado ao E protetor (117, "vendeu 2 mil protetores"), os 2 melhores prints têm NÚMERO no headline.
+- ALERTA: 15/11 despencou nas parciais (A coberdrom 11 em ~20h, B camiseta 22 em ~13h, C pistola 8 em ~11h), os 3 com "Afiliado: ...". Hipótese: cansaço do gancho "Afiliado:" (6 seguidos) + domingo; se 16/11 também ficar < 20 views em 12h, suspeitar de queda de alcance da conta.
+- Hoje: A pasta de dente 12h e B calça 19h = estrutura F com headline de número real (vendas/faturamento); C air fryer 21h = mesma coisa mudando só o slide final do CTA ("Quer fazer isso no seu produto?" + Comenta TTS), pra tentar puxar comments.
+
 ## 2026-11-15
 - Sem viral (mediana dos últimos 10 fechados = 71,5 views; teto 3x = 214; nenhum perto nem de 2.000 nos últimos 7 dias). Regra 2+1 dentro do estilo prints.
 - Estrutura F estável em 80–92 quando fecha: F bermuda 92 (2 saves), B travesseiro 83, A organizador 80. Ainda abaixo do E protetor (114, número na capa). O G parafusadeira (pergunta + "1.") fechou 67 e o C jaqueta 7 slides 43 (mas 7,7% de completion, a melhor da semana): cortar slide não traz alcance.

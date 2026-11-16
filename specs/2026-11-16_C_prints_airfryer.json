@@ -1,0 +1,63 @@
+{
+ "titulo_post": "Esse vídeo de air fryer fez R$ 86 mil em 7 dias",
+ "estilo": "prints",
+ "angulo": "PRINTS REAIS (variação controlada: mesma estrutura do A/B, muda só o slide final de CTA: pergunta 'Quer fazer isso no seu produto?' antes do Comenta TTS), air fryer 439 vendas 7d",
+ "legenda": "Esse vídeo de air fryer fez R$ 86 mil em 7 dias (estimado) 🍳 Copiei a estrutura dele e a IA me deu 3 variações na mesma estrutura que já vendeu. Quer fazer isso no seu produto? Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "slides": [
+  {
+   "print": "assets/prints/2026-11-16_airfryer/s1.jpg",
+   "headline": {
+    "texto": "Essa air fryer fez\nR$ 86 mil em 7 dias",
+    "y": 0.055,
+    "tam": 88,
+    "cor": "white"
+   },
+   "texto": "439 vendidas (estimado). Copia a estrutura dele",
+   "y": 0.285,
+   "tam": 52
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-16_airfryer/s2.jpg",
+    "titulo": "O segredo não é o produto",
+    "tam": 118,
+    "y": 0.3,
+    "texto": "É a estrutura do vídeo. Te mostro como usar a de quem já vende",
+    "tam_texto": 52
+   }
+  },
+  {
+   "print": "assets/prints/2026-11-16_airfryer/s2.jpg",
+   "texto": "Passo 1: acha um vídeo que já vende",
+   "y": 0.44
+  },
+  {
+   "print": "assets/prints/2026-11-16_airfryer/s3.jpg",
+   "texto": "Passo 2: cria variações na estrutura que já vendeu",
+   "y": 0.72
+  },
+  {
+   "print": "assets/prints/2026-11-16_airfryer/s4.jpg",
+   "texto": "Passo 3: cada variação vem cena por cena",
+   "y": 0.36
+  },
+  {
+   "print": "assets/prints/2026-11-16_airfryer/s5.jpg",
+   "texto": "Passo 4: mais 2 variações, cada uma com outro gancho",
+   "y": 0.36
+  },
+  {
+   "print": "assets/prints/2026-11-16_airfryer/s6.jpg",
+   "texto": "Passo 5: segue as dicas de gravação e posta",
+   "y": 0.62
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-16_airfryer/s4.jpg",
+    "titulo": "Quer fazer isso no seu produto?",
+    "texto": "Comenta TTS pra receber o acesso à ferramenta",
+    "tam": 100
+   }
+  }
+ ]
+}
