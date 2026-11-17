@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-17
+- Sem viral (mediana dos últimos 10 fechados = 47,5 views; teto 3x = 142). O 14/11 C sérum chegou perto: subiu de 60 pra 134 views, 7 likes, 4 saves e 1 share (crescimento tardio, 2º/3º dia). É o melhor prints até agora e o único com capa "Esse vídeo fez R$ X mil em 7 dias".
+- ALERTA de alcance confirmado: 15/11 fechou fraco (coberdrom 12, pistola 24, camiseta 39) e 16/11 está pior nas parciais (pasta 20 em ~20h, calça 14 em ~13h, air fryer 13 em ~11h), mesmo com número na capa. Dois dias seguidos < 20–40 views: a queda parece da conta/distribuição (6 dias seguidos do mesmo template prints?), não só do gancho.
+- Hipótese: o 14/11 C diz "Esse vídeo" (curiosidade) e os de 16/11 nomeiam o produto na capa ("Essa calça", "Essa air fryer"); hoje A/B voltam à capa exata do sérum ("Esse vídeo faturou/vendeu R$ X mil"). C (microfone, 21h) muda só o slide 2 para "Salva esse passo a passo" pra puxar saves.
+- Se 17/11 também ficar < 20 views em 12h, propor ao Lucas pausar 1 dia ou trocar o template visual (o mesmo layout 8 slides há 6 dias).
+
 ## 2026-11-16
 - Sem viral (mediana dos últimos 10 fechados = 64 views; teto 3x = 192; nenhum perto de 2.000 nos últimos 7 dias). Regra 2+1 dentro do estilo prints.
 - O teste do número na capa venceu o dia: 14/11 C sérum ("Esse vídeo fez R$ 65 mil em 7 dias") fechou 60 views, 2 likes, 2 saves e 1 share, contra 42 (A projetor) e 38 (B bolsa) com "Afiliado: ...". Somado ao E protetor (117, "vendeu 2 mil protetores"), os 2 melhores prints têm NÚMERO no headline.
