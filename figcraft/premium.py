@@ -1,10 +1,11 @@
 """Carrossel "premium" (estilo dos virais de passo a passo) montado no FigCraft, sem janela.
 
 Formato 1080x1350 (4:5). Paleta escura com roxo. Tipos de slide:
-  capa  : colagem de 3 telas ligadas por linhas + "Roube a / Estrutura / de um vídeo que..."
+  capa  : card do vídeo de referência COM as métricas + selo do faturamento + tela da variação
+          (sem linhas ligando as telas) + "Roube a / Estrutura / de um vídeo que fez R$ X"
   lista : "Salva esse passo a passo" com os 5 passos numerados
   passo : pílula "Passo N" + título (leve + **negrito**) + faixa com o print + texto com **negrito** e __sublinhado__
-  cta   : colagem + "COMENTA TTS E RECEBA / Ferramenta + Estrutura / PRA COPIAR E GRAVAR"
+  cta   : card + tela + "COMENTA TTS E RECEBA O / Acesso à ferramenta" (só o acesso: nada de prometer brinde)
 Marcação nos textos: **negrito**, __sublinhado__, [[roxo]] (cor de destaque).
 Uso: python3 figcraft/premium.py <spec.json> <saida> <PREFIXO> --cli <figcraft-cli>
 """
@@ -90,32 +91,42 @@ def quadro(doc, pai, img, x, y, w, h, raio=28, rotulo=None, borda="#2A2340"):
     return f
 
 
-def linha(doc, pai, path, x, y, w, h):
-    doc.node(type="vector", x=x, y=y, width=w, height=h, parent=pai, path=path,
-             props={"fill": "none", "stroke": "#8B63FF", "strokeWeight": 2})
+def bbox_card(src):
+    """Caixa do card do vídeo (com as métricas) dentro do s1 composto (fundo liso)."""
+    from PIL import ImageChops
+    im = Image.open(ROOT / src).convert("RGB")
+    bg = Image.new("RGB", im.size, im.getpixel((5, 5)))
+    return ImageChops.difference(im, bg).convert("L").point(lambda v: 255 if v > 18 else 0).getbbox()
 
 
-def colagem(doc, fr, ims, tmp, i, topo=70):
-    def r(k, w, h):
-        it = ims[k]
-        return recorte(it[0], tmp / f"c{i}{k}.jpg", w, h, it[1], it[3] if len(it) > 3 else 0, it[4] if len(it) > 4 else None)
-    a, b, c = r(0, 300, 400), r(1, 230, 260), r(2, 400, 560)
-    linha(doc, fr, "M0 0 H60 L120 -90", 335, topo + 370, 130, 100)
-    linha(doc, fr, "M0 0 V60 H200", 455, topo + 270, 210, 70)
-    quadro(doc, fr, a, 40, topo + 110, 300, 400, rotulo=ims[0][2])
-    quadro(doc, fr, b, 350, topo + 10, 230, 260, rotulo=ims[1][2])
-    quadro(doc, fr, c, 640, topo + 30, 400, 560, rotulo=ims[2][2])
+def vitrine(doc, fr, s, tmp, i, topo=80):
+    """Card do vídeo de referência (com vendas/faturamento/views) + tela da variação, sem linhas ligando."""
+    x0, y0, x1, y1 = bbox_card(s["card"])
+    im = Image.open(ROOT / s["card"]).convert("RGB").crop((x0, y0, x1, y1))
+    ch = 600; cw = int(im.width * ch / im.height)
+    a = tmp / f"card{i}.jpg"; im.resize((cw * 2, ch * 2), Image.LANCZOS).save(a, quality=94)
+    quadro(doc, fr, str(a), 70, topo + 40, cw, ch, raio=26, rotulo="vídeo de referência")
+    vx = 70 + cw + 50; vw = W - vx - 50; vh = 470
+    v = recorte(s["tela"][0], tmp / f"tela{i}.jpg", vw, vh, s["tela"][1])
+    quadro(doc, fr, v, vx, topo + 110, vw, vh, raio=26, rotulo=s["tela"][2])
+    # selo com o faturamento embaixo da tela da variação (não cobre as métricas do card)
+    selo = doc.frame(x=vx, y=topo + 110 + vh + 26, width=10, height=10, parent=fr, name="selo",
+                     props={"fills": [{"type": "linearGradient", "stops": ["#9B6BFF", "#6A2FE8"]}], "cornerRadius": 999,
+                            "layout": "horizontal", "padding": [12, 26, 12, 26], "sizingH": "hug", "sizingV": "hug"})
+    doc.fx([selo], "dropShadow", {"color": "#00000099", "offset": [0, 10], "radius": 30, "spread": 0})
+    doc.add("text.create", {"text": s["selo"], "x": 0, "y": 0, "parent": selo,
+                            "props": {"fontFamily": DISP, "fontStyle": "Bold", "fontSize": 38, "fills": ["#FFFFFF"]}})
 
 
 def slide(doc, i, s, tmp, handle):
     t = s["tipo"]
     fr = fundo(doc, i, f"{i + 1:02d} {t}")
     if t == "capa":
-        colagem(doc, fr, s["colagem"], tmp, i, topo=60)
-        doc.texto(s["l1"], 60, 700, 960, fr, DISP, "Bold", 92, ls="-2%")
-        doc.texto(s["l2"], 20, 772, 1040, fr, SERIF, "ExtraBold Italic", 200, cor=GRAD, lh="100%", ls="-2%")
-        doc.texto(s["l3"], 60, 1000, 960, fr, DISP, "Bold", 54, ls="-1%")
-        doc.texto(s["l4"], 60, 1066, 960, fr, DISP, "Light", 44, cor="#D9D3EA")
+        vitrine(doc, fr, s, tmp, i, topo=40)
+        doc.texto(s["l1"], 60, 745, 960, fr, DISP, "Bold", 88, ls="-2%")
+        doc.texto(s["l2"], 20, 812, 1040, fr, SERIF, "ExtraBold Italic", 190, cor=GRAD, lh="100%", ls="-2%")
+        doc.texto(s["l3"], 60, 1030, 960, fr, DISP, "Bold", 52, ls="-1%")
+        doc.texto(s["l4"], 60, 1094, 960, fr, DISP, "Light", 42, cor="#D9D3EA")
         rodape(doc, fr, handle)
     elif t == "lista":
         pil = doc.frame(x=0, y=110, width=W, height=70, parent=fr, name="pílula",
@@ -138,17 +149,18 @@ def slide(doc, i, s, tmp, handle):
                       "padding": [4, 20, 4, 20], "sizingH": "hug", "sizingV": "hug"})
         doc.add("text.create", {"text": f"Passo {s['n']}", "x": 0, "y": 0, "parent": p, "props": {"fontFamily": MONO, "fontStyle": "Regular", "fontSize": 40, "fills": ["#000000"]}})
         doc.texto(s["titulo"], 60, 130, 960, fr, DISP, "Light", 68, lh="106%", ls="-2%")
-        img = recorte(s["print"], tmp / f"p{i}.jpg", 1000, 560, s.get("y", 0))
+        img = recorte(s["print"], tmp / f"p{i}.jpg", 1000, 560, s.get("y", 0), s.get("x", 0), s.get("larg"))
         quadro(doc, fr, img, 40, 330, 1000, 560, raio=30)
         doc.texto(s["texto"], 100, 930, 880, fr, SANS, "Regular", 50, alin="left", lh="116%", ls="-2%")
         rodape(doc, fr, handle)
     elif t == "cta":
-        colagem(doc, fr, s["colagem"], tmp, i, topo=40)
-        col = doc.frame(x=20, y=680, width=1040, height=100, parent=fr, name="cta",
+        vitrine(doc, fr, s, tmp, i, topo=20)
+        col = doc.frame(x=20, y=740, width=1040, height=100, parent=fr, name="cta",
                         props={"fill": "none", "layout": "vertical", "gap": 6, "crossAlign": "center", "sizingV": "hug"})
         doc.texto(s["l1"], 0, 0, 1040, col, COND, "Regular", 112, lh="100%", ls="0%", negrito="Regular")
         doc.texto(s["l2"], 0, 0, 1040, col, SERIF, "ExtraBold Italic", 104, cor=GRAD, lh="104%", ls="-2%")
-        doc.texto(s["l3"], 0, 0, 1040, col, COND, "Regular", 112, lh="100%", ls="0%")
+        if s.get("l3"):
+            doc.texto(s["l3"], 0, 0, 1040, col, COND, "Regular", 112, lh="100%", ls="0%")
         rodape(doc, fr, handle, seta=False)
     return fr
 

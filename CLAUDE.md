@@ -113,6 +113,14 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
 - Sem emoji dentro dos slides (não há fonte de emoji); emojis só na legenda.
 - Hashtags que performaram: `#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes`.
 - Textos curtos por slide (máx. ~12 palavras), linguagem de afiliado brasileiro, direta.
+- **Sem promessa de resultado (desde 17/11):** nada de "vê qual vende mais", "vai vender", "garantido".
+  Use "vê qual traz mais resultado" / "testa e vê qual funciona melhor".
+- **CTA só promete o acesso (desde 17/11):** "Comenta TTS e receba o acesso à ferramenta". Não prometer
+  brinde, "estrutura validada", roteiro, material extra nem nada além do link do site (que vem na resposta automática).
+- **Slide 1 mostra o faturamento:** se a capa mostra/cita um vídeo, o card dele aparece COM as métricas
+  (vendas, faturamento, views) e o faturamento de 7 dias em destaque (ex.: selo "R$ 109 mil em 7 dias"), como estimado.
+- **Vídeo com IA (breve):** em um dos passos, mencionar que também dá pra fazer o vídeo com IA
+  (a ferramenta gera os prompts de cada cena), sem virar o foco do carrossel.
 
 ## Biblioteca da Optimizze (conector "Optimizze mcp bot", desde 11/11)
 Conector MCP com a biblioteca de vídeos e produtos mais vendidos do TikTok Shop da Optimizze.
@@ -144,3 +152,15 @@ Ferramentas: `listar_em_alta` (tipo video|produto), `ver_video`, `criar_variacoe
 ## Quando pedir ajuda ao Lucas
 - Faltam prints/fotos novos (os 8 de `assets/base/` cansam rápido): peça prints SEM legenda.
 - Erro de conexão do Zernio/GitHub, ou métricas zeradas por mais de 2 dias.
+
+## Estilo premium (FigCraft) — EM TESTE, aguardando aprovação do Lucas
+Visual escuro/roxo modelado nos carrosséis virais "Roube meu Prompt", 1080x1350, feito no FigCraft headless.
+- Motor: `python3 figcraft/premium.py <spec> carrosseis/<pasta> <PREFIXO> --cli <figcraft-cli>`.
+  O CLI vem do release linux x86_64 de github.com/storytold/figcraft (tar.gz); fontes em `assets/fonts/`
+  (copiar pra ~/.fonts e rodar `fc-cache -f`). Exemplo: `specs/2026-11-17_C_premium_microfone.json`.
+- Slides: capa (card do vídeo com métricas + selo do faturamento + tela da V1) → lista "salva esse post"
+  → Passo 1..5 (print real + texto) → CTA (mesma vitrine + "COMENTA TTS E RECEBA O / Acesso à ferramenta").
+- NÃO desenhar linhas/"teias" ligando as telas (é recurso da ferramenta de outra pessoa).
+- Os prints vêm da captura de sempre (`captura/`); o spec usa `print` + `y` (e `x`/`larg` pra dar zoom)
+  pra escolher o recorte de cada passo. Conferir a prévia: nada de card cortado no topo do recorte.
+- Só vira padrão da rotina quando o Lucas aprovar.
