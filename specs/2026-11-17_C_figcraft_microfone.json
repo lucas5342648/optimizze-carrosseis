@@ -1,0 +1,72 @@
+{
+ "titulo_post": "Esse vídeo rendeu R$ 109 mil em 7 dias: salva o passo a passo",
+ "estilo": "figcraft",
+ "legenda": "Esse vídeo de microfone rendeu R$ 109 mil em 7 dias (estimado) 🎙️ Salva o passo a passo: copiei a estrutura dele e a IA me deu 3 variações na mesma estrutura que já vendeu. Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "slides": [
+  {
+   "tipo": "capa",
+   "print": "assets/prints/2026-11-17_microfone/s1.jpg",
+   "linha1": "Esse vídeo rendeu",
+   "linha2": "R$ 109 mil em 7 dias",
+   "chip": "271 microfones vendidos (estimado)"
+  },
+  {
+   "tipo": "lista",
+   "linha1": "Salva esse",
+   "linha2": "passo a passo",
+   "itens": [
+    "Acha um vídeo que já vende",
+    "Cria variações na estrutura dele",
+    "Recebe tudo cena por cena",
+    "Testa outros ganchos",
+    "Grava seguindo as dicas e posta"
+   ]
+  },
+  {
+   "tipo": "passo",
+   "n": 1,
+   "total": 5,
+   "titulo": "Acha um vídeo que já vende",
+   "print": "assets/prints/2026-11-17_microfone/s2.jpg",
+   "corte_y": 0
+  },
+  {
+   "tipo": "passo",
+   "n": 2,
+   "total": 5,
+   "titulo": "Cria variações na estrutura que já vendeu",
+   "print": "assets/prints/2026-11-17_microfone/s3.jpg",
+   "corte_y": 120
+  },
+  {
+   "tipo": "passo",
+   "n": 3,
+   "total": 5,
+   "titulo": "Cada variação vem cena por cena",
+   "print": "assets/prints/2026-11-17_microfone/s4.jpg",
+   "corte_y": 0
+  },
+  {
+   "tipo": "passo",
+   "n": 4,
+   "total": 5,
+   "titulo": "Mais 2 variações, cada uma com outro gancho",
+   "print": "assets/prints/2026-11-17_microfone/s5.jpg",
+   "corte_y": 0
+  },
+  {
+   "tipo": "passo",
+   "n": 5,
+   "total": 5,
+   "titulo": "Segue as dicas de gravação e posta",
+   "print": "assets/prints/2026-11-17_microfone/s6.jpg",
+   "corte_y": 400
+  },
+  {
+   "tipo": "cta",
+   "linha1": "Comenta",
+   "linha2": "TTS",
+   "sub": "pra receber o acesso à ferramenta"
+  }
+ ]
+}
