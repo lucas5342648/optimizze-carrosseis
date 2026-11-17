@@ -1,0 +1,3 @@
+Fontes OFL (SIL Open Font License) usadas no estilo premium do FigCraft:
+Playfair Display, Bebas Neue, Space Mono (convertidas de @fontsource para .ttf).
+Instalar: copiar pra ~/.fonts e rodar fc-cache -f.
