@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-18
+- MODO VIRAL (relativo): 14/11 C sérum ("Esse vídeo fez R$ 65 mil em 7 dias") fechou 137 views, 8 likes, 4 saves, 1 share = 4x a mediana dos últimos 10 fechados (33 views; teto 3x = 99). Longe de 2.000, mas bate a regra dos 3x. Hoje A/B são quase iguais a ele; C muda só o gancho.
+- A volta à capa exata do sérum ("Esse vídeo faturou/vendeu R$ X mil") recuperou o alcance: 17/11 A processador 73 (~20h), B escova 68 com 1 save e 4% de completion (~13h), C microfone 55 (~11h), contra 20–26 dos três de 16/11 que nomeavam o produto na capa ("Essa calça", "Essa air fryer"). "Esse vídeo" (curiosidade) > nome do produto.
+- C 17/11 ("Salva esse passo a passo" no slide 2) não puxou saves (0) e ficou atrás de A/B: manter "O segredo não é o produto".
+- Hoje: A skincare 12h e B panelas 19h = estrutura idêntica ao sérum; C perfume 21h muda só o gancho da capa ("Esse vídeo foi feito com IA e faturou R$ 98 mil", dado real da biblioteca). Passo 3 agora cita que dá pra fazer o vídeo com IA (regra de 17/11) e o CTA final é "Comenta TTS e receba o acesso à ferramenta".
+
 ## 2026-11-17
 - Sem viral (mediana dos últimos 10 fechados = 47,5 views; teto 3x = 142). O 14/11 C sérum chegou perto: subiu de 60 pra 134 views, 7 likes, 4 saves e 1 share (crescimento tardio, 2º/3º dia). É o melhor prints até agora e o único com capa "Esse vídeo fez R$ X mil em 7 dias".
 - ALERTA de alcance confirmado: 15/11 fechou fraco (coberdrom 12, pistola 24, camiseta 39) e 16/11 está pior nas parciais (pasta 20 em ~20h, calça 14 em ~13h, air fryer 13 em ~11h), mesmo com número na capa. Dois dias seguidos < 20–40 views: a queda parece da conta/distribuição (6 dias seguidos do mesmo template prints?), não só do gancho.

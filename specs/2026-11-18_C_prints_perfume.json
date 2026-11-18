@@ -1,0 +1,62 @@
+{
+ "titulo_post": "Esse vídeo foi feito com IA e faturou R$ 98 mil em 7 dias",
+ "estilo": "prints",
+ "angulo": "MODO VIRAL variação controlada do 14/11 C sérum: muda só o gancho da capa (vídeo feito com IA + faturamento), perfume árabe masculino 426 vendas 7d",
+ "legenda": "Esse vídeo de perfume foi feito com IA e faturou R$ 98 mil em 7 dias (estimado) 🤖 Copiei a estrutura dele e a ferramenta me deu 3 variações na mesma estrutura que já vendeu, com os prompts de cada cena pra fazer com IA também. Comenta TTS e receba o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "slides": [
+  {
+   "print": "assets/prints/2026-11-18_perfume/s1.jpg",
+   "headline": {
+    "texto": "Esse vídeo foi feito com IA\ne faturou R$ 98 mil",
+    "y": 0.055,
+    "tam": 88,
+    "cor": "white"
+   },
+   "texto": "426 perfumes em 7 dias (estimado). Copia a estrutura dele",
+   "y": 0.285,
+   "tam": 52
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-18_perfume/s2.jpg",
+    "titulo": "O segredo não é o produto",
+    "tam": 118,
+    "y": 0.3,
+    "texto": "É a estrutura do vídeo. Te mostro como usar a de quem já vende",
+    "tam_texto": 52
+   }
+  },
+  {
+   "print": "assets/prints/2026-11-18_perfume/s2.jpg",
+   "texto": "Passo 1: acha um vídeo que já vende",
+   "y": 0.44
+  },
+  {
+   "print": "assets/prints/2026-11-18_perfume/s3.jpg",
+   "texto": "Passo 2: cria variações na estrutura que já vendeu",
+   "y": 0.72
+  },
+  {
+   "print": "assets/prints/2026-11-18_perfume/s4.jpg",
+   "texto": "Passo 3: vem cena por cena, e dá pra fazer com IA",
+   "y": 0.425
+  },
+  {
+   "print": "assets/prints/2026-11-18_perfume/s5.jpg",
+   "texto": "Passo 4: mais 2 variações, cada uma com outro gancho",
+   "y": 0.36
+  },
+  {
+   "print": "assets/prints/2026-11-18_perfume/s6.jpg",
+   "texto": "Passo 5: segue as dicas de gravação e posta",
+   "y": 0.62
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-18_perfume/s4.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "e receba o acesso à ferramenta"
+   }
+  }
+ ]
+}

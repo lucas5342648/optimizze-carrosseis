@@ -1,0 +1,62 @@
+{
+ "titulo_post": "Esse vídeo vendeu R$ 120 mil em 7 dias, olha a estrutura",
+ "estilo": "prints",
+ "angulo": "MODO VIRAL (relativo): quase igual ao 14/11 C sérum, capa 'Esse vídeo vendeu R$ X mil em 7 dias', jogo de panelas 195 vendas 7d (casa)",
+ "legenda": "Esse vídeo de jogo de panelas vendeu R$ 120 mil em 7 dias (estimado) 🍳 Copiei a estrutura dele e a IA me deu 3 variações na mesma estrutura que já vendeu. Dá até pra fazer o vídeo com IA, com os prompts de cada cena. Comenta TTS e receba o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "slides": [
+  {
+   "print": "assets/prints/2026-11-18_panelas/s1.jpg",
+   "headline": {
+    "texto": "Esse vídeo vendeu\nR$ 120 mil em 7 dias",
+    "y": 0.055,
+    "tam": 88,
+    "cor": "white"
+   },
+   "texto": "195 jogos vendidos (estimado). Copia a estrutura dele",
+   "y": 0.285,
+   "tam": 52
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-18_panelas/s2.jpg",
+    "titulo": "O segredo não é o produto",
+    "tam": 118,
+    "y": 0.3,
+    "texto": "É a estrutura do vídeo. Te mostro como usar a de quem já vende",
+    "tam_texto": 52
+   }
+  },
+  {
+   "print": "assets/prints/2026-11-18_panelas/s2.jpg",
+   "texto": "Passo 1: acha um vídeo que já vende",
+   "y": 0.44
+  },
+  {
+   "print": "assets/prints/2026-11-18_panelas/s3.jpg",
+   "texto": "Passo 2: cria variações na estrutura que já vendeu",
+   "y": 0.72
+  },
+  {
+   "print": "assets/prints/2026-11-18_panelas/s4.jpg",
+   "texto": "Passo 3: vem cena por cena, e dá pra fazer com IA",
+   "y": 0.425
+  },
+  {
+   "print": "assets/prints/2026-11-18_panelas/s5.jpg",
+   "texto": "Passo 4: mais 2 variações, cada uma com outro gancho",
+   "y": 0.36
+  },
+  {
+   "print": "assets/prints/2026-11-18_panelas/s6.jpg",
+   "texto": "Passo 5: segue as dicas de gravação e posta",
+   "y": 0.62
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-18_panelas/s4.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "e receba o acesso à ferramenta"
+   }
+  }
+ ]
+}

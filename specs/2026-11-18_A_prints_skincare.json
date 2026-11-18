@@ -1,0 +1,62 @@
+{
+ "titulo_post": "Esse vídeo faturou R$ 199 mil em 7 dias e eu copiei a estrutura",
+ "estilo": "prints",
+ "angulo": "MODO VIRAL (relativo, 14/11 C sérum 137 = 4x a mediana 33): quase igual ao sérum, capa 'Esse vídeo faturou R$ X mil em 7 dias', kit skincare antioleosidade 539 vendas 7d",
+ "legenda": "Esse vídeo de skincare faturou R$ 199 mil em 7 dias (estimado) ✨ Copiei a estrutura dele e a IA me deu 3 variações na mesma estrutura que já vendeu. Dá até pra fazer o vídeo com IA, com os prompts de cada cena. Comenta TTS e receba o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "slides": [
+  {
+   "print": "assets/prints/2026-11-18_skincare/s1.jpg",
+   "headline": {
+    "texto": "Esse vídeo faturou\nR$ 199 mil em 7 dias",
+    "y": 0.055,
+    "tam": 88,
+    "cor": "white"
+   },
+   "texto": "539 kits vendidos (estimado). Copia a estrutura dele",
+   "y": 0.285,
+   "tam": 52
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-18_skincare/s2.jpg",
+    "titulo": "O segredo não é o produto",
+    "tam": 118,
+    "y": 0.3,
+    "texto": "É a estrutura do vídeo. Te mostro como usar a de quem já vende",
+    "tam_texto": 52
+   }
+  },
+  {
+   "print": "assets/prints/2026-11-18_skincare/s2.jpg",
+   "texto": "Passo 1: acha um vídeo que já vende",
+   "y": 0.44
+  },
+  {
+   "print": "assets/prints/2026-11-18_skincare/s3.jpg",
+   "texto": "Passo 2: cria variações na estrutura que já vendeu",
+   "y": 0.72
+  },
+  {
+   "print": "assets/prints/2026-11-18_skincare/s4.jpg",
+   "texto": "Passo 3: vem cena por cena, e dá pra fazer com IA",
+   "y": 0.425
+  },
+  {
+   "print": "assets/prints/2026-11-18_skincare/s5.jpg",
+   "texto": "Passo 4: mais 2 variações, cada uma com outro gancho",
+   "y": 0.36
+  },
+  {
+   "print": "assets/prints/2026-11-18_skincare/s6.jpg",
+   "texto": "Passo 5: segue as dicas de gravação e posta",
+   "y": 0.62
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-18_skincare/s4.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "e receba o acesso à ferramenta"
+   }
+  }
+ ]
+}
