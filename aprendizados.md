@@ -1,5 +1,13 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-19 (análise geral dos 93 posts, 20/09 a 19/11)
+- O que pesa mais é quem posta, não o estilo do slide. Os 22 posts que o Lucas postou à mão tiveram mediana de 312 views, 25 saves a cada 1.000 views e 10,7% de completion, com picos de 2.120, 1.313, 1.195, 1.164 e 1.113. Os 71 automáticos (Zernio, publicação direta, música automática, 3 por dia) tiveram mediana de 66 views, 6 saves/1.000, 3,2% de completion e máximo de 312.
+- Os 4 estilos automáticos empatam (nativo 70, escuro 73, tablet 63, prints 60 de mediana): trocar o visual não resolve.
+- Melhor comparação disponível: o tablet de 27/10, postado à mão pelo Lucas com música dele, chegou a 322 views. Os 10 tablets automáticos ficaram em mediana 63, máximo 90.
+- Hipóteses, da mais provável pra menos: (1) música escolhida pelo Lucas (em alta) × autoAddMusic; (2) frequência: ~1 por dia à mão × 3 por dia automático; (3) postar pelo app × pela API.
+- A divulgação de conteúdo comercial NÃO é a causa: o TikTok diz que ela não muda a recomendação, e post sem ela pode perder o For You. Manter.
+- Dentro do automático: capa com número real ("Esse vídeo fez R$ X") 63 de mediana × "Afiliado: ..." 47. O horário das 21h tem mais saves (7,7/1.000) e os 3 únicos follows.
+
 ## 2026-11-19
 - MODO VIRAL (relativo) continua: 14/11 C sérum 137 views / 4 saves = 3,5x a mediana dos últimos 10 fechados (39,5; teto 3x = 118,5) e ainda dentro dos 7 dias. Não há 3 seguidos abaixo da mediana no estilo dele: 17/11 fechou A processador 74, B escova 78 (1 save, 4,7% completion), C microfone 87.
 - A capa "Esse vídeo faturou/vendeu R$ X mil" estabilizou os posts em 74–87 views (vs 24–33 em 16/11). O C 17/11 ("Salva esse passo a passo") foi o que mais teve views (87), mas 0 saves: alcance ok, não puxa save.
