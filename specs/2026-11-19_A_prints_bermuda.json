@@ -1,0 +1,62 @@
+{
+ "titulo_post": "Esse vídeo faturou R$ 250 mil em 7 dias e eu copiei a estrutura",
+ "estilo": "prints",
+ "angulo": "MODO VIRAL (relativo, 14/11 C sérum 137 = 3,5x mediana 39,5): quase igual ao sérum, kit bermudas dry fit 3.639 vendas 7d / R$ 250 mil",
+ "legenda": "Esse vídeo de bermuda faturou R$ 250 mil em 7 dias (estimado) 🩳 Copiei a estrutura dele e a IA me deu 3 variações na mesma estrutura que já vendeu. Dá até pra fazer o vídeo com IA, com os prompts de cada cena. Comenta TTS e receba o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "slides": [
+  {
+   "print": "assets/prints/2026-11-19_bermuda/s1.jpg",
+   "headline": {
+    "texto": "Esse vídeo faturou\nR$ 250 mil em 7 dias",
+    "y": 0.055,
+    "tam": 88,
+    "cor": "white"
+   },
+   "texto": "3.639 kits vendidos (estimado). Copia a estrutura dele",
+   "y": 0.285,
+   "tam": 52
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-19_bermuda/s2.jpg",
+    "titulo": "O segredo não é o produto",
+    "tam": 118,
+    "y": 0.3,
+    "texto": "É a estrutura do vídeo. Te mostro como usar a de quem já vende",
+    "tam_texto": 52
+   }
+  },
+  {
+   "print": "assets/prints/2026-11-19_bermuda/s2.jpg",
+   "texto": "Passo 1: acha um vídeo que já vende",
+   "y": 0.44
+  },
+  {
+   "print": "assets/prints/2026-11-19_bermuda/s3.jpg",
+   "texto": "Passo 2: cria variações na estrutura que já vendeu",
+   "y": 0.72
+  },
+  {
+   "print": "assets/prints/2026-11-19_bermuda/s4.jpg",
+   "texto": "Passo 3: vem cena por cena, e dá pra fazer com IA",
+   "y": 0.425
+  },
+  {
+   "print": "assets/prints/2026-11-19_bermuda/s5.jpg",
+   "texto": "Passo 4: mais 2 variações, cada uma com outro gancho",
+   "y": 0.36
+  },
+  {
+   "print": "assets/prints/2026-11-19_bermuda/s6.jpg",
+   "texto": "Passo 5: segue as dicas de gravação e posta",
+   "y": 0.62
+  },
+  {
+   "cta": {
+    "print": "assets/prints/2026-11-19_bermuda/s4.jpg",
+    "titulo": "Comenta TTS",
+    "texto": "e receba o acesso à ferramenta"
+   }
+  }
+ ]
+}
