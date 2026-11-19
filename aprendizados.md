@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-19
+- MODO VIRAL (relativo) continua: 14/11 C sérum 137 views / 4 saves = 3,5x a mediana dos últimos 10 fechados (39,5; teto 3x = 118,5) e ainda dentro dos 7 dias. Não há 3 seguidos abaixo da mediana no estilo dele: 17/11 fechou A processador 74, B escova 78 (1 save, 4,7% completion), C microfone 87.
+- A capa "Esse vídeo faturou/vendeu R$ X mil" estabilizou os posts em 74–87 views (vs 24–33 em 16/11). O C 17/11 ("Salva esse passo a passo") foi o que mais teve views (87), mas 0 saves: alcance ok, não puxa save.
+- Parciais de 18/11 (<24h): A skincare 59 (~20h), B panelas 35 (~13h), C perfume "feito com IA" 41 (~11h, 1 like): por ora o gancho "feito com IA" empata com o padrão; julgar amanhã.
+- Hoje: A bermuda 12h e B body splash 19h = estrutura idêntica ao sérum; C cinta 21h muda só o número da capa (unidades: "vendeu 1.087 cintas" em vez de R$), retomando a hipótese do E protetor ("vendeu 2 mil protetores", 119 views). Biblioteca quase esgotada de produtos novos (só 3 inéditos no top 31); bermuda voltou após 7 dias.
+
 ## 2026-11-18
 - MODO VIRAL (relativo): 14/11 C sérum ("Esse vídeo fez R$ 65 mil em 7 dias") fechou 137 views, 8 likes, 4 saves, 1 share = 4x a mediana dos últimos 10 fechados (33 views; teto 3x = 99). Longe de 2.000, mas bate a regra dos 3x. Hoje A/B são quase iguais a ele; C muda só o gancho.
 - A volta à capa exata do sérum ("Esse vídeo faturou/vendeu R$ X mil") recuperou o alcance: 17/11 A processador 73 (~20h), B escova 68 com 1 save e 4% de completion (~13h), C microfone 55 (~11h), contra 20–26 dos três de 16/11 que nomeavam o produto na capa ("Essa calça", "Essa air fryer"). "Esse vídeo" (curiosidade) > nome do produto.
