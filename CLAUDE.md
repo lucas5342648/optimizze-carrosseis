@@ -75,6 +75,16 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
    se `failed`, leia `errorMessage`, corrija (ex.: reduzir slides) e reagende; se for erro de limite
    diário do TikTok, avise o Lucas em vez de insistir.
    Se o Zernio responder 409 (conteúdo duplicado), mude levemente o `content` (título) e tente de novo.
+   **TESTE "MÚSICA DO LUCAS" (20/11 a 24/11, aprovado por ele em 19/11):** a análise de 19/11 mostrou
+   que os posts que o Lucas publicou à mão têm cerca de 5x mais views que os automáticos (mediana de 312 × 66).
+   Durante o teste, só o carrossel das **19:00** vira RASCUNHO: crie o post logo de manhã (scheduled_for
+   = agora + 5 min, `draft: true`, `autoAddMusic: false`, tags `["carrossel", "<estilo>", "manual-teste"]`),
+   pra chegar na Caixa de entrada do TikTok com folga. O Lucas coloca uma música em alta e posta às 19h
+   (o lembrete das 18:50 avisa ele). O de 19h usa a MESMA estrutura do de 12h (os dois "explorar"), pra
+   comparar só o jeito de postar. 12:00 e 21:00 continuam com publicação direta, como acima.
+   No historico.csv, o de 19h leva `19:00 (manual)` no horário. Em **25/11**, compare as views, saves e
+   completion dos 5 manuais com os 10 automáticos do mesmo período, registre em aprendizados.md e mande
+   o resultado ao Lucas perguntando se continua. Até ele responder, volte a publicar os 3 direto.
    **Máximo 9 slides por carrossel.** O único de 10 (27/10 C, tablet) falhou no TikTok. Até haver
    prova do contrário, nunca passe de 9 (corte/junte slides do spec, inclusive os da fila).
 8. **Registrar**: acrescente uma linha por carrossel em `historico.csv`, commit e push.
