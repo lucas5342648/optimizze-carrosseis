@@ -31,10 +31,12 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
    - Registre em `aprendizados.md` qual post viralizou, os números e o que está sendo testado.
    - Saia do modo viral quando 3 posts seguidos no estilo dele ficarem abaixo da mediana.
    Sem post viral, use a regra normal abaixo.
-5. **Decidir os 3 carrosséis do dia** — desde 13/11 os 3 são no estilo `prints`, cada um com um vídeo/produto
-   DIFERENTE da biblioteca (variar nichos: moda, beleza, casa, ferramentas, utilidades). A regra 2+1 abaixo
-   vale dentro do estilo prints: 2 repetem a estrutura do melhor post prints recente; 1 muda UMA coisa
-   (tipo de gancho, nº de slides, passos numerados "1." vs "Passo 1:", texto do CTA).
+5. **Decidir os 3 carrosséis do dia** — desde 20/11 os 3 são no estilo **`premium` (FigCraft)**, aprovado
+   pelo Lucas em 19/11, cada um com um vídeo/produto DIFERENTE da biblioteca (variar nichos: moda, beleza,
+   casa, ferramentas, utilidades). Os prints continuam vindo da captura de sempre; muda só o design.
+   A regra 2+1 abaixo vale dentro do premium: 2 repetem a estrutura do melhor post premium recente; 1 muda
+   UMA coisa (texto da capa, texto do slide-lista, um passo a menos, texto do CTA).
+   (De 13/11 a 19/11 o padrão foi o estilo `prints`: mediana de 60 views. Ele vira o plano B do premium.)
    Regra normal 2+1 (e o modo viral acima, que tem prioridade):
    - 2 carrosséis "explorar o que funciona": estilo/ângulo/gancho do melhor desempenho recente.
    - 1 carrossel "teste": um ângulo ou gancho novo do `banco_angulos.md` (ou outro estilo).
@@ -44,7 +46,8 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
      e depois mova o spec para `specs/` com a data do dia no nome.
      Fora do modo viral, o estilo `tablet` também pode ser usado nos 2 de "explorar" se performar bem.
 6. **Gerar**: escreva um spec em `specs/AAAA-MM-DD_<letra>_<slug>.json` e renderize:
-   - Estilo **prints** (PADRÃO desde 13/11): prints REAIS das telas do app com dados reais da biblioteca
+   - Estilo **premium** (PADRÃO desde 20/11): ver a seção "Estilo premium (FigCraft)" no fim deste arquivo.
+   - Estilo **prints** (padrão de 13/11 a 19/11; plano B se o FigCraft falhar): prints REAIS das telas do app com dados reais da biblioteca
      (conector Optimizze). Passo a passo completo em `captura/README.md`; motor `motor/prints.py`.
      Exemplos: `specs/2026-11-12_F_prints_bermuda.json` (Passo 1..5) e `specs/2026-11-12_G_prints_parafusadeira.json` (1. 2. 3.).
    - Estilo **nativo** (antigo padrão; usar se a captura falhar): `python3 motor/nativo.py <spec> carrosseis/<pasta> <PREFIXO>`
@@ -163,14 +166,22 @@ Ferramentas: `listar_em_alta` (tipo video|produto), `ver_video`, `criar_variacoe
 - Faltam prints/fotos novos (os 8 de `assets/base/` cansam rápido): peça prints SEM legenda.
 - Erro de conexão do Zernio/GitHub, ou métricas zeradas por mais de 2 dias.
 
-## Estilo premium (FigCraft) — EM TESTE, aguardando aprovação do Lucas
+## Estilo premium (FigCraft) — PADRÃO desde 20/11 (aprovado pelo Lucas em 19/11)
 Visual escuro/roxo modelado nos carrosséis virais "Roube meu Prompt", 1080x1350, feito no FigCraft headless.
-- Motor: `python3 figcraft/premium.py <spec> carrosseis/<pasta> <PREFIXO> --cli <figcraft-cli>`.
-  O CLI vem do release linux x86_64 de github.com/storytold/figcraft (tar.gz); fontes em `assets/fonts/`
-  (copiar pra ~/.fonts e rodar `fc-cache -f`). Exemplo: `specs/2026-11-17_C_premium_microfone.json`.
+- Instalar (uma vez por sessão): `CLI=$(bash figcraft/instalar.sh)`. Ele baixa o release linux do
+  github.com/storytold/figcraft e instala as fontes de `assets/fonts/`. A Inter já vem no sistema.
+- Fluxo por carrossel: captura de sempre (`captura/README.md` até o `compor.py`, que gera s1..s6 em
+  `assets/prints/AAAA-MM-DD_<slug>/`) → spec premium → `python3 figcraft/premium.py <spec> carrosseis/<pasta> <PREFIXO> --cli $CLI`
+  → prévia em grade → OLHAR. Não precisa do `motor/prints.py`.
+- Spec: copie `specs/2026-11-17_C_premium_microfone.json` e troque produto, números (do conector, "estimado"),
+  caminhos `assets/prints/...` e a legenda. Recortes de partida: s2 `y` 770, s3 440, s4 640, s5 640, s6
+  `y` 1112 + `x` 60 + `larg` 740 (s6 tem 1528 de altura). Ajuste olhando a prévia, porque cada vídeo muda a altura das telas.
+- Capa: `l1` "Roube a", `l2` "Estrutura", `l3` "de um vídeo que fez R$ X mil", `l4` "(em 7 dias, estimado)",
+  `selo` "R$ X mil em 7 dias". Na variação do dia, pode trocar `l1`/`l2`/`l3` por outro gancho curto.
 - Slides: capa (card do vídeo com métricas + selo do faturamento + tela da V1) → lista "salva esse post"
   → Passo 1..5 (print real + texto) → CTA (mesma vitrine + "COMENTA TTS E RECEBA O / Acesso à ferramenta").
 - NÃO desenhar linhas/"teias" ligando as telas (é recurso da ferramenta de outra pessoa).
 - Os prints vêm da captura de sempre (`captura/`); o spec usa `print` + `y` (e `x`/`larg` pra dar zoom)
   pra escolher o recorte de cada passo. Conferir a prévia: nada de card cortado no topo do recorte.
-- Só vira padrão da rotina quando o Lucas aprovar.
+- Se a instalação ou a renderização do FigCraft falhar, faça os 3 no estilo `prints` (motor/prints.py, com os
+  mesmos s1..s6) e avise o Lucas no resumo.
