@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-20
+- Fim do modo viral: o 14/11 C sérum (137) não bate mais 3x a mediana dos últimos 10 fechados (60,5; teto 181,5). Regra normal 2+1, agora no estilo premium.
+- Prints da semana fecharam em 59–87 views: melhor 17/11 C microfone 87; 18/11 C perfume "feito com IA" 68 views com 1 save e 2 follows (os únicos follows da semana); pior recente 16/11 A pasta 24. Parciais de 19/11: bermuda 77 (~20h), cinta "vendeu 1.087 cintas" 42 (~11h), body splash 32 (~13h).
+- Hipótese: o gancho "feito com IA" puxa follow (gente que quer fazer vídeo sem gravar); vale um teste premium com esse gancho na capa quando tiver um vídeo da biblioteca marcado como feito_por_ia.
+- Hoje, 1º dia premium + teste da música: A principia 12h (direto) e B perfume 19h (rascunho pro Lucas postar com música) = mesma estrutura do spec premium; C legging 21h muda só a capa (o número "R$ 78 mil" vira a palavra grande no lugar de "Estrutura"). O print "Vídeos em alta" só mostra o #1 e #2, então o Passo 1 só cita o vídeo quando ele é o #1 (regra "vídeo citado = só ele na tela").
+
 ## 2026-11-19 (análise geral dos 93 posts, 20/09 a 19/11)
 - O que pesa mais é quem posta, não o estilo do slide. Os 22 posts que o Lucas postou à mão tiveram mediana de 312 views, 25 saves a cada 1.000 views e 10,7% de completion, com picos de 2.120, 1.313, 1.195, 1.164 e 1.113. Os 71 automáticos (Zernio, publicação direta, música automática, 3 por dia) tiveram mediana de 66 views, 6 saves/1.000, 3,2% de completion e máximo de 312.
 - Os 4 estilos automáticos empatam (nativo 70, escuro 73, tablet 63, prints 60 de mediana): trocar o visual não resolve.
