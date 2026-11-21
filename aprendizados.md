@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-21
+- Sem viral (mediana dos últimos 10 fechados = 66,5 views; teto 3x = 199,5; nenhum perto de 2.000). Regra 2+1 no premium.
+- Prints de 19/11 fecharam: A bermuda 89 (3 likes, 4,9% completion, o melhor dos prints da semana), C cinta "vendeu 1.087 cintas" 60, B body splash 49 (1 save). Pior recente fechado: 16/11 A pasta 24.
+- 20/11 B perfume (1º manual do teste) foi postado pelo Lucas às 19:02; os números do Zernio pararam em 22:30 UTC de ontem (A principia 13 views/1 save em ~7h, B 9 em ~30 min, C legging ainda sem dado): premium ainda sem leitura, julgar amanhã.
+- Hoje: A travesseiro 12h e B máscara capilar 19h (rascunho pro Lucas) = estrutura do premium 20/11 A; C sutiãs 21h muda só o nº de slides (7, sem o passo da V2/V3), pra ver se o premium mais curto segura completion/views. s6 com padding (s6b) pro recorte do passo final não mostrar o card de cima cortado.
+
 ## 2026-11-20
 - Fim do modo viral: o 14/11 C sérum (137) não bate mais 3x a mediana dos últimos 10 fechados (60,5; teto 181,5). Regra normal 2+1, agora no estilo premium.
 - Prints da semana fecharam em 59–87 views: melhor 17/11 C microfone 87; 18/11 C perfume "feito com IA" 68 views com 1 save e 2 follows (os únicos follows da semana); pior recente 16/11 A pasta 24. Parciais de 19/11: bermuda 77 (~20h), cinta "vendeu 1.087 cintas" 42 (~11h), body splash 32 (~13h).
