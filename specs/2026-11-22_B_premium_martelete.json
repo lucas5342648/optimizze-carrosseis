@@ -1,0 +1,88 @@
+{
+ "titulo_post": "Roube a estrutura de um vídeo de martelete que fez R$ 83 mil",
+ "estilo": "premium",
+ "handle": "@silvaa.bnss",
+ "legenda": "Roube a estrutura de um vídeo de martelete que fez R$ 83 mil em 7 dias (estimado) 🔨 A IA cria 3 variações na mesma estrutura que já vendeu, cena por cena, e ainda dá pra fazer o vídeo com IA. Salva o passo a passo e comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "slides": [
+  {
+   "tipo": "capa",
+   "l1": "Roube a",
+   "l2": "Estrutura",
+   "l3": "de um vídeo que fez R$ 83 mil",
+   "l4": "(em 7 dias, estimado)",
+   "card": "assets/prints/2026-11-22_martelete/s1.jpg",
+   "selo": "R$ 83 mil em 7 dias",
+   "tela": [
+    "assets/prints/2026-11-22_martelete/s4.jpg",
+    640,
+    "variação v1"
+   ]
+  },
+  {
+   "tipo": "lista",
+   "pilula": "Salva esse post",
+   "titulo": "De **1 vídeo que já vendeu** você tira **3 vídeos novos**:",
+   "itens": [
+    "Acha o vídeo que mais vende",
+    "Cria variações na estrutura dele",
+    "Recebe tudo cena por cena",
+    "Testa outros ganchos",
+    "Grava (ou faz com IA) e posta"
+   ]
+  },
+  {
+   "tipo": "passo",
+   "n": 1,
+   "titulo": "Abra a **biblioteca** e ache um vídeo **que já vende**",
+   "print": "assets/prints/2026-11-22_martelete/s2.jpg",
+   "y": 770,
+   "texto": "Ordena por **faturamento** e escolhe um vídeo com __vendas reais__ nos últimos 7 dias. Cada card mostra **vendas**, **faturamento** e **views** (estimados)."
+  },
+  {
+   "tipo": "passo",
+   "n": 2,
+   "titulo": "Clique em **mesmo produto** e gere as **variações**",
+   "print": "assets/prints/2026-11-22_martelete/s3.jpg",
+   "y": 440,
+   "texto": "A ferramenta lê a __estrutura validada__ do vídeo: **gancho**, **ordem das cenas** e **CTA**."
+  },
+  {
+   "tipo": "passo",
+   "n": 3,
+   "titulo": "Receba a **V1** pronta, **cena por cena**",
+   "print": "assets/prints/2026-11-22_martelete/s4.jpg",
+   "y": 640,
+   "texto": "Cada cena vem com **fala**, **ação** e **tom**. É só __copiar e gravar__."
+  },
+  {
+   "tipo": "passo",
+   "n": 4,
+   "titulo": "Teste **outros ganchos** com a **V2** e a **V3**",
+   "print": "assets/prints/2026-11-22_martelete/s5.jpg",
+   "y": 640,
+   "texto": "Mesma estrutura, __gancho diferente__. Posta as 3 e vê qual **traz mais resultado**."
+  },
+  {
+   "tipo": "passo",
+   "n": 5,
+   "titulo": "Grave seguindo as **dicas** ou faça o vídeo **com IA**",
+   "print": "assets/prints/2026-11-22_martelete/s6b.jpg",
+   "y": 1313,
+   "texto": "Enquadramento, ritmo e o que mostrar em cada corte. Não quer gravar? Ela também gera os __prompts de cada cena__ pra fazer **com IA**.",
+   "x": 60,
+   "larg": 740
+  },
+  {
+   "tipo": "cta",
+   "l1": "COMENTA [[TTS]] E RECEBA O",
+   "l2": "Acesso à ferramenta",
+   "card": "assets/prints/2026-11-22_martelete/s1.jpg",
+   "selo": "R$ 83 mil em 7 dias",
+   "tela": [
+    "assets/prints/2026-11-22_martelete/s4.jpg",
+    640,
+    "variação v1"
+   ]
+  }
+ ]
+}
