@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-22
+- Sem viral (mediana dos últimos 10 fechados = 65 views; teto 3x = 195; nenhum perto de 2.000). Regra 2+1 no premium.
+- Primeira leitura do premium (24h+): 20/11 B perfume, o 1º postado à mão pelo Lucas com música, fechou 93 views e 1 comment; os automáticos do mesmo dia ficaram em 18 (A principia, 1 save) e 49 (C legging, 6,2% de completion, a melhor da semana). Manual 93 × automáticos 18/49: aponta na direção da hipótese da música, mas é 1 post só.
+- Alerta: 21/11 B máscara (manual, postado 19:05) está com só 13 views em ~13h, empatado com o C sutiãs automático (14 em ~11h); A travesseiro 57 em ~17h. O manual não é garantia: julgar no fechamento de 25/11 com os 5.
+- Hoje: A séruns 12h e B martelete 19h (rascunho pro Lucas) = estrutura padrão; C smartwatch 21h muda só o slide 2 para "O segredo não é o produto / É a estrutura do vídeo" (frase do 14/11 C sérum, 137 views). s6b agora tem 90 px de folga embaixo também, pro recorte do passo 5 começar no card "Dicas de Gravação" sem pedaço de card cortado no topo.
+
 ## 2026-11-21
 - Sem viral (mediana dos últimos 10 fechados = 66,5 views; teto 3x = 199,5; nenhum perto de 2.000). Regra 2+1 no premium.
 - Prints de 19/11 fecharam: A bermuda 89 (3 likes, 4,9% completion, o melhor dos prints da semana), C cinta "vendeu 1.087 cintas" 60, B body splash 49 (1 save). Pior recente fechado: 16/11 A pasta 24.
