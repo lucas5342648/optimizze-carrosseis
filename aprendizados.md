@@ -1,5 +1,10 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-23 (pesquisa dos virais do nicho no TikTok + posts antigos do Lucas)
+- Os virais do Lucas foram em JULHO: carrosséis de 17 a 22 mil views (17/07, 26/07, 31/07) e vídeo de 45 mil (11/07), todos "passo a passo pra criar VÍDEO COM IA (UGC) pro TikTok Shop", com prints reais do celular e caixa de texto nativa do TikTok. Detalhes em pesquisa/2026-11-23_virais_nicho.md.
+- O viral do nicho @igao.ia (333 mil plays, 9,6 mil saves) segue a mesma lógica: foto real do tablet com a ferramenta + passos + vídeo de IA pronto. O @mt.ghostt usa o próprio optimizzeai.com nesse formato.
+- Hipótese: o que perdemos foi a PROMESSA (vídeo com IA sem gravar, até o vídeo pronto) e o visual nativo, não só a música. "Pegue a estrutura" com design produzido não é o que o nicho compartilha/salva.
+
 ## 2026-11-23
 - Sem viral (mediana dos últimos 10 fechados = 67,5 views; teto 3x = 202,5; nenhum perto de 2.000). Regra 2+1 no premium.
 - Premium fechado (6 posts de 20 e 21/11): mediana 60 views, igual ao estilo prints de 13 a 19/11 (~60). O design novo não mudou o alcance. Melhor: 20/11 B perfume 98 (manual); pior: 20/11 A principia 19. Teste da música até aqui: manuais 98 e 25 × automáticos 19, 55, 70 e 65; sem diferença clara.
