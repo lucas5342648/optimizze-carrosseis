@@ -213,7 +213,7 @@ De 12/11 a 22/11 todo post foi o mesmo "passo a passo da ferramenta" e ficou ent
 O que muda agora é o ASSUNTO/formato do post, não só o visual. Todos usam o motor `figcraft/premium.py`
 (mesmo visual escuro/roxo) e seguem TODAS as regras de conteúdo (Afiliado/TikTok Shop na capa, "pegue",
 números reais "estimado", sem nome da marca, ferramenta natural, CTA "Comenta TTS").
-- **Agenda:** 24/11: 12h e 19h premium (direto, sem rascunho), 21h **raio-X**. A partir de 25/11: **12h = premium
+- **Agenda:** 24/11: 12h e 19h premium, 21h **raio-X** (os 3 como rascunho pro Lucas postar, ver "POSTAGEM PELO LUCAS"). A partir de 25/11: **12h = premium
   (controle)**; **19h e 21h = formatos do banco abaixo**, em rodízio (nunca o mesmo formato 2 dias seguidos no mesmo horário).
 - **Como decidir:** cada formato roda pelo menos 2 vezes (produtos/temas diferentes). Se fizer **2x a mediana de
   views dos últimos 10 posts** (ou o dobro de saves), entra no rodízio fixo e ganha variações; se ficar abaixo da
