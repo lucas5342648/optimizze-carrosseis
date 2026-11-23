@@ -140,6 +140,10 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
   TIKTOK SHOP" nem de repetir a palavra à força (o Lucas achou forçado). Vale também pra variação do dia.
 - **"Pegar", nunca "roubar" (desde 22/11, pedido do Lucas):** nada de "roube", "rouba", "roubar" em slide,
   título ou legenda. Use "pegue a estrutura" / "pega a estrutura".
+- **Todo post apresenta a ferramenta de forma natural (desde 23/11, pedido do Lucas):** qualquer formato
+  (ranking, raio-X, erros, dicas...) tem 1 slide em que a ferramenta entra como a fonte ou o atalho do que o post
+  mostrou ("Tiro esse ranking da ferramenta que eu uso", "Essa análise sai da ferramenta que eu uso"), com um
+  print real, sem cara de anúncio, + o slide de CTA "Comenta TTS". O nome "Optimizze" continua proibido.
 - **Vídeo com IA (breve):** em um dos passos, mencionar que também dá pra fazer o vídeo com IA
   (a ferramenta gera os prompts de cada cena), sem virar o foco do carrossel.
 
@@ -195,3 +199,36 @@ Visual escuro/roxo modelado nos carrosséis virais "Roube meu Prompt", 1080x1350
   pra escolher o recorte de cada passo. Conferir a prévia: nada de card cortado no topo do recorte.
 - Se a instalação ou a renderização do FigCraft falhar, faça os 3 no estilo `prints` (motor/prints.py, com os
   mesmos s1..s6) e avise o Lucas no resumo.
+
+## Rodízio de formatos (desde 23/11, pedido do Lucas: "testar mais formatos")
+De 12/11 a 22/11 todo post foi o mesmo "passo a passo da ferramenta" e ficou entre 20 e 140 views (mediana ~55).
+O que muda agora é o ASSUNTO/formato do post, não só o visual. Todos usam o motor `figcraft/premium.py`
+(mesmo visual escuro/roxo) e seguem TODAS as regras de conteúdo (Afiliado/TikTok Shop na capa, "pegue",
+números reais "estimado", sem nome da marca, ferramenta natural, CTA "Comenta TTS").
+- **Agenda:** 24/11: 12h e 19h premium (teste da música), 21h **raio-X**. A partir de 25/11: **12h = premium
+  (controle)**; **19h e 21h = formatos do banco abaixo**, em rodízio (nunca o mesmo formato 2 dias seguidos no mesmo horário).
+- **Como decidir:** cada formato roda pelo menos 2 vezes (produtos/temas diferentes). Se fizer **2x a mediana de
+  views dos últimos 10 posts** (ou o dobro de saves), entra no rodízio fixo e ganha variações; se ficar abaixo da
+  mediana 2 vezes, sai. Registre em `aprendizados.md` (formato, views, saves) e na coluna `estilo` do historico.csv
+  use o nome do formato (`ranking`, `raiox`, `erros`, `antes_depois`, `dicas`).
+- **Banco de formatos** (tipos de slide do premium.py: `rank_capa`, `produto`, `capa_texto`, `texto`, `passo` com
+  `pilula`, `cta` com `print`):
+  1. **ranking**: "Afiliado, esses são os 5 produtos que mais faturaram essa semana no TikTok Shop".
+     Dados: `listar_em_alta` tipo **produto** (pular produto repetido/variação do mesmo); fotos baixadas pra
+     `assets/produtos/<id>.jpg` (webp → jpg). Contagem regressiva 5→1, slide "De onde eu tiro isso" (print da
+     biblioteca, s2) e CTA com print. Variações: por categoria (beleza, casa, moda...). Exemplo: `specs/2026-11-23_C_ranking_semana.json`.
+  2. **raiox**: "Afiliado, o raio-X do vídeo que fez R$ X mil". Dados REAIS: `ver_video` (fala original → o gancho)
+     e `ver_projeto` → `analise` (structure_analysis, retention_analysis, triggers). Slides: capa (vitrine) →
+     1. O gancho (citação da fala original) → 2. A estrutura → 3. Os gatilhos → "Como eu fiz essa análise"
+     (ferramenta, print da V1) → CTA. Exemplo: `specs/exemplo_raiox.json`. Evite produtos com promessa de
+     saúde/estética exagerada no vídeo original (ex.: "clareou em 3 dias").
+  3. **erros**: `capa_texto` "3 erros que fazem seu vídeo não vender no TikTok Shop" → 1 slide `texto` por erro
+     (o erro + o que fazer) → ferramenta como o atalho pra corrigir (ex.: gancho → variações com gancho novo) → CTA.
+     Os erros vêm do que a `analise`/`improvements` da biblioteca apontam com frequência (ganchos genéricos,
+     repetição na abertura, CTA fraco), nada inventado sobre números.
+  4. **antes_depois**: "O mesmo vídeo, 2 ganchos": `texto` com a fala ORIGINAL (antes) e `texto` com o gancho da
+     V1/V2/V3 (depois) + o porquê (`improvements`), sem prometer que o "depois" vende mais.
+  5. **dicas**: `capa_texto` "O que eu olho antes de escolher um produto pra divulgar" → itens práticos baseados
+     nos dados da biblioteca (vendas 7d, faturamento, nº de vídeos vendendo) → ferramenta → CTA.
+     Sem depoimento ou resultado pessoal inventado.
+  6. **vídeo curto** (MP4 com zoom nos prints): ainda não existe o motor; só depois de o Lucas aprovar.

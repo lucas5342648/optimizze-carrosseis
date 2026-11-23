@@ -8,6 +8,8 @@ Formato 1080x1350 (4:5). Paleta escura com roxo. Tipos de slide:
   rank_capa : 5 fotos de produto com a posição + "Afiliado, esses são os / 5 produtos / ... TikTok Shop"
   produto   : pílula + foto grande com a posição + nome + 2 dados (vendas / faturamento 7d) + preço
   passo com "pilula" troca o "Passo N" (ex.: "De onde eu tiro isso"); cta com "print" usa um print no lugar da vitrine
+  capa_texto: capa só com texto (pílula opcional + l1 / l2 grande / l3 / l4), pros formatos sem vídeo
+  texto     : pílula + título + citação num card (opcional) + itens com bolinha roxa (raio-X, erros, dicas)
   cta   : card + tela + "COMENTA TTS E RECEBA O / Acesso à ferramenta" (só o acesso: nada de prometer brinde)
 Marcação nos textos: **negrito**, __sublinhado__, [[roxo]] (cor de destaque).
 Uso: python3 figcraft/premium.py <spec.json> <saida> <PREFIXO> --cli <figcraft-cli>
@@ -175,9 +177,50 @@ def ranking(doc, fr, s, tmp, i, handle):
     return fr
 
 
+def pilula_topo(doc, fr, txt, y=48, tam=40):
+    pil = doc.frame(x=0, y=y, width=W, height=70, parent=fr, name="pílula",
+                    props={"fill": "none", "layout": "horizontal", "mainAlign": "center"})
+    p = doc.frame(x=0, y=0, width=10, height=10, parent=pil, props={"fill": "#FFFFFF", "cornerRadius": 14, "layout": "horizontal",
+                  "padding": [4, 20, 4, 20], "sizingH": "hug", "sizingV": "hug"})
+    doc.add("text.create", {"text": txt, "x": 0, "y": 0, "parent": p, "props": {"fontFamily": MONO, "fontStyle": "Regular", "fontSize": tam, "fills": ["#000000"]}})
+
+
+def texto_slide(doc, fr, s, handle):
+    """Slide só de texto: pílula + título + (citação num card) + itens com marcador."""
+    pilula_topo(doc, fr, s["pilula"])
+    doc.texto(s["titulo"], 60, 140, 960, fr, DISP, "Light", 72, lh="106%", ls="-2%")
+    y = s.get("y0", 400)
+    if s.get("citacao"):
+        c = doc.frame(x=60, y=y, width=960, height=10, parent=fr, name="citação",
+                      props={"fill": "#14101F", "cornerRadius": 28, "stroke": "#3B2A6B", "strokeWeight": 2, "strokeAlign": "inside",
+                             "layout": "vertical", "padding": [44, 50, 44, 50], "gap": 18, "sizingV": "hug"})
+        doc.texto(s["citacao"], 0, 0, 860, c, SERIF, "Italic", 54, alin="left", lh="122%", ls="-1%")
+        if s.get("fonte"):
+            doc.texto(s["fonte"], 0, 0, 860, c, MONO, "Regular", 26, cor="#A9A3BF", alin="left", ls="2%")
+        y += s.get("alt_citacao", 400)
+    for item in s.get("itens", []):
+        doc.node(type="ellipse", x=92, y=y + 24, width=16, height=16, parent=fr, props={"fill": ROXO})
+        doc.texto(item, 140, y, 860, fr, SANS, "Regular", 46, alin="left", lh="120%", ls="-1%")
+        y += s.get("passo_itens", 150)
+    rodape(doc, fr, handle)
+    return fr
+
+
 def slide(doc, i, s, tmp, handle):
     t = s["tipo"]
     fr = fundo(doc, i, f"{i + 1:02d} {t}")
+    if t == "texto":
+        return texto_slide(doc, fr, s, handle)
+    if t == "capa_texto":  # capa sem prints (erros, dicas, antes x depois)
+        if s.get("pilula"):
+            pilula_topo(doc, fr, s["pilula"], y=300)
+        doc.texto(s["l1"], 60, 420, 960, fr, DISP, "Bold", 88, ls="-2%")
+        doc.texto(s["l2"], 20, 500, 1040, fr, SERIF, "ExtraBold Italic", s.get("l2_tam", 170), cor=GRAD, lh="100%", ls="-2%")
+        doc.texto(s["l3"], 60, s.get("y3", 720), 960, fr, DISP, "Bold", 56, ls="-1%")
+        if s.get("l4"):
+            doc.texto(s["l4"], 60, s.get("y3", 720) + 110, 960, fr, DISP, "Light", 48, cor="#D9D3EA")
+        rodape(doc, fr, handle)
+        return fr
     if t in ("rank_capa", "produto"):
         return ranking(doc, fr, s, tmp, i, handle)
     if t == "capa":

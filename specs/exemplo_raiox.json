@@ -1,0 +1,81 @@
+{
+ "titulo_post": "Por que esse vídeo de ventilador fez R$ 58 mil no TikTok Shop",
+ "estilo": "raiox",
+ "legenda": "Afiliado, fiz o raio-X de um vídeo de ventilador que fez R$ 58 mil em 7 dias no TikTok Shop (estimado) 🔎 O gancho, a estrutura e os gatilhos, cena por cena. A análise sai da ferramenta que eu uso, que também cria variações na mesma estrutura pra você gravar. Salva e comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #afiliados #afiliadosiniciantes #ia",
+ "slides": [
+  {
+   "tipo": "capa",
+   "l1": "[[Afiliado]], o raio-X",
+   "l2": "do vídeo",
+   "l3": "que fez R$ 58 mil em 27 segundos",
+   "l4": "em 7 dias no [[TikTok Shop]] (estimado)",
+   "card": "assets/prints/2026-11-23_ventilador/s1.jpg",
+   "selo": "R$ 58 mil em 7 dias",
+   "tela": [
+    "assets/prints/2026-11-23_ventilador/s4.jpg",
+    640,
+    "variação v1"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "pilula": "1. O gancho",
+   "titulo": "Os primeiros **3 segundos**:",
+   "citacao": "“Esse ventilador eu tive que mostrar pra vocês, comprei ele aqui pra área externa.”",
+   "fonte": "FALA ORIGINAL DO VÍDEO",
+   "y0": 330,
+   "alt_citacao": 420,
+   "itens": [
+    "Mostra o produto **já instalado**, na casa real",
+    "Tom de quem **achou algo bom**, não de anúncio"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "pilula": "2. A estrutura",
+   "titulo": "O vídeo tem **4 partes**:",
+   "y0": 360,
+   "passo_itens": 170,
+   "itens": [
+    "**Achado pessoal**, no ambiente real",
+    "**Novidade**: vira ventilador de parede",
+    "**Prova técnica**: marca, garantia, 3 velocidades",
+    "**Número concreto** (17 metros) + CTA do preço da semana"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "pilula": "3. Os gatilhos",
+   "titulo": "Por que **segura** e **converte**:",
+   "y0": 360,
+   "passo_itens": 170,
+   "itens": [
+    "**Prova pessoal**: o produto aprovado em casa",
+    "**Autoridade**: marca e 2 anos de garantia",
+    "**Especificidade**: 1,5 m de altura, 17 m de vento",
+    "**Urgência**: preço bom só essa semana"
+   ]
+  },
+  {
+   "tipo": "passo",
+   "n": 0,
+   "pilula": "Como eu fiz essa análise",
+   "titulo": "A **ferramenta** que eu uso lê a estrutura e cria **3 variações**",
+   "print": "assets/prints/2026-11-23_ventilador/s4.jpg",
+   "y": 640,
+   "texto": "Mesma estrutura que vendeu, com __gancho novo__, **cena por cena**. Dá pra gravar ou fazer **com IA**."
+  },
+  {
+   "tipo": "cta",
+   "l1": "COMENTA [[TTS]] E RECEBA O",
+   "l2": "Acesso à ferramenta",
+   "card": "assets/prints/2026-11-23_ventilador/s1.jpg",
+   "selo": "R$ 58 mil em 7 dias",
+   "tela": [
+    "assets/prints/2026-11-23_ventilador/s4.jpg",
+    640,
+    "variação v1"
+   ]
+  }
+ ]
+}
