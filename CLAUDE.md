@@ -125,7 +125,7 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
   **estrutura validada** de vídeos que já venderam (V1/V2/V3 com cenas fala/ação/tom).
 - **Gancho que conecta com o afiliado (desde 12/11):** o carrossel NUNCA começa direto no passo a passo.
   Slide 1 = HEADLINE grande no topo falando com o afiliado e dizendo o que o post vai mostrar
-  (ex.: "Afiliado: para de gravar vídeo que não vende", "Não sabe o que gravar hoje?") + subtítulo na caixa
+  (ex.: "Para de gravar vídeo que não vende", "Não sabe o que gravar hoje?"; sem a palavra "Afiliado") + subtítulo na caixa
   com a prova real (vendas do vídeo) + card do vídeo. Slide 2 = dor/promessa ou "salva esse passo a passo"
   (ex.: "O segredo não é o produto" / "É a estrutura do vídeo. Te mostro como usar a de quem já vende").
   Só depois vêm os passos. Ver specs/2026-11-12_F_prints_bermuda.json e _G_prints_parafusadeira.json.
@@ -141,9 +141,10 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
 - **Slide 1 mostra o faturamento:** se a capa mostra/cita um vídeo, o card dele aparece COM as métricas
   (vendas, faturamento, views) e o faturamento de 7 dias em destaque (ex.: selo "R$ 109 mil em 7 dias"), como estimado.
 - **"TikTok Shop" escrito nos primeiros slides (desde 22/11, pedido do Lucas):** a capa e o slide 2 citam
-  "TikTok Shop" DE FORMA NATURAL, dentro da frase, pra atrair o afiliado sem parecer forçado. Capa: "Afiliado" no título,
-  em roxo ("[[Afiliado]], pegue a"), e "TikTok Shop" em roxo/negrito no subtítulo ("em 7 dias no [[TikTok Shop]] (estimado)"),
-  os dois bem visíveis (pedido do Lucas em 22/11: "achei meio pequeno"). Slide 2: no título ("De 1 vídeo que já vende no TikTok Shop você tira
+  "TikTok Shop" DE FORMA NATURAL, dentro da frase, pra atrair o afiliado sem parecer forçado. Capa: "TikTok Shop" em
+  roxo/negrito no subtítulo ("em 7 dias no [[TikTok Shop]] (estimado)"), bem visível (pedido do Lucas em 22/11: "achei meio pequeno").
+  **NUNCA escrever "Afiliado"/"afiliado" em slide, gancho de vídeo, título ou legenda (pedido do Lucas em 23/11: "só de ter
+  o TikTok Shop escrito já chama a atenção dos afiliados").** As hashtags #afiliados/#afiliadosiniciantes continuam. Slide 2: no título ("De 1 vídeo que já vende no TikTok Shop você tira
   3 vídeos novos"). Legenda: "...que fez R$ X mil em 7 dias no TikTok Shop". Nada de etiqueta/pílula "AFILIADO DO
   TIKTOK SHOP" nem de repetir a palavra à força (o Lucas achou forçado). Vale também pra variação do dia.
 - **"Pegar", nunca "roubar" (desde 22/11, pedido do Lucas):** nada de "roube", "rouba", "roubar" em slide,
@@ -196,7 +197,7 @@ Visual escuro/roxo modelado nos carrosséis virais "Roube meu Prompt", 1080x1350
 - Spec: copie `specs/exemplo_premium_nicho.json` e troque produto, números (do conector, "estimado"),
   caminhos `assets/prints/...` e a legenda. Recortes de partida: s2 `y` 770, s3 440, s4 640, s5 640, s6
   `y` 1112 + `x` 60 + `larg` 740 (s6 tem 1528 de altura). Ajuste olhando a prévia, porque cada vídeo muda a altura das telas.
-- Capa: `l1` "[[Afiliado]], pegue a", `l2` "Estrutura", `l3` "de um vídeo que fez R$ X mil", `l4` "em 7 dias no [[TikTok Shop]] (estimado)"
+- Capa: `l1` "Pegue a", `l2` "Estrutura", `l3` "de um vídeo que fez R$ X mil", `l4` "em 7 dias no [[TikTok Shop]] (estimado)"
   (`[[...]]` = roxo e negrito; o `l4` sai em 48 px),
   `selo` "R$ X mil em 7 dias". Não usar `kicker` (a pílula existe no motor, mas o Lucas achou forçada). Slide 2 (`lista`):
   `pilula` "Salva esse post" e `titulo` "De **1 vídeo que já vende no TikTok Shop** você tira **3 vídeos novos**:". Exemplo: `specs/exemplo_premium_nicho.json`. Na variação do dia, pode trocar `l1`/`l2`/`l3` por outro gancho curto.
@@ -211,7 +212,7 @@ Visual escuro/roxo modelado nos carrosséis virais "Roube meu Prompt", 1080x1350
 ## Rodízio de formatos (desde 23/11, pedido do Lucas: "testar mais formatos")
 De 12/11 a 22/11 todo post foi o mesmo "passo a passo da ferramenta" e ficou entre 20 e 140 views (mediana ~55).
 O que muda agora é o ASSUNTO/formato do post, não só o visual. Todos usam o motor `figcraft/premium.py`
-(mesmo visual escuro/roxo) e seguem TODAS as regras de conteúdo (Afiliado/TikTok Shop na capa, "pegue",
+(mesmo visual escuro/roxo) e seguem TODAS as regras de conteúdo ("TikTok Shop" na capa e nunca "Afiliado", "pegue",
 números reais "estimado", sem nome da marca, ferramenta natural, CTA "Comenta TTS").
 - **Agenda:** 24/11: 12h e 19h premium, 21h **raio-X** (os 3 como rascunho pro Lucas postar, ver "POSTAGEM PELO LUCAS"). A partir de 25/11: **12h = premium
   (controle)**; **19h = video_tela** (formato novo prioritário, pelo menos 4 dias seguidos, um produto diferente por dia);
@@ -222,11 +223,11 @@ números reais "estimado", sem nome da marca, ferramenta natural, CTA "Comenta T
   use o nome do formato (`ranking`, `raiox`, `erros`, `antes_depois`, `dicas`).
 - **Banco de formatos** (tipos de slide do premium.py: `rank_capa`, `produto`, `capa_texto`, `texto`, `passo` com
   `pilula`, `cta` com `print`):
-  1. **ranking**: "Afiliado, esses são os 5 produtos que mais faturaram essa semana no TikTok Shop".
+  1. **ranking**: "Esses são os 5 produtos que mais faturaram essa semana no TikTok Shop".
      Dados: `listar_em_alta` tipo **produto** (pular produto repetido/variação do mesmo); fotos baixadas pra
      `assets/produtos/<id>.jpg` (webp → jpg). Contagem regressiva 5→1, slide "De onde eu tiro isso" (print da
      biblioteca, s2) e CTA com print. Variações: por categoria (beleza, casa, moda...). Exemplo: `specs/2026-11-23_C_ranking_semana.json`.
-  2. **raiox**: "Afiliado, o raio-X do vídeo que fez R$ X mil". Dados REAIS: `ver_video` (fala original → o gancho)
+  2. **raiox**: "O raio-X do vídeo que fez R$ X mil". Dados REAIS: `ver_video` (fala original → o gancho)
      e `ver_projeto` → `analise` (structure_analysis, retention_analysis, triggers). Slides: capa (vitrine) →
      1. O gancho (citação da fala original) → 2. A estrutura → 3. Os gatilhos → "Como eu fiz essa análise"
      (ferramenta, print da V1) → CTA. Exemplo: `specs/exemplo_raiox.json`. Evite produtos com promessa de

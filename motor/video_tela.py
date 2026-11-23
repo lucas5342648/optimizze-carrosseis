@@ -8,7 +8,7 @@ Spec: {"gancho": ["linha 1", "linha 2 com [[destaque]]"], "gancho_seg": 2.2,
        "trechos": [{"pasta": "t1_lista", "texto": "..."}, ...],
        "cta": ["COMENTA [[TTS]]", "e receba o acesso à ferramenta"], "cta_seg": 2.8,
        "titulo_post": "...", "legenda": "..."}
-Também salva <saida>_capa.jpg (o quadro do gancho), pra prévia e pra capa.
+Também salva capa.jpg na pasta da saída (o quadro do gancho), pra prévia e pra capa.
 """
 import json, re, subprocess, sys, tempfile
 from pathlib import Path
@@ -128,7 +128,7 @@ def main(spec_p, grav, saida):
     capa = compor(Image.open(primeiro).convert("RGB").filter(ImageFilter.GaussianBlur(6)), escurecer=0.62, extra=g)
     for _ in range(int(spec.get("gancho_seg", 2.2) * FPS)):
         escreve(capa)
-    capa.save(str(saida).replace(".mp4", "_capa.jpg"), quality=92)
+    capa.save(saida.parent / "capa.jpg", quality=92)
     # 2. Trechos gravados, cada um com a sua legenda nativa
     ultimo = None
     for t in trechos:
