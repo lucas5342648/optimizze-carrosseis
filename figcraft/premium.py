@@ -5,6 +5,9 @@ Formato 1080x1350 (4:5). Paleta escura com roxo. Tipos de slide:
           (sem linhas ligando as telas) + "Afiliado, pegue a / Estrutura / de um vídeo que fez R$ X"
   lista : "Salva esse passo a passo" com os 5 passos numerados
   passo : pílula "Passo N" + título (leve + **negrito**) + faixa com o print + texto com **negrito** e __sublinhado__
+  rank_capa : 5 fotos de produto com a posição + "Afiliado, esses são os / 5 produtos / ... TikTok Shop"
+  produto   : pílula + foto grande com a posição + nome + 2 dados (vendas / faturamento 7d) + preço
+  passo com "pilula" troca o "Passo N" (ex.: "De onde eu tiro isso"); cta com "print" usa um print no lugar da vitrine
   cta   : card + tela + "COMENTA TTS E RECEBA O / Acesso à ferramenta" (só o acesso: nada de prometer brinde)
 Marcação nos textos: **negrito**, __sublinhado__, [[roxo]] (cor de destaque).
 Uso: python3 figcraft/premium.py <spec.json> <saida> <PREFIXO> --cli <figcraft-cli>
@@ -118,9 +121,65 @@ def vitrine(doc, fr, s, tmp, i, topo=80, ch=600, vh=470):
                             "props": {"fontFamily": DISP, "fontStyle": "Bold", "fontSize": 38, "fills": ["#FFFFFF"]}})
 
 
+def tile(doc, fr, foto, x, y, lado, rank, tmp, i):
+    """Foto do produto num card branco arredondado + selo com a posição."""
+    a = tmp / f"t{i}_{rank}.jpg"
+    Image.open(ROOT / foto).convert("RGB").resize((lado * 2, lado * 2), Image.LANCZOS).save(a, quality=93)
+    f = doc.frame(x=x, y=y, width=lado, height=lado, parent=fr, name=f"produto {rank}",
+                  props={"fill": "#FFFFFF", "cornerRadius": 28, "clip": True})
+    doc.fx([f], "dropShadow", {"color": "#7A3CF566", "offset": [0, 0], "radius": 50, "spread": 0})
+    doc.img(path=str(a), x=0, y=0, width=lado, height=lado, parent=f, mode="fill")
+    b = max(70, lado // 4)
+    sel = doc.frame(x=x - 14, y=y - 14, width=b, height=b, parent=fr, name="posição",
+                    props={"fills": [{"type": "linearGradient", "stops": ["#9B6BFF", "#6A2FE8"]}], "cornerRadius": 999,
+                           "layout": "horizontal", "mainAlign": "center", "crossAlign": "center"})
+    doc.fx([sel], "dropShadow", {"color": "#00000099", "offset": [0, 8], "radius": 24, "spread": 0})
+    doc.add("text.create", {"text": f"#{rank}", "x": 0, "y": 0, "parent": sel,
+                            "props": {"fontFamily": DISP, "fontStyle": "Bold", "fontSize": int(b * 0.42), "fills": ["#FFFFFF"]}})
+
+
+def ranking(doc, fr, s, tmp, i, handle):
+    t = s["tipo"]
+    if t == "rank_capa":
+        fotos = s["fotos"]; L = 270; gap = 50
+        x0 = (W - (3 * L + 2 * gap)) // 2
+        for k in range(3):
+            tile(doc, fr, fotos[k], x0 + k * (L + gap), 90, L, k + 1, tmp, i)
+        x1 = (W - (2 * L + gap)) // 2
+        for k in range(2):
+            tile(doc, fr, fotos[3 + k], x1 + k * (L + gap), 90 + L + 50, L, k + 4, tmp, i)
+        doc.texto(s["l1"], 60, 755, 960, fr, DISP, "Bold", 80, ls="-2%")
+        doc.texto(s["l2"], 20, 820, 1040, fr, SERIF, "ExtraBold Italic", 170, cor=GRAD, lh="100%", ls="-2%")
+        doc.texto(s["l3"], 60, 1015, 960, fr, DISP, "Bold", 50, ls="-1%")
+        doc.texto(s["l4"], 60, 1140, 960, fr, DISP, "Light", 36, cor="#BDB6D3")
+        rodape(doc, fr, handle)
+    elif t == "produto":
+        pil = doc.frame(x=0, y=48, width=W, height=70, parent=fr, name="pílula",
+                        props={"fill": "none", "layout": "horizontal", "mainAlign": "center"})
+        p = doc.frame(x=0, y=0, width=10, height=10, parent=pil, props={"fill": "#FFFFFF", "cornerRadius": 14, "layout": "horizontal",
+                      "padding": [4, 20, 4, 20], "sizingH": "hug", "sizingV": "hug"})
+        doc.add("text.create", {"text": s.get("pilula", "Top 5 da semana"), "x": 0, "y": 0, "parent": p,
+                                "props": {"fontFamily": MONO, "fontStyle": "Regular", "fontSize": 40, "fills": ["#000000"]}})
+        tile(doc, fr, s["foto"], (W - 600) // 2, 160, 600, s["rank"], tmp, i)
+        doc.texto(s["nome"], 60, 800, 960, fr, DISP, "Bold", 60, lh="106%", ls="-2%")
+        y = 960; cw = 440
+        for k, (v, rot) in enumerate(s["stats"][:2]):
+            x = 80 + k * (cw + 40)
+            c = doc.frame(x=x, y=y, width=cw, height=180, parent=fr, name="dado",
+                          props={"fill": "#14101F", "cornerRadius": 24, "stroke": "#2A2340", "strokeWeight": 2, "strokeAlign": "inside"})
+            doc.texto(v, 0, 26, cw, c, DISP, "Bold", 64, cor=(ROXO if k else "#FFFFFF"), ls="-2%")
+            doc.texto(rot, 0, 112, cw, c, SANS, "Regular", 32, cor="#BDB6D3", ls="0%")
+        if s.get("preco"):
+            doc.texto(s["preco"], 60, 1160, 960, fr, SANS, "Regular", 36, cor="#D9D3EA", ls="0%")
+        rodape(doc, fr, handle)
+    return fr
+
+
 def slide(doc, i, s, tmp, handle):
     t = s["tipo"]
     fr = fundo(doc, i, f"{i + 1:02d} {t}")
+    if t in ("rank_capa", "produto"):
+        return ranking(doc, fr, s, tmp, i, handle)
     if t == "capa":
         k = bool(s.get("kicker"))
         vitrine(doc, fr, s, tmp, i, topo=40, ch=540 if k else 600, vh=420 if k else 470)
@@ -157,14 +216,18 @@ def slide(doc, i, s, tmp, handle):
                         props={"fill": "none", "layout": "horizontal", "mainAlign": "center"})
         p = doc.frame(x=0, y=0, width=10, height=10, parent=pil, props={"fill": "#FFFFFF", "cornerRadius": 14, "layout": "horizontal",
                       "padding": [4, 20, 4, 20], "sizingH": "hug", "sizingV": "hug"})
-        doc.add("text.create", {"text": f"Passo {s['n']}", "x": 0, "y": 0, "parent": p, "props": {"fontFamily": MONO, "fontStyle": "Regular", "fontSize": 40, "fills": ["#000000"]}})
+        doc.add("text.create", {"text": s.get("pilula") or f"Passo {s['n']}", "x": 0, "y": 0, "parent": p, "props": {"fontFamily": MONO, "fontStyle": "Regular", "fontSize": 40, "fills": ["#000000"]}})
         doc.texto(s["titulo"], 60, 130, 960, fr, DISP, "Light", 68, lh="106%", ls="-2%")
         img = recorte(s["print"], tmp / f"p{i}.jpg", 1000, 560, s.get("y", 0), s.get("x", 0), s.get("larg"))
         quadro(doc, fr, img, 40, 330, 1000, 560, raio=30)
         doc.texto(s["texto"], 100, 930, 880, fr, SANS, "Regular", 50, alin="left", lh="116%", ls="-2%")
         rodape(doc, fr, handle)
     elif t == "cta":
-        vitrine(doc, fr, s, tmp, i, topo=20)
+        if s.get("print"):
+            img = recorte(s["print"], tmp / f"c{i}.jpg", 1000, 560, s.get("y", 0), s.get("x", 0), s.get("larg"))
+            quadro(doc, fr, img, 40, 110, 1000, 560, raio=30)
+        else:
+            vitrine(doc, fr, s, tmp, i, topo=20)
         col = doc.frame(x=20, y=740, width=1040, height=100, parent=fr, name="cta",
                         props={"fill": "none", "layout": "vertical", "gap": 6, "crossAlign": "center", "sizingV": "hug"})
         doc.texto(s["l1"], 0, 0, 1040, col, COND, "Regular", 112, lh="100%", ls="0%", negrito="Regular")

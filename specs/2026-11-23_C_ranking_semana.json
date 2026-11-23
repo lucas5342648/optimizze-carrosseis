@@ -1,0 +1,125 @@
+{
+ "titulo_post": "Os 5 produtos que mais faturaram essa semana no TikTok Shop",
+ "estilo": "ranking",
+ "legenda": "Afiliado, esses foram os 5 produtos que mais faturaram essa semana no TikTok Shop (vendas e faturamento de 7 dias, estimados) 📈 Salva pra escolher o seu próximo produto. Eu tiro esse ranking da ferramenta que eu uso todo dia, que também cria variações na estrutura dos vídeos que mais venderam. Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #afiliados #afiliadosiniciantes #ia",
+ "slides": [
+  {
+   "tipo": "rank_capa",
+   "fotos": [
+    "assets/produtos/1735570961602217680.jpg",
+    "assets/produtos/1731428535156966971.jpg",
+    "assets/produtos/1736230887015876182.jpg",
+    "assets/produtos/1733358016393282888.jpg",
+    "assets/produtos/1732557589119469391.jpg"
+   ],
+   "l1": "[[Afiliado]], esses são os",
+   "l2": "5 produtos",
+   "l3": "que mais faturaram essa semana no [[TikTok Shop]]",
+   "l4": "vendas e faturamento de 7 dias (estimados)"
+  },
+  {
+   "tipo": "produto",
+   "rank": 5,
+   "foto": "assets/produtos/1732557589119469391.jpg",
+   "nome": "Kit whey + creatina + termogênico",
+   "stats": [
+    [
+     "8.302",
+     "vendas em 7 dias"
+    ],
+    [
+     "R$ 1,9 mi",
+     "faturamento em 7 dias"
+    ]
+   ],
+   "pilula": "Top 5 da semana",
+   "preco": "Preço no TikTok Shop: R$ 239,40"
+  },
+  {
+   "tipo": "produto",
+   "rank": 4,
+   "foto": "assets/produtos/1733358016393282888.jpg",
+   "nome": "Lavadora de alta pressão 1.400W",
+   "stats": [
+    [
+     "5.349",
+     "vendas em 7 dias"
+    ],
+    [
+     "R$ 2,0 mi",
+     "faturamento em 7 dias"
+    ]
+   ],
+   "pilula": "Top 5 da semana",
+   "preco": "Preço no TikTok Shop: R$ 349,85"
+  },
+  {
+   "tipo": "produto",
+   "rank": 3,
+   "foto": "assets/produtos/1736230887015876182.jpg",
+   "nome": "Kit de cabelo com máscara",
+   "stats": [
+    [
+     "3.741",
+     "vendas em 7 dias"
+    ],
+    [
+     "R$ 2,2 mi",
+     "faturamento em 7 dias"
+    ]
+   ],
+   "pilula": "Top 5 da semana"
+  },
+  {
+   "tipo": "produto",
+   "rank": 2,
+   "foto": "assets/produtos/1731428535156966971.jpg",
+   "nome": "Micro-ondas 21 litros",
+   "stats": [
+    [
+     "4.616",
+     "vendas em 7 dias"
+    ],
+    [
+     "R$ 2,4 mi",
+     "faturamento em 7 dias"
+    ]
+   ],
+   "pilula": "Top 5 da semana",
+   "preco": "Preço no TikTok Shop: R$ 456,99"
+  },
+  {
+   "tipo": "produto",
+   "rank": 1,
+   "foto": "assets/produtos/1735570961602217680.jpg",
+   "nome": "Robô aspirador silencioso com sensor",
+   "stats": [
+    [
+     "7.044",
+     "vendas em 7 dias"
+    ],
+    [
+     "R$ 4,2 mi",
+     "faturamento em 7 dias"
+    ]
+   ],
+   "pilula": "O mais vendido da semana"
+  },
+  {
+   "tipo": "passo",
+   "n": 0,
+   "pilula": "De onde eu tiro isso",
+   "titulo": "Tiro esse ranking da **ferramenta** que eu uso todo dia",
+   "print": "assets/prints/2026-11-23_estante/s2.jpg",
+   "y": 165,
+   "texto": "Ela mostra os **vídeos que mais venderam** cada produto e cria __variações na mesma estrutura__ pra você gravar ou fazer **com IA**."
+  },
+  {
+   "tipo": "cta",
+   "print": "assets/prints/2026-11-23_estante/s2.jpg",
+   "y": 740,
+   "l1": "COMENTA [[TTS]] E RECEBA O",
+   "l2": "Acesso à ferramenta"
+  }
+ ]
+}
