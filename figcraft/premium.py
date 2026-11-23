@@ -136,7 +136,7 @@ def slide(doc, i, s, tmp, handle):
         doc.texto(s["l1"], 60, 745 + dy, 960, fr, DISP, "Bold", 88, ls="-2%")
         doc.texto(s["l2"], 20, 812 + dy, 1040, fr, SERIF, "ExtraBold Italic", 190, cor=GRAD, lh="100%", ls="-2%")
         doc.texto(s["l3"], 60, 1030 + dy, 960, fr, DISP, "Bold", 52, ls="-1%")
-        doc.texto(s["l4"], 60, 1094 + dy, 960, fr, DISP, "Light", 42, cor="#D9D3EA")
+        doc.texto(s["l4"], 60, 1094 + dy, 960, fr, DISP, "Light", s.get("l4_tam", 48), cor="#D9D3EA")
         rodape(doc, fr, handle)
     elif t == "lista":
         pil = doc.frame(x=0, y=110, width=W, height=70, parent=fr, name="pílula",

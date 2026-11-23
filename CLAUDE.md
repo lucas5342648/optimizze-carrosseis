@@ -133,8 +133,9 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
 - **Slide 1 mostra o faturamento:** se a capa mostra/cita um vídeo, o card dele aparece COM as métricas
   (vendas, faturamento, views) e o faturamento de 7 dias em destaque (ex.: selo "R$ 109 mil em 7 dias"), como estimado.
 - **"TikTok Shop" escrito nos primeiros slides (desde 22/11, pedido do Lucas):** a capa e o slide 2 citam
-  "TikTok Shop" DE FORMA NATURAL, dentro da frase, pra atrair o afiliado sem parecer forçado. Capa: no subtítulo
-  ("em 7 dias no TikTok Shop (estimado)"). Slide 2: no título ("De 1 vídeo que já vende no TikTok Shop você tira
+  "TikTok Shop" DE FORMA NATURAL, dentro da frase, pra atrair o afiliado sem parecer forçado. Capa: "Afiliado" no título,
+  em roxo ("[[Afiliado]], roube a"), e "TikTok Shop" em roxo/negrito no subtítulo ("em 7 dias no [[TikTok Shop]] (estimado)"),
+  os dois bem visíveis (pedido do Lucas em 22/11: "achei meio pequeno"). Slide 2: no título ("De 1 vídeo que já vende no TikTok Shop você tira
   3 vídeos novos"). Legenda: "...que fez R$ X mil em 7 dias no TikTok Shop". Nada de etiqueta/pílula "AFILIADO DO
   TIKTOK SHOP" nem de repetir a palavra à força (o Lucas achou forçado). Vale também pra variação do dia.
 - **Vídeo com IA (breve):** em um dos passos, mencionar que também dá pra fazer o vídeo com IA
@@ -181,7 +182,8 @@ Visual escuro/roxo modelado nos carrosséis virais "Roube meu Prompt", 1080x1350
 - Spec: copie `specs/2026-11-17_C_premium_microfone.json` e troque produto, números (do conector, "estimado"),
   caminhos `assets/prints/...` e a legenda. Recortes de partida: s2 `y` 770, s3 440, s4 640, s5 640, s6
   `y` 1112 + `x` 60 + `larg` 740 (s6 tem 1528 de altura). Ajuste olhando a prévia, porque cada vídeo muda a altura das telas.
-- Capa: `l1` "Roube a", `l2` "Estrutura", `l3` "de um vídeo que fez R$ X mil", `l4` "em 7 dias no TikTok Shop (estimado)",
+- Capa: `l1` "[[Afiliado]], roube a", `l2` "Estrutura", `l3` "de um vídeo que fez R$ X mil", `l4` "em 7 dias no [[TikTok Shop]] (estimado)"
+  (`[[...]]` = roxo e negrito; o `l4` sai em 48 px),
   `selo` "R$ X mil em 7 dias". Não usar `kicker` (a pílula existe no motor, mas o Lucas achou forçada). Slide 2 (`lista`):
   `pilula` "Salva esse post" e `titulo` "De **1 vídeo que já vende no TikTok Shop** você tira **3 vídeos novos**:". Exemplo: `specs/exemplo_premium_nicho.json`. Na variação do dia, pode trocar `l1`/`l2`/`l3` por outro gancho curto.
 - Slides: capa (card do vídeo com métricas + selo do faturamento + tela da V1) → lista "salva esse post"
