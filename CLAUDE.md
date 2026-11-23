@@ -134,10 +134,12 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
   (vendas, faturamento, views) e o faturamento de 7 dias em destaque (ex.: selo "R$ 109 mil em 7 dias"), como estimado.
 - **"TikTok Shop" escrito nos primeiros slides (desde 22/11, pedido do Lucas):** a capa e o slide 2 citam
   "TikTok Shop" DE FORMA NATURAL, dentro da frase, pra atrair o afiliado sem parecer forçado. Capa: "Afiliado" no título,
-  em roxo ("[[Afiliado]], roube a"), e "TikTok Shop" em roxo/negrito no subtítulo ("em 7 dias no [[TikTok Shop]] (estimado)"),
+  em roxo ("[[Afiliado]], pegue a"), e "TikTok Shop" em roxo/negrito no subtítulo ("em 7 dias no [[TikTok Shop]] (estimado)"),
   os dois bem visíveis (pedido do Lucas em 22/11: "achei meio pequeno"). Slide 2: no título ("De 1 vídeo que já vende no TikTok Shop você tira
   3 vídeos novos"). Legenda: "...que fez R$ X mil em 7 dias no TikTok Shop". Nada de etiqueta/pílula "AFILIADO DO
   TIKTOK SHOP" nem de repetir a palavra à força (o Lucas achou forçado). Vale também pra variação do dia.
+- **"Pegar", nunca "roubar" (desde 22/11, pedido do Lucas):** nada de "roube", "rouba", "roubar" em slide,
+  título ou legenda. Use "pegue a estrutura" / "pega a estrutura".
 - **Vídeo com IA (breve):** em um dos passos, mencionar que também dá pra fazer o vídeo com IA
   (a ferramenta gera os prompts de cada cena), sem virar o foco do carrossel.
 
@@ -179,10 +181,10 @@ Visual escuro/roxo modelado nos carrosséis virais "Roube meu Prompt", 1080x1350
 - Fluxo por carrossel: captura de sempre (`captura/README.md` até o `compor.py`, que gera s1..s6 em
   `assets/prints/AAAA-MM-DD_<slug>/`) → spec premium → `python3 figcraft/premium.py <spec> carrosseis/<pasta> <PREFIXO> --cli $CLI`
   → prévia em grade → OLHAR. Não precisa do `motor/prints.py`.
-- Spec: copie `specs/2026-11-17_C_premium_microfone.json` e troque produto, números (do conector, "estimado"),
+- Spec: copie `specs/exemplo_premium_nicho.json` e troque produto, números (do conector, "estimado"),
   caminhos `assets/prints/...` e a legenda. Recortes de partida: s2 `y` 770, s3 440, s4 640, s5 640, s6
   `y` 1112 + `x` 60 + `larg` 740 (s6 tem 1528 de altura). Ajuste olhando a prévia, porque cada vídeo muda a altura das telas.
-- Capa: `l1` "[[Afiliado]], roube a", `l2` "Estrutura", `l3` "de um vídeo que fez R$ X mil", `l4` "em 7 dias no [[TikTok Shop]] (estimado)"
+- Capa: `l1` "[[Afiliado]], pegue a", `l2` "Estrutura", `l3` "de um vídeo que fez R$ X mil", `l4` "em 7 dias no [[TikTok Shop]] (estimado)"
   (`[[...]]` = roxo e negrito; o `l4` sai em 48 px),
   `selo` "R$ X mil em 7 dias". Não usar `kicker` (a pílula existe no motor, mas o Lucas achou forçada). Slide 2 (`lista`):
   `pilula` "Salva esse post" e `titulo` "De **1 vídeo que já vende no TikTok Shop** você tira **3 vídeos novos**:". Exemplo: `specs/exemplo_premium_nicho.json`. Na variação do dia, pode trocar `l1`/`l2`/`l3` por outro gancho curto.

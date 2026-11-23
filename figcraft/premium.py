@@ -2,7 +2,7 @@
 
 Formato 1080x1350 (4:5). Paleta escura com roxo. Tipos de slide:
   capa  : card do vídeo de referência COM as métricas + selo do faturamento + tela da variação
-          (sem linhas ligando as telas) + "Roube a / Estrutura / de um vídeo que fez R$ X"
+          (sem linhas ligando as telas) + "Afiliado, pegue a / Estrutura / de um vídeo que fez R$ X"
   lista : "Salva esse passo a passo" com os 5 passos numerados
   passo : pílula "Passo N" + título (leve + **negrito**) + faixa com o print + texto com **negrito** e __sublinhado__
   cta   : card + tela + "COMENTA TTS E RECEBA O / Acesso à ferramenta" (só o acesso: nada de prometer brinde)
