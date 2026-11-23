@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-23
+- Sem viral (mediana dos últimos 10 fechados = 67,5 views; teto 3x = 202,5; nenhum perto de 2.000). Regra 2+1 no premium.
+- Premium fechado (6 posts de 20 e 21/11): mediana 60 views, igual ao estilo prints de 13 a 19/11 (~60). O design novo não mudou o alcance. Melhor: 20/11 B perfume 98 (manual); pior: 20/11 A principia 19. Teste da música até aqui: manuais 98 e 25 × automáticos 19, 55, 70 e 65; sem diferença clara.
+- Parciais de 22/11 (<24h): A séruns 78 views, 3 saves e 1 follow em ~20h (melhor premium em saves); B martelete manual (postado 19:21) 68 views e 2 saves em ~13h; C smartwatch só 4 views em ~8h (conferir amanhã; pode ser atraso do Zernio).
+- Hoje, 1º dia da capa nova ("Afiliado"/"TikTok Shop" em roxo e "pegue a"): A estante de aço 12h e B ventilador de coluna 19h (rascunho pro Lucas) = estrutura do exemplo; C clareador 21h muda só o número da capa (vendas: "de um vídeo com 5.638 vendas" no lugar de "que fez R$ X mil"), retomando o 19/11 C cinta (unidades na capa, 81 views).
+
 ## 2026-11-22
 - Sem viral (mediana dos últimos 10 fechados = 65 views; teto 3x = 195; nenhum perto de 2.000). Regra 2+1 no premium.
 - Primeira leitura do premium (24h+): 20/11 B perfume, o 1º postado à mão pelo Lucas com música, fechou 93 views e 1 comment; os automáticos do mesmo dia ficaram em 18 (A principia, 1 save) e 49 (C legging, 6,2% de completion, a melhor da semana). Manual 93 × automáticos 18/49: aponta na direção da hipótese da música, mas é 1 post só.
