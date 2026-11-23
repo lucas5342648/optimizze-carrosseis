@@ -1,8 +1,11 @@
 """Formato `video_tela`: vídeo vertical (1080x1920, 30 qps) com a GRAVAÇÃO DA TELA do app fazendo o
 passo a passo + legenda no estilo nativo do TikTok (caixa branca, texto preto) no topo de cada trecho.
-Sem música: o Lucas escolhe a música viral na hora de postar (o vídeo leva uma faixa de áudio muda).
+Sem música: o Lucas escolhe a música viral na hora de postar.
+NARRAÇÃO (desde 23/11): voz `pm_alex` (motor/narracao.py, Kokoro, grátis). Cada bloco fala o campo `fala`
+(gancho_fala, trechos[i].fala, cta_fala; se faltar, usa o texto da tela). Se a fala for mais longa que o trecho
+gravado, o último quadro do trecho fica parado até ela acabar. `"narracao": false` no spec ou `--sem-voz` = vídeo mudo.
 
-Uso: python3 motor/video_tela.py <spec.json> <pasta_gravacao> <saida.mp4>
+Uso: python3 motor/video_tela.py <spec.json> <pasta_gravacao> <saida.mp4> [--sem-voz]
   <pasta_gravacao> = saída do captura/gravar.js (pastas t1_lista ... com os quadros).
 Spec: {"gancho": ["linha 1", "linha 2 com [[destaque]]"], "gancho_seg": 2.2,
        "trechos": [{"pasta": "t1_lista", "texto": "..."}, ...],
@@ -97,10 +100,22 @@ def moldura(app):
     return app, m
 
 
-def main(spec_p, grav, saida):
+def main(spec_p, grav, saida, sem_voz=False):
     spec = json.load(open(spec_p)); grav = Path(grav); saida = Path(saida); saida.parent.mkdir(parents=True, exist_ok=True)
     base = fundo()
     tmpd = Path(tempfile.mkdtemp()); n = 0
+    voz = spec.get("narracao", True) and not sem_voz
+    falas = []  # (quadro inicial, wav)
+
+    def narrar(texto, nome):
+        """Gera a fala do bloco que começa agora; devolve quantos quadros ela precisa (com folga)."""
+        if not voz or not texto:
+            return 0
+        from narracao import falar
+        wav = tmpd / f"fala_{nome}.wav"
+        dur = falar(texto, wav)
+        falas.append((n, wav))
+        return int((dur + 0.45) * FPS)
 
     def escreve(img):
         nonlocal n
@@ -126,26 +141,43 @@ def main(spec_p, grav, saida):
     # 1. Gancho: primeiro quadro escurecido + texto grande
     g = texto_grande(spec["gancho"])
     capa = compor(Image.open(primeiro).convert("RGB").filter(ImageFilter.GaussianBlur(6)), escurecer=0.62, extra=g)
-    for _ in range(int(spec.get("gancho_seg", 2.2) * FPS)):
+    precisa = narrar(spec.get("gancho_fala") or " ".join(spec["gancho"]), "gancho")
+    for _ in range(max(int(spec.get("gancho_seg", 2.2) * FPS), precisa)):
         escreve(capa)
     capa.save(saida.parent / "capa.jpg", quality=92)
     # 2. Trechos gravados, cada um com a sua legenda nativa
     ultimo = None
-    for t in trechos:
+    for i, t in enumerate(trechos):
         leg = caixa_nativa(t["texto"])
-        for q in sorted((grav / t["pasta"]).glob("*.jpg")):
+        precisa = narrar(t.get("fala") or t["texto"], f"t{i}")
+        quadros = sorted((grav / t["pasta"]).glob("*.jpg"))
+        for q in quadros:
             ultimo = Image.open(q).convert("RGB")
-            escreve(compor(ultimo, leg))
+            fr = compor(ultimo, leg); escreve(fr)
+        for _ in range(precisa - len(quadros)):
+            escreve(fr)
     # 3. CTA: último quadro escurecido + "Comenta TTS"
     cta = compor(ultimo, escurecer=0.6, extra=texto_grande(spec["cta"], tam=96))
-    for _ in range(int(spec.get("cta_seg", 2.8) * FPS)):
+    precisa = narrar(spec.get("cta_fala") or " ".join(spec["cta"]), "cta")
+    for _ in range(max(int(spec.get("cta_seg", 2.8) * FPS), precisa)):
         escreve(cta)
+    if falas:
+        import numpy as np, soundfile as sf
+        sr = 44100; pista = np.zeros(int(n / FPS * sr) + sr, dtype=np.float32)
+        for q0, wav in falas:
+            a, _ = sf.read(wav, dtype="float32"); i0 = int((q0 / FPS + 0.15) * sr)
+            pista[i0:i0 + len(a)] += a[:len(pista) - i0]
+        sf.write(tmpd / "voz.wav", pista[:int(n / FPS * sr)], sr)
+        audio = ["-i", str(tmpd / "voz.wav"), "-ac", "2"]
+    else:
+        audio = ["-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100", "-shortest"]
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", str(tmpd / "%05d.jpg"),
-                    "-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100", "-shortest",
+                    *audio,
                     "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "20", "-preset", "medium", "-movflags", "+faststart",
-                    "-c:a", "aac", "-b:a", "96k", str(saida)], check=True)
+                    "-c:a", "aac", "-b:a", "128k", str(saida)], check=True)
     print(f"ok {saida} ({n / FPS:.1f}s, {n} quadros)")
 
 
 if __name__ == "__main__":
-    main(*sys.argv[1:4])
+    sys.path.insert(0, str(Path(__file__).parent))
+    main(*sys.argv[1:4], sem_voz="--sem-voz" in sys.argv)

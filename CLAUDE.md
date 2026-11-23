@@ -244,12 +244,18 @@ números reais "estimado", sem nome da marca, ferramenta natural, CTA "Comenta T
   6. **video_tela** (desde 23/11, aprovado pelo Lucas; base: o vídeo dele de 11/07 "Passo a passo completo", 45,6 mil
      views, e os virais "passo a passo com a ferramenta"): VÍDEO vertical 1080x1920 (~28 s) com a GRAVAÇÃO DA TELA do app
      fazendo o passo a passo (lista dos que mais vendem → card do vídeo com R$ → pedir variações → V1 cena por cena →
-     V3 → dicas), legenda nativa (caixa branca) em cada trecho, gancho no começo e "COMENTA TTS" no fim. Sem música
-     (o Lucas põe a música viral ao postar). Como fazer:
+     V3 → dicas), legenda nativa (caixa branca) em cada trecho, gancho no começo e "COMENTA TTS" no fim. Narração com a voz do Alex; sem música
+     (o Lucas põe a música viral ao postar, com volume baixo pra não cobrir a voz). Como fazer:
      a) captura normal até o `montar_dados.py` (app rodando, dados.json/dados_um.json);
      b) `node <repo>/captura/gravar.js <dados.json> <dados_um.json> <video_id> <project_id> /tmp/cap/<slug>/grav` (de dentro de ~/viralsafeai; ~1 min);
-     c) spec a partir de `specs/exemplo_video_tela.json` (trocar o R$ do trecho t2, o produto da legenda e, se quiser, o gancho);
-     d) `python3 motor/video_tela.py <spec> /tmp/cap/<slug>/grav carrosseis/<pasta>/video.mp4` (~1 min; gera também capa.jpg);
+     c) spec a partir de `specs/exemplo_video_tela.json` (trocar o R$ do trecho t2 no `texto` E na `fala`, o produto da legenda e, se quiser, o gancho);
+        **NARRAÇÃO (desde 23/11, escolha do Lucas: voz do Alex, grátis):** cada bloco tem `fala` (gancho_fala, trechos[i].fala,
+        cta_fala), escrita como alguém falando, curta (1 frase), com as mesmas regras de conteúdo (nada de "afiliado", "roteiro",
+        promessa de venda; números com "estimado"). Instalar uma vez por sessão:
+        `pip install --break-system-packages kokoro-onnx soundfile && python3 motor/narracao.py --instalar` (baixa ~330 MB do GitHub).
+        Se a instalação falhar, renderize com `--sem-voz` e avise o Lucas. Não trocar de voz/serviço sem ele pedir (Azure grátis fica pra depois);
+     d) `python3 motor/video_tela.py <spec> /tmp/cap/<slug>/grav carrosseis/<pasta>/video.mp4` (~2 min; gera também capa.jpg);
+        conferir o áudio com `ffmpeg -i video.mp4 -af silencedetect=n=-40dB:d=0.25 -f null -` (a fala tem que existir em cada bloco);
      e) OLHAR uns quadros (ffmpeg -ss N -frames:v 1) antes de publicar: @ e marca borrados, legenda sem cortar;
      f) Zernio: media_items = [{type: "video", url: <raw GitHub do video.mp4>}], tiktok_settings com mediaType "video",
         allowDuet/allowStitch true, videoCoverTimestampMs 500, e o resto igual (rascunho, sem música, ver "POSTAGEM PELO LUCAS").

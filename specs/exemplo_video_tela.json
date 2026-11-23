@@ -1,42 +1,51 @@
 {
  "estilo": "video_tela",
  "titulo_post": "Como fazer vídeo pro TikTok Shop com a estrutura de quem já vende",
+ "narracao": true,
  "gancho": [
   "Olha como eu faço",
   "vídeo pro [[TikTok Shop]]",
   "com a estrutura de quem já vende"
  ],
+ "gancho_fala": "Olha como eu faço vídeo pro TikTok Shop usando a estrutura de quem já vende.",
  "gancho_seg": 2.2,
  "trechos": [
   {
    "pasta": "t1_lista",
-   "texto": "Abro a lista dos vídeos que mais vendem no [[TikTok Shop]]"
+   "texto": "Abro a lista dos vídeos que mais vendem no [[TikTok Shop]]",
+   "fala": "Primeiro eu abro a lista dos vídeos que mais vendem no TikTok Shop."
   },
   {
    "pasta": "t2_card",
-   "texto": "Escolho um que já vendeu: esse fez R$ 89 mil em 7 dias (estimado)"
+   "texto": "Escolho um que já vendeu: esse fez R$ 89 mil em 7 dias (estimado)",
+   "fala": "Escolho um que já vendeu. Esse aqui fez uns 89 mil reais em 7 dias, estimado."
   },
   {
    "pasta": "t3_criar",
-   "texto": "Peço variações na mesma estrutura do vídeo"
+   "texto": "Peço variações na mesma estrutura do vídeo",
+   "fala": "Aí eu peço variações na mesma estrutura do vídeo."
   },
   {
    "pasta": "t4_v1",
-   "texto": "Recebo cena por cena: fala, ação e tom"
+   "texto": "Recebo cena por cena: fala, ação e tom",
+   "fala": "E ela me devolve cada cena: o que falar, o que fazer e o tom."
   },
   {
    "pasta": "t5_v3",
-   "texto": "E outros ganchos pra testar qual traz mais resultado"
+   "texto": "E outros ganchos pra testar qual traz mais resultado",
+   "fala": "Ainda vêm outros ganchos, pra testar qual traz mais resultado."
   },
   {
    "pasta": "t6_dicas",
-   "texto": "Gravo seguindo as dicas (ou faço com IA)"
+   "texto": "Gravo seguindo as dicas (ou faço com IA)",
+   "fala": "Depois é só gravar seguindo as dicas. Ou fazer o vídeo com IA."
   }
  ],
  "cta": [
   "COMENTA [[TTS]]",
   "e receba o acesso à ferramenta"
  ],
+ "cta_fala": "Comenta TTS que você recebe o acesso à ferramenta.",
  "cta_seg": 2.8,
  "legenda": "É assim que eu faço vídeo pro TikTok Shop: pego um vídeo que já vendeu (essa estante fez R$ 89 mil em 7 dias, estimado) e a ferramenta cria variações na mesma estrutura, cena por cena. Dá até pra fazer o vídeo com IA. Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes"
 }
