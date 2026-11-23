@@ -78,6 +78,8 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
    se `failed`, leia `errorMessage`, corrija (ex.: reduzir slides) e reagende; se for erro de limite
    diário do TikTok, avise o Lucas em vez de insistir.
    Se o Zernio responder 409 (conteúdo duplicado), mude levemente o `content` (título) e tente de novo.
+   **TESTE "MÚSICA DO LUCAS" ENCERRADO em 23/11:** o Lucas quer TUDO automático, sem nada manual. A partir de 24/11
+   os 3 posts são publicação direta, sem rascunho. (Histórico do teste abaixo.)
    **TESTE "MÚSICA DO LUCAS" (20/11 a 24/11, aprovado por ele em 19/11):** a análise de 19/11 mostrou
    que os posts que o Lucas publicou à mão têm cerca de 5x mais views que os automáticos (mediana de 312 × 66).
    Durante o teste, só o carrossel das **19:00** vira RASCUNHO: crie o post logo de manhã (scheduled_for
@@ -205,7 +207,7 @@ De 12/11 a 22/11 todo post foi o mesmo "passo a passo da ferramenta" e ficou ent
 O que muda agora é o ASSUNTO/formato do post, não só o visual. Todos usam o motor `figcraft/premium.py`
 (mesmo visual escuro/roxo) e seguem TODAS as regras de conteúdo (Afiliado/TikTok Shop na capa, "pegue",
 números reais "estimado", sem nome da marca, ferramenta natural, CTA "Comenta TTS").
-- **Agenda:** 24/11: 12h e 19h premium (teste da música), 21h **raio-X**. A partir de 25/11: **12h = premium
+- **Agenda:** 24/11: 12h e 19h premium (direto, sem rascunho), 21h **raio-X**. A partir de 25/11: **12h = premium
   (controle)**; **19h e 21h = formatos do banco abaixo**, em rodízio (nunca o mesmo formato 2 dias seguidos no mesmo horário).
 - **Como decidir:** cada formato roda pelo menos 2 vezes (produtos/temas diferentes). Se fizer **2x a mediana de
   views dos últimos 10 posts** (ou o dobro de saves), entra no rodízio fixo e ganha variações; se ficar abaixo da
