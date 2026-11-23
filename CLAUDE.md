@@ -78,8 +78,14 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
    se `failed`, leia `errorMessage`, corrija (ex.: reduzir slides) e reagende; se for erro de limite
    diário do TikTok, avise o Lucas em vez de insistir.
    Se o Zernio responder 409 (conteúdo duplicado), mude levemente o `content` (título) e tente de novo.
-   **TESTE "MÚSICA DO LUCAS" ENCERRADO em 23/11:** o Lucas quer TUDO automático, sem nada manual. A partir de 24/11
-   os 3 posts são publicação direta, sem rascunho. (Histórico do teste abaixo.)
+   **POSTAGEM PELO LUCAS, COM MÚSICA VIRAL (desde 24/11, pedido dele em 23/11) — VALE ACIMA DA PUBLICAÇÃO DIRETA:**
+   a rotina PRODUZ tudo (ele não quer produzir nada), mas quem POSTA é o Lucas, pra escolher a música em alta
+   (no automático o TikTok só libera a biblioteca comercial). Então os 3 posts do dia vão como RASCUNHO, criados
+   logo de manhã: `draft: true`, `autoAddMusic: false`, scheduled_for = agora + 5 min (um a cada 5 min),
+   tags `["carrossel", "<formato>", "manual"]` e `metadata: {"carrossel": "<pasta>", "horario": "12:00"}` (ou 19:00/21:00).
+   Eles chegam na Caixa de entrada do TikTok dele; os lembretes das 11:50, 18:50 e 20:50 mandam a legenda
+   pronta e os links das imagens (plano B se o rascunho não chegar). No historico.csv, horário "12:00 (manual)" etc.
+   Na mensagem da manhã, diga que os 3 estão na Caixa de entrada e qual vai em cada horário.
    **TESTE "MÚSICA DO LUCAS" (20/11 a 24/11, aprovado por ele em 19/11):** a análise de 19/11 mostrou
    que os posts que o Lucas publicou à mão têm cerca de 5x mais views que os automáticos (mediana de 312 × 66).
    Durante o teste, só o carrossel das **19:00** vira RASCUNHO: crie o post logo de manhã (scheduled_for
