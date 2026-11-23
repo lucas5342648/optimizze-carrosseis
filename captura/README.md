@@ -32,3 +32,8 @@ os dados que o conector "Optimizze mcp bot" devolveu. Nada toca o site nem o ban
 - s4: resultado V1, roteiro cena a cena (fala/ação/tom).
 - s5: resultado V3 (outro gancho).
 - s6: fim da V2 + Dicas de Gravação.
+
+## Vídeo gravando a tela (formato `video_tela`)
+Depois do passo 5 (dados montados e app rodando), em vez de (ou além de) tirar os prints:
+`cd ~/viralsafeai && node <repo-carrosseis>/captura/gravar.js /tmp/cap/<slug>/dados.json /tmp/cap/<slug>/dados_um.json <video_id> <project_id> /tmp/cap/<slug>/grav`
+Grava 6 trechos (quadro a quadro, 30 qps, 860x1528) e depois `motor/video_tela.py` monta o MP4. Ver CLAUDE.md.

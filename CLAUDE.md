@@ -214,7 +214,8 @@ O que muda agora é o ASSUNTO/formato do post, não só o visual. Todos usam o m
 (mesmo visual escuro/roxo) e seguem TODAS as regras de conteúdo (Afiliado/TikTok Shop na capa, "pegue",
 números reais "estimado", sem nome da marca, ferramenta natural, CTA "Comenta TTS").
 - **Agenda:** 24/11: 12h e 19h premium, 21h **raio-X** (os 3 como rascunho pro Lucas postar, ver "POSTAGEM PELO LUCAS"). A partir de 25/11: **12h = premium
-  (controle)**; **19h e 21h = formatos do banco abaixo**, em rodízio (nunca o mesmo formato 2 dias seguidos no mesmo horário).
+  (controle)**; **19h = video_tela** (formato novo prioritário, pelo menos 4 dias seguidos, um produto diferente por dia);
+  **21h = formatos do banco abaixo**, em rodízio (nunca o mesmo formato 2 dias seguidos).
 - **Como decidir:** cada formato roda pelo menos 2 vezes (produtos/temas diferentes). Se fizer **2x a mediana de
   views dos últimos 10 posts** (ou o dobro de saves), entra no rodízio fixo e ganha variações; se ficar abaixo da
   mediana 2 vezes, sai. Registre em `aprendizados.md` (formato, views, saves) e na coluna `estilo` do historico.csv
@@ -239,4 +240,16 @@ números reais "estimado", sem nome da marca, ferramenta natural, CTA "Comenta T
   5. **dicas**: `capa_texto` "O que eu olho antes de escolher um produto pra divulgar" → itens práticos baseados
      nos dados da biblioteca (vendas 7d, faturamento, nº de vídeos vendendo) → ferramenta → CTA.
      Sem depoimento ou resultado pessoal inventado.
-  6. **vídeo curto** (MP4 com zoom nos prints): ainda não existe o motor; só depois de o Lucas aprovar.
+  6. **video_tela** (desde 23/11, aprovado pelo Lucas; base: o vídeo dele de 11/07 "Passo a passo completo", 45,6 mil
+     views, e os virais "passo a passo com a ferramenta"): VÍDEO vertical 1080x1920 (~28 s) com a GRAVAÇÃO DA TELA do app
+     fazendo o passo a passo (lista dos que mais vendem → card do vídeo com R$ → pedir variações → V1 cena por cena →
+     V3 → dicas), legenda nativa (caixa branca) em cada trecho, gancho no começo e "COMENTA TTS" no fim. Sem música
+     (o Lucas põe a música viral ao postar). Como fazer:
+     a) captura normal até o `montar_dados.py` (app rodando, dados.json/dados_um.json);
+     b) `node <repo>/captura/gravar.js <dados.json> <dados_um.json> <video_id> <project_id> /tmp/cap/<slug>/grav` (de dentro de ~/viralsafeai; ~1 min);
+     c) spec a partir de `specs/exemplo_video_tela.json` (trocar o R$ do trecho t2, o produto da legenda e, se quiser, o gancho);
+     d) `python3 motor/video_tela.py <spec> /tmp/cap/<slug>/grav carrosseis/<pasta>/video.mp4` (~1 min; gera também capa.jpg);
+     e) OLHAR uns quadros (ffmpeg -ss N -frames:v 1) antes de publicar: @ e marca borrados, legenda sem cortar;
+     f) Zernio: media_items = [{type: "video", url: <raw GitHub do video.mp4>}], tiktok_settings com mediaType "video",
+        allowDuet/allowStitch true, videoCoverTimestampMs 500, e o resto igual (rascunho, sem música, ver "POSTAGEM PELO LUCAS").
+     Exemplo pronto: `carrosseis/2026-11-23_video_tela_estante/video.mp4`.

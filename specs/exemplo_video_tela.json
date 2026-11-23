@@ -1,0 +1,17 @@
+{
+ "estilo": "video_tela",
+ "titulo_post": "Como fazer vídeo pro TikTok Shop com a estrutura de quem já vende",
+ "gancho": ["[[Afiliado]], olha como eu faço", "vídeo pro [[TikTok Shop]]", "com a estrutura de quem já vende"],
+ "gancho_seg": 2.2,
+ "trechos": [
+  {"pasta": "t1_lista", "texto": "Abro a lista dos vídeos que mais vendem no [[TikTok Shop]]"},
+  {"pasta": "t2_card", "texto": "Escolho um que já vendeu: esse fez R$ 89 mil em 7 dias (estimado)"},
+  {"pasta": "t3_criar", "texto": "Peço variações na mesma estrutura do vídeo"},
+  {"pasta": "t4_v1", "texto": "Recebo cena por cena: fala, ação e tom"},
+  {"pasta": "t5_v3", "texto": "E outros ganchos pra testar qual traz mais resultado"},
+  {"pasta": "t6_dicas", "texto": "Gravo seguindo as dicas (ou faço com IA)"}
+ ],
+ "cta": ["COMENTA [[TTS]]", "e receba o acesso à ferramenta"],
+ "cta_seg": 2.8,
+ "legenda": "Afiliado, é assim que eu faço vídeo pro TikTok Shop: pego um vídeo que já vendeu (essa estante fez R$ 89 mil em 7 dias, estimado) e a ferramenta cria variações na mesma estrutura, cena por cena. Dá até pra fazer o vídeo com IA. Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes"
+}
