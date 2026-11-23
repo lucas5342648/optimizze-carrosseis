@@ -99,14 +99,14 @@ def bbox_card(src):
     return ImageChops.difference(im, bg).convert("L").point(lambda v: 255 if v > 18 else 0).getbbox()
 
 
-def vitrine(doc, fr, s, tmp, i, topo=80):
+def vitrine(doc, fr, s, tmp, i, topo=80, ch=600, vh=470):
     """Card do vídeo de referência (com vendas/faturamento/views) + tela da variação, sem linhas ligando."""
     x0, y0, x1, y1 = bbox_card(s["card"])
     im = Image.open(ROOT / s["card"]).convert("RGB").crop((x0, y0, x1, y1))
-    ch = 600; cw = int(im.width * ch / im.height)
+    cw = int(im.width * ch / im.height)
     a = tmp / f"card{i}.jpg"; im.resize((cw * 2, ch * 2), Image.LANCZOS).save(a, quality=94)
     quadro(doc, fr, str(a), 70, topo + 40, cw, ch, raio=26, rotulo="vídeo de referência")
-    vx = 70 + cw + 50; vw = W - vx - 50; vh = 470
+    vx = 70 + cw + 50; vw = W - vx - 50
     v = recorte(s["tela"][0], tmp / f"tela{i}.jpg", vw, vh, s["tela"][1])
     quadro(doc, fr, v, vx, topo + 110, vw, vh, raio=26, rotulo=s["tela"][2])
     # selo com o faturamento embaixo da tela da variação (não cobre as métricas do card)
@@ -122,11 +122,21 @@ def slide(doc, i, s, tmp, handle):
     t = s["tipo"]
     fr = fundo(doc, i, f"{i + 1:02d} {t}")
     if t == "capa":
-        vitrine(doc, fr, s, tmp, i, topo=40)
-        doc.texto(s["l1"], 60, 745, 960, fr, DISP, "Bold", 88, ls="-2%")
-        doc.texto(s["l2"], 20, 812, 1040, fr, SERIF, "ExtraBold Italic", 190, cor=GRAD, lh="100%", ls="-2%")
-        doc.texto(s["l3"], 60, 1030, 960, fr, DISP, "Bold", 52, ls="-1%")
-        doc.texto(s["l4"], 60, 1094, 960, fr, DISP, "Light", 42, cor="#D9D3EA")
+        k = bool(s.get("kicker"))
+        vitrine(doc, fr, s, tmp, i, topo=40, ch=540 if k else 600, vh=420 if k else 470)
+        dy = 0
+        if k:  # nicho: fala direto com o afiliado do TikTok Shop
+            dy = 42
+            pil = doc.frame(x=0, y=696, width=W, height=64, parent=fr, name="kicker",
+                            props={"fill": "none", "layout": "horizontal", "mainAlign": "center"})
+            p = doc.frame(x=0, y=0, width=10, height=10, parent=pil, props={"fill": "#FFFFFF", "cornerRadius": 14, "layout": "horizontal",
+                          "padding": [6, 22, 6, 22], "sizingH": "hug", "sizingV": "hug"})
+            doc.add("text.create", {"text": s["kicker"], "x": 0, "y": 0, "parent": p,
+                                    "props": {"fontFamily": MONO, "fontStyle": "Bold", "fontSize": 36, "fills": ["#000000"]}})
+        doc.texto(s["l1"], 60, 745 + dy, 960, fr, DISP, "Bold", 88, ls="-2%")
+        doc.texto(s["l2"], 20, 812 + dy, 1040, fr, SERIF, "ExtraBold Italic", 190, cor=GRAD, lh="100%", ls="-2%")
+        doc.texto(s["l3"], 60, 1030 + dy, 960, fr, DISP, "Bold", 52, ls="-1%")
+        doc.texto(s["l4"], 60, 1094 + dy, 960, fr, DISP, "Light", 42, cor="#D9D3EA")
         rodape(doc, fr, handle)
     elif t == "lista":
         pil = doc.frame(x=0, y=110, width=W, height=70, parent=fr, name="pílula",

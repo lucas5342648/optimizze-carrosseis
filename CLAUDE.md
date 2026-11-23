@@ -132,6 +132,11 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
   brinde, "estrutura validada", roteiro, material extra nem nada além do link do site (que vem na resposta automática).
 - **Slide 1 mostra o faturamento:** se a capa mostra/cita um vídeo, o card dele aparece COM as métricas
   (vendas, faturamento, views) e o faturamento de 7 dias em destaque (ex.: selo "R$ 109 mil em 7 dias"), como estimado.
+- **Nicho "afiliado do TikTok Shop" nos primeiros slides (desde 22/11, pedido do Lucas):** a capa e o slide 2
+  precisam deixar claro que o post é PRA AFILIADO DO TIKTOK SHOP. Capa: pílula `kicker` "AFILIADO DO TIKTOK SHOP"
+  + "TikTok Shop" no subtítulo (ex.: "em 7 dias no TikTok Shop (estimado)"). Slide 2: citar "TikTok Shop" no
+  título (ex.: "De 1 vídeo que já vende no TikTok Shop você tira 3 vídeos novos") e/ou "afiliado" na pílula.
+  Legenda começa com "Afiliado do TikTok Shop:". Vale também pra variação do dia (que muda outra coisa).
 - **Vídeo com IA (breve):** em um dos passos, mencionar que também dá pra fazer o vídeo com IA
   (a ferramenta gera os prompts de cada cena), sem virar o foco do carrossel.
 
@@ -176,8 +181,10 @@ Visual escuro/roxo modelado nos carrosséis virais "Roube meu Prompt", 1080x1350
 - Spec: copie `specs/2026-11-17_C_premium_microfone.json` e troque produto, números (do conector, "estimado"),
   caminhos `assets/prints/...` e a legenda. Recortes de partida: s2 `y` 770, s3 440, s4 640, s5 640, s6
   `y` 1112 + `x` 60 + `larg` 740 (s6 tem 1528 de altura). Ajuste olhando a prévia, porque cada vídeo muda a altura das telas.
-- Capa: `l1` "Roube a", `l2` "Estrutura", `l3` "de um vídeo que fez R$ X mil", `l4` "(em 7 dias, estimado)",
-  `selo` "R$ X mil em 7 dias". Na variação do dia, pode trocar `l1`/`l2`/`l3` por outro gancho curto.
+- Capa: `kicker` "AFILIADO DO TIKTOK SHOP" (pílula branca acima do título; o motor encolhe a vitrine pra caber),
+  `l1` "Roube a", `l2` "Estrutura", `l3` "de um vídeo que fez R$ X mil", `l4` "em 7 dias no TikTok Shop (estimado)",
+  `selo` "R$ X mil em 7 dias". Slide 2 (`lista`): `pilula` "Salva esse post, afiliado" e `titulo`
+  "De **1 vídeo que já vende no TikTok Shop** você tira **3 vídeos novos**:". Exemplo: `specs/exemplo_premium_nicho.json`. Na variação do dia, pode trocar `l1`/`l2`/`l3` por outro gancho curto.
 - Slides: capa (card do vídeo com métricas + selo do faturamento + tela da V1) → lista "salva esse post"
   → Passo 1..5 (print real + texto) → CTA (mesma vitrine + "COMENTA TTS E RECEBA O / Acesso à ferramenta").
 - NÃO desenhar linhas/"teias" ligando as telas (é recurso da ferramenta de outra pessoa).
