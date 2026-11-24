@@ -1,7 +1,7 @@
 // Grava a TELA do app (viralsafeai rodando local com o Supabase simulado, igual ao capturar.js)
 // fazendo o passo a passo, em trechos curtos de vídeo (webm), pro formato "video_tela".
 // Uso: node captura/gravar.js <dados.json> <dados_um.json> <video_id> <project_id> <pasta_saida> [porta]
-// Saída: pastas t1_lista..t6_dicas com os quadros (jpg 860x1528, 30 por segundo de vídeo) + cortes.json.
+// Saída: pastas t1_lista..t6_dicas e t7_prompts com os quadros (jpg 860x1528, 30 por segundo de vídeo) + cortes.json.
 // @ dos criadores e a marca ficam borrados o tempo todo (o borrão é reaplicado a cada 200 ms).
 const { chromium } = require('playwright');
 const fs = require('fs');
@@ -134,6 +134,13 @@ async function trecho(browser, dados, rota, nome, acoes, espera = 3500) {
   out.push(await trecho(browser, dados, `/projects/${projectId}`, 't5_v3', async (c) => { await c.parar(0.4); await c.clicar('Variação Criativa', 1.0); await c.rolar(450, 1.8); await c.parar(0.6); }, 2500));
   // 6. Dicas de gravação
   out.push(await trecho(browser, dados, `/projects/${projectId}`, 't6_dicas', async (c) => { await c.clicar('Variação de Contexto', 0.5); await c.mostrar('Dicas de Grava', 2.4); }, 2500));
+  // 7. Vídeo de IA: prompts de cada cena (pedido do Lucas em 23/11). O app só mostra essa seção depois que o
+  // vídeo é enviado ao projeto; aqui o projeto aparece como "já enviado" (sem biblioteca_video_id), e os
+  // prompts são os que o próprio app monta com as cenas reais da V1 (sem DNA visual: base 9:16 genérica).
+  const ia = JSON.parse(JSON.stringify(dados));
+  ia.tabelas.projects = (ia.tabelas.projects || []).map((p) => ({ ...p, biblioteca_video_id: null }));
+  ia.funcoes = { ...(ia.funcoes || {}), 'video-ia-curto': { ativo: false } };
+  out.push(await trecho(browser, ia, `/projects/${projectId}`, 't7_prompts', async (c) => { await c.mostrar('Prompts de Vídeo por Cena', 1.0); await c.rolar(650, 2.6); await c.parar(0.6); }, 2500));
   await browser.close();
   fs.writeFileSync(path.join(saida, 'cortes.json'), JSON.stringify(out, null, 1));
   console.log('ok', out.map((o) => `${o.nome} ${o.quadros}q ${o.dur.toFixed(1)}s`).join(' | '));

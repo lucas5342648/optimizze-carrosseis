@@ -245,7 +245,9 @@ números reais "estimado", sem nome da marca, ferramenta natural, CTA "Comenta T
      views, e os virais "passo a passo com a ferramenta"). **Formato do viral (pedido do Lucas em 23/11):** abre com o gancho
      "Como criar vídeos com IA pro TikTok Shop" (ou uma variação do banco `specs/ganchos_video_tela.json`, um por dia, sem
      repetir em 14 dias) e segue em "Passo 1: ... Passo 5" (lista → escolhe o que já vendeu → a IA cria variações → cada cena
-     com fala/ação/tom → prompts de cada cena pra fazer com IA → ou grava seguindo as dicas). Sem pausas: cada trecho dura o
+     com fala/ação/tom → **Passo 5 MOSTRA os prompts de vídeo por cena** (trecho `t7_prompts` do gravar.js, seção "Prompts de
+     Vídeo por Cena" do app; pedido do Lucas em 23/11: "fale e mostre os prompts pra gerar vídeos de IA") → ou grava seguindo
+     as dicas). Ordem dos trechos no spec: t1, t2, t3, t4, t7, t6 (o t5_v3 é gravado mas não entra). Sem pausas: cada trecho dura o
      tempo da fala. VÍDEO vertical 1080x1920 (~30 s) com a GRAVAÇÃO DA TELA do app
      fazendo o passo a passo (lista dos que mais vendem → card do vídeo com R$ → pedir variações → V1 cena por cena →
      V3 → dicas), legenda nativa (caixa branca) em cada trecho, gancho no começo e "COMENTA TTS" no fim. Narração com a voz do Alex; sem música

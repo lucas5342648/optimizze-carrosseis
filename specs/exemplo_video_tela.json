@@ -31,14 +31,14 @@
    "fala": "Passo quatro: você recebe cada cena, com fala, ação e tom."
   },
   {
-   "pasta": "t5_v3",
-   "texto": "Passo 5: quer fazer com IA? Ela te dá os prompts de cada cena",
-   "fala": "Passo cinco: quer fazer o vídeo com IA? Ela te dá os prompts de cada cena."
+   "pasta": "t7_prompts",
+   "texto": "Passo 5: copia o prompt de cada cena e cola numa IA de vídeo",
+   "fala": "Passo cinco: quer fazer o vídeo com IA? Copia o prompt de cada cena e cola numa IA de vídeo."
   },
   {
    "pasta": "t6_dicas",
    "texto": "Ou grava você mesmo seguindo as dicas",
-   "fala": "Ou grava você mesmo, seguindo as dicas."
+   "fala": "Ou, se preferir, grava você mesmo seguindo as dicas."
   }
  ],
  "cta": [
@@ -47,5 +47,5 @@
  ],
  "cta_fala": "Comenta TTS que você recebe o acesso à ferramenta.",
  "cta_seg": 2.8,
- "legenda": "Passo a passo completo pra criar vídeos com IA pro TikTok Shop: pega um vídeo que já vendeu (essa estante fez R$ 89 mil em 7 dias, estimado), a IA cria variações na mesma estrutura e te dá os prompts de cada cena. Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes"
+ "legenda": "Passo a passo completo pra criar vídeos com IA pro TikTok Shop: pega um vídeo que já vendeu (essa estante fez R$ 89 mil em 7 dias, estimado), a IA cria variações na mesma estrutura e te dá o prompt de cada cena pra colar numa IA de vídeo. Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes"
 }
