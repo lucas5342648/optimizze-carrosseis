@@ -1,5 +1,12 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-24
+- Sem viral (mediana dos últimos 10 fechados = 70 views; teto 3x = 210; nenhum perto de 2.000). Saem do rodízio de "explorar"; hoje vale a agenda do rodízio de formatos.
+- 22/11 fechou: B martelete (manual, 19h) 96 views e 2 saves = melhor premium até agora; A séruns 82 e 1 follow; C smartwatch (slide 2 "O segredo não é o produto") só 10, o pior recente. O slide 2 antigo não salvou o alcance.
+- Teste da música (fecha amanhã): manuais 98, 25, 96 (+ 23/11 B ventilador 62 em ~18h) × automáticos 19, 55, 70, 70, 82, 10. Mediana manual ~97 × automática ~62: tendência a favor do manual, mas com 1 fiasco (25).
+- Por formato até aqui: premium (passo a passo) mediana ~66 em 9 posts; ranking (23/11) publicado mas ainda sem métrica no Zernio.
+- Hoje, 1º dia com os 3 como rascunho pro Lucas: 12h premium air fryer (controle), 19h 1º video_tela (pistola de pintura, gancho G1, narrado), 21h 1º raio-X (GTA 6, esquete de 2 amigos: fofoca → quebra cômica → objeção → preço). Nichos: casa, ferramentas, games.
+
 ## 2026-11-23 (pesquisa dos virais do nicho no TikTok + posts antigos do Lucas)
 - Os virais do Lucas foram em JULHO: carrosséis de 17 a 22 mil views (17/07, 26/07, 31/07) e vídeo de 45 mil (11/07), todos "passo a passo pra criar VÍDEO COM IA (UGC) pro TikTok Shop", com prints reais do celular e caixa de texto nativa do TikTok. Detalhes em pesquisa/2026-11-23_virais_nicho.md.
 - O viral do nicho @igao.ia (333 mil plays, 9,6 mil saves) segue a mesma lógica: foto real do tablet com a ferramenta + passos + vídeo de IA pronto. O @mt.ghostt usa o próprio optimizzeai.com nesse formato.
