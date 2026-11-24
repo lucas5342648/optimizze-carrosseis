@@ -214,8 +214,8 @@ De 12/11 a 22/11 todo post foi o mesmo "passo a passo da ferramenta" e ficou ent
 O que muda agora é o ASSUNTO/formato do post, não só o visual. Todos usam o motor `figcraft/premium.py`
 (mesmo visual escuro/roxo) e seguem TODAS as regras de conteúdo ("TikTok Shop" na capa e nunca "Afiliado", "pegue",
 números reais "estimado", sem nome da marca, ferramenta natural, CTA "Comenta TTS").
-- **Agenda:** 24/11: 12h e 19h premium, 21h **raio-X** (os 3 como rascunho pro Lucas postar, ver "POSTAGEM PELO LUCAS"). A partir de 25/11: **12h = premium
-  (controle)**; **19h = video_tela** (formato novo prioritário, pelo menos 4 dias seguidos, um produto diferente por dia);
+- **Agenda:** 24/11: 12h premium, **19h video_tela** (adiantado a pedido do Lucas em 23/11), 21h **raio-X** (os 3 como rascunho pro Lucas postar, ver "POSTAGEM PELO LUCAS"). A partir de 25/11: **12h = premium
+  (controle)**; **19h = video_tela** (formato novo prioritário, pelo menos 4 dias seguidos a partir de 24/11, um produto diferente por dia);
   **21h = formatos do banco abaixo**, em rodízio (nunca o mesmo formato 2 dias seguidos).
 - **Como decidir:** cada formato roda pelo menos 2 vezes (produtos/temas diferentes). Se fizer **2x a mediana de
   views dos últimos 10 posts** (ou o dobro de saves), entra no rodízio fixo e ganha variações; se ficar abaixo da
@@ -242,13 +242,18 @@ números reais "estimado", sem nome da marca, ferramenta natural, CTA "Comenta T
      nos dados da biblioteca (vendas 7d, faturamento, nº de vídeos vendendo) → ferramenta → CTA.
      Sem depoimento ou resultado pessoal inventado.
   6. **video_tela** (desde 23/11, aprovado pelo Lucas; base: o vídeo dele de 11/07 "Passo a passo completo", 45,6 mil
-     views, e os virais "passo a passo com a ferramenta"): VÍDEO vertical 1080x1920 (~28 s) com a GRAVAÇÃO DA TELA do app
+     views, e os virais "passo a passo com a ferramenta"). **Formato do viral (pedido do Lucas em 23/11):** abre com o gancho
+     "Como criar vídeos com IA pro TikTok Shop" (ou uma variação do banco `specs/ganchos_video_tela.json`, um por dia, sem
+     repetir em 14 dias) e segue em "Passo 1: ... Passo 5" (lista → escolhe o que já vendeu → a IA cria variações → cada cena
+     com fala/ação/tom → prompts de cada cena pra fazer com IA → ou grava seguindo as dicas). Sem pausas: cada trecho dura o
+     tempo da fala. VÍDEO vertical 1080x1920 (~30 s) com a GRAVAÇÃO DA TELA do app
      fazendo o passo a passo (lista dos que mais vendem → card do vídeo com R$ → pedir variações → V1 cena por cena →
      V3 → dicas), legenda nativa (caixa branca) em cada trecho, gancho no começo e "COMENTA TTS" no fim. Narração com a voz do Alex; sem música
      (o Lucas põe a música viral ao postar, com volume baixo pra não cobrir a voz). Como fazer:
      a) captura normal até o `montar_dados.py` (app rodando, dados.json/dados_um.json);
      b) `node <repo>/captura/gravar.js <dados.json> <dados_um.json> <video_id> <project_id> /tmp/cap/<slug>/grav` (de dentro de ~/viralsafeai; ~1 min);
-     c) spec a partir de `specs/exemplo_video_tela.json` (trocar o R$ do trecho t2 no `texto` E na `fala`, o produto da legenda e, se quiser, o gancho);
+     c) spec a partir de `specs/exemplo_video_tela.json` (trocar o R$ do Passo 2 no `texto` E na `fala`, o produto da legenda, e o
+        gancho/gancho_fala pelo próximo do banco de ganchos; o `titulo_post` acompanha o gancho; na coluna gancho do historico.csv, o id G1..G8);
         **NARRAÇÃO (desde 23/11, escolha do Lucas: voz do Alex, grátis):** cada bloco tem `fala` (gancho_fala, trechos[i].fala,
         cta_fala), escrita como alguém falando, curta (1 frase), com as mesmas regras de conteúdo (nada de "afiliado", "roteiro",
         promessa de venda; números com "estimado"). Instalar uma vez por sessão:

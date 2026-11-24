@@ -1,0 +1,75 @@
+{
+ "_uso": "Gancho do video_tela (formato do viral do Lucas de 11/07). Use um por dia, sem repetir nos últimos 14 dias (coluna gancho do historico.csv); copie tela -> gancho e fala -> gancho_fala. Pode criar novos no mesmo molde: 'como criar vídeo(s) com IA pro TikTok Shop' + passo a passo; nunca 'afiliado'.",
+ "ganchos": [
+  {
+   "id": "G1",
+   "tela": [
+    "Como criar vídeos",
+    "com IA pro [[TikTok Shop]]",
+    "(passo a passo completo)"
+   ],
+   "fala": "Como criar vídeos com IA pro TikTok Shop. Passo a passo completo."
+  },
+  {
+   "id": "G2",
+   "tela": [
+    "Passo a passo:",
+    "vídeo com IA",
+    "pro [[TikTok Shop]]"
+   ],
+   "fala": "Passo a passo pra fazer vídeo com IA pro TikTok Shop."
+  },
+  {
+   "id": "G3",
+   "tela": [
+    "Como criar vídeos UGC",
+    "com IA pro [[TikTok Shop]]"
+   ],
+   "fala": "Como criar vídeos UGC com IA pro TikTok Shop."
+  },
+  {
+   "id": "G4",
+   "tela": [
+    "Vídeo com IA pro [[TikTok Shop]]:",
+    "o passo a passo que eu uso"
+   ],
+   "fala": "Vídeo com IA pro TikTok Shop: esse é o passo a passo que eu uso."
+  },
+  {
+   "id": "G5",
+   "tela": [
+    "Como criar vídeo com IA",
+    "pro [[TikTok Shop]] usando",
+    "um vídeo que já vendeu"
+   ],
+   "fala": "Como criar vídeo com IA pro TikTok Shop usando um vídeo que já vendeu."
+  },
+  {
+   "id": "G6",
+   "tela": [
+    "Ainda faz vídeo",
+    "pro [[TikTok Shop]] sem IA?",
+    "Olha esse passo a passo"
+   ],
+   "fala": "Você ainda faz vídeo pro TikTok Shop sem IA? Olha esse passo a passo."
+  },
+  {
+   "id": "G7",
+   "tela": [
+    "Salva esse passo a passo:",
+    "vídeo com IA",
+    "pro [[TikTok Shop]]"
+   ],
+   "fala": "Salva esse passo a passo pra criar vídeo com IA pro TikTok Shop."
+  },
+  {
+   "id": "G8",
+   "tela": [
+    "Como eu crio vídeos",
+    "pro [[TikTok Shop]] com IA",
+    "em poucos minutos"
+   ],
+   "fala": "Como eu crio vídeos pro TikTok Shop com IA, em poucos minutos."
+  }
+ ]
+}
