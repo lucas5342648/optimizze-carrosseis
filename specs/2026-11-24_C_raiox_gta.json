@@ -1,0 +1,82 @@
+{
+ "titulo_post": "O raio-X do vídeo de GTA 6 que fez R$ 80 mil no TikTok Shop",
+ "estilo": "raiox",
+ "handle": "@silvaa.bnss",
+ "legenda": "Fiz o raio-X de um vídeo de GTA 6 que fez R$ 80 mil em 7 dias no TikTok Shop (estimado) 🎮 Parece só uma conversa entre amigos, mas tem gancho, quebra de expectativa, objeção e CTA no lugar certo. A análise sai da ferramenta que eu uso, que também cria variações na mesma estrutura pra você gravar. Salva e comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #afiliados #afiliadosiniciantes #ia",
+ "slides": [
+  {
+   "tipo": "capa",
+   "l1": "O raio-X",
+   "l2": "do vídeo",
+   "l3": "que fez R$ 80 mil em 37 segundos",
+   "l4": "em 7 dias no [[TikTok Shop]] (estimado)",
+   "card": "assets/prints/2026-11-24_gta/s1.jpg",
+   "selo": "R$ 80 mil em 7 dias",
+   "tela": [
+    "assets/prints/2026-11-24_gta/s4.jpg",
+    640,
+    "variação v1"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "pilula": "1. O gancho",
+   "titulo": "Começa como **fofoca**, não como anúncio:",
+   "citacao": "“Cê ficou sabendo que o Lucas vai ser promovido no serviço? E adivinha: tô quase fechando a compra da minha casa.”",
+   "fonte": "FALA ORIGINAL DO VÍDEO",
+   "y0": 330,
+   "alt_citacao": 420,
+   "itens": [
+    "Conversa de amigos: **ninguém pula**",
+    "Nada de cara de **anúncio do TikTok Shop**"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "pilula": "2. A estrutura",
+   "titulo": "O vídeo tem **4 partes**:",
+   "y0": 360,
+   "passo_itens": 170,
+   "itens": [
+    "**Notícias da vida adulta**: casa, promoção, noivado",
+    "**Quebra cômica**: a grande vitória é o jogo",
+    "**Objeção** do amigo: \"pra que mídia física?\"",
+    "**Resposta + preço** menor e CTA pro carrinho"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "pilula": "3. Os gatilhos",
+   "titulo": "Por que **segura** e **converte**:",
+   "y0": 360,
+   "passo_itens": 170,
+   "itens": [
+    "**Contraste**: vida adulta × videogame",
+    "**Colecionismo**: o pôster que o digital não tem",
+    "**Clareza**: vem o código pra baixar no console",
+    "**Economia**: saiu mais barato que o digital"
+   ]
+  },
+  {
+   "tipo": "passo",
+   "n": 0,
+   "pilula": "Como eu fiz essa análise",
+   "titulo": "A **ferramenta** que eu uso lê a estrutura e cria **3 variações**",
+   "print": "assets/prints/2026-11-24_gta/s4.jpg",
+   "y": 640,
+   "texto": "Mesma estrutura que vendeu, com __gancho novo__, **cena por cena**. Dá pra gravar ou fazer **com IA**."
+  },
+  {
+   "tipo": "cta",
+   "l1": "COMENTA [[TTS]] E RECEBA O",
+   "l2": "Acesso à ferramenta",
+   "card": "assets/prints/2026-11-24_gta/s1.jpg",
+   "selo": "R$ 80 mil em 7 dias",
+   "tela": [
+    "assets/prints/2026-11-24_gta/s4.jpg",
+    640,
+    "variação v1"
+   ]
+  }
+ ]
+}
