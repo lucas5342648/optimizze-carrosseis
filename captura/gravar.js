@@ -131,9 +131,9 @@ async function trecho(browser, dados, rota, nome, acoes, espera = 3500) {
   // 4. V1 cena por cena (rola devagar pelas cenas)
   out.push(await trecho(browser, dados, `/projects/${projectId}`, 't4_v1', async (c) => { await c.parar(1.0); await c.rolar(1500, 5.0); await c.parar(0.6); }, 2500));
   // 5. V3 (outro gancho)
-  out.push(await trecho(browser, dados, `/projects/${projectId}`, 't5_v3', async (c) => { await c.parar(0.4); await c.clicar('Variação Criativa', 1.0); await c.rolar(450, 1.8); await c.parar(0.6); }, 2500));
+  out.push(await trecho(browser, dados, `/projects/${projectId}`, 't5_v3', async (c) => { await c.parar(0.4); await c.clicar('Variação 3', 1.0); await c.rolar(450, 1.8); await c.parar(0.6); }, 2500));
   // 6. Dicas de gravação
-  out.push(await trecho(browser, dados, `/projects/${projectId}`, 't6_dicas', async (c) => { await c.clicar('Variação de Contexto', 0.5); await c.mostrar('Dicas de Grava', 2.4); }, 2500));
+  out.push(await trecho(browser, dados, `/projects/${projectId}`, 't6_dicas', async (c) => { await c.clicar('Variação 2', 0.5); await c.mostrar('Dicas de Grava', 2.4); }, 2500));
   // 7. Vídeo de IA: prompts de cada cena (pedido do Lucas em 23/11). O app só mostra essa seção depois que o
   // vídeo é enviado ao projeto; aqui o projeto aparece como "já enviado" (sem biblioteca_video_id), e os
   // prompts são os que o próprio app monta com as cenas reais da V1 (sem DNA visual: base 9:16 genérica).

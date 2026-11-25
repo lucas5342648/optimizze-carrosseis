@@ -1,0 +1,52 @@
+{
+ "estilo": "video_tela",
+ "titulo_post": "Passo a passo: vídeo com IA pro TikTok Shop",
+ "narracao": true,
+ "gancho": [
+  "Passo a passo:",
+  "vídeo com IA",
+  "pro [[TikTok Shop]]"
+ ],
+ "gancho_fala": "Passo a passo pra fazer vídeo com IA pro TikTok Shop.",
+ "gancho_seg": 2.2,
+ "trechos": [
+  {
+   "pasta": "t1_lista",
+   "texto": "Passo 1: abre a lista dos vídeos que mais vendem no [[TikTok Shop]]",
+   "fala": "Passo um: abre a lista dos vídeos que mais vendem no TikTok Shop."
+  },
+  {
+   "pasta": "t2_card",
+   "texto": "Passo 2: escolhe um que já vendeu (R$ 50 mil em 7 dias, estimado)",
+   "fala": "Passo dois: escolhe um que já vendeu. Esse fez uns 50 mil reais em 7 dias, estimado."
+  },
+  {
+   "pasta": "t3_criar",
+   "texto": "Passo 3: a IA cria variações na estrutura desse vídeo",
+   "fala": "Passo três: a IA cria variações na mesma estrutura desse vídeo."
+  },
+  {
+   "pasta": "t4_v1",
+   "texto": "Passo 4: você recebe cada cena com fala, ação e tom",
+   "fala": "Passo quatro: você recebe cada cena, com fala, ação e tom."
+  },
+  {
+   "pasta": "t7_prompts",
+   "texto": "Passo 5: copia o prompt de cada cena e cola numa IA de vídeo",
+   "fala": "Passo cinco: quer fazer o vídeo com IA? Copia o prompt de cada cena e cola numa IA de vídeo."
+  },
+  {
+   "pasta": "t6_dicas",
+   "texto": "Ou grava você mesmo seguindo as dicas",
+   "fala": "Ou, se preferir, grava você mesmo seguindo as dicas."
+  }
+ ],
+ "cta": [
+  "COMENTA [[TTS]]",
+  "e receba o acesso à ferramenta"
+ ],
+ "cta_fala": "Comenta TTS que você recebe o acesso à ferramenta.",
+ "cta_seg": 2.8,
+ "legenda": "Passo a passo pra fazer vídeo com IA pro TikTok Shop: pega um vídeo que já vendeu (esse climatizador fez R$ 50 mil em 7 dias, estimado), a IA cria variações na mesma estrutura e te dá o prompt de cada cena pra colar numa IA de vídeo. Comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "gancho_id": "G2"
+}

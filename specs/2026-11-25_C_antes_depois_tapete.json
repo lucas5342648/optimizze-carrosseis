@@ -1,0 +1,94 @@
+{
+ "titulo_post": "O mesmo vídeo de tapete com 2 ganchos diferentes",
+ "estilo": "antes_depois",
+ "handle": "@silvaa.bnss",
+ "legenda": "O mesmo vídeo, 2 ganchos: esse tapete fez R$ 51 mil em 7 dias no TikTok Shop (estimado) e mesmo assim a fala original abre sem gancho 🧶 A ferramenta que eu uso reescreve a abertura mantendo a estrutura que já vendeu, cena por cena. Salva e comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "slides": [
+  {
+   "tipo": "capa",
+   "l1": "O mesmo vídeo,",
+   "l2": "2 ganchos",
+   "l3": "de um tapete que fez R$ 51 mil",
+   "l4": "em 7 dias no [[TikTok Shop]] (estimado)",
+   "card": "assets/prints/2026-11-25_tapete/s1.jpg",
+   "selo": "R$ 51 mil em 7 dias",
+   "tela": [
+    "assets/prints/2026-11-25_tapete/s4.jpg",
+    590,
+    "variação v1"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "pilula": "Antes",
+   "titulo": "Como o vídeo **original** começa:",
+   "citacao": "“É dois metros aqui na largura dele, três metros de comprimento, é um dos tapetes mais bem avaliados na plataforma, tá...”",
+   "fonte": "FALA ORIGINAL DO VÍDEO (TRECHO)",
+   "y0": 330,
+   "alt_citacao": 470,
+   "itens": [
+    "Fez **R$ 51 mil** assim mesmo (estimado)",
+    "Mas abre **sem gancho** e cheio de **\"tá\"**"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "pilula": "Depois",
+   "titulo": "O gancho da **V1** que a ferramenta criou:",
+   "citacao": "“São dois metros de largura por três metros de comprimento puro.”",
+   "fonte": "V1 · OTIMIZADA E FIEL",
+   "y0": 360,
+   "alt_citacao": 380,
+   "itens": [
+    "Entra direto **no tamanho real**",
+    "Sem **enrolação** e sem \"tá\" no meio"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "pilula": "Outro depois",
+   "titulo": "A **V3** muda o ângulo:",
+   "citacao": "“Gente, são exatos três metros por dois de puro aconchego.”",
+   "fonte": "V3 · VARIAÇÃO CRIATIVA",
+   "y0": 300,
+   "alt_citacao": 380,
+   "itens": [
+    "Troca a medida pela **sensação**",
+    "Mesma **estrutura** do vídeo que vendeu"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "pilula": "O que muda",
+   "titulo": "O que **fica** e o que **muda**:",
+   "y0": 380,
+   "passo_itens": 170,
+   "itens": [
+    "Fica a **estrutura**: tamanho, prova, verso, oferta",
+    "Muda o **gancho** e a **clareza** da fala",
+    "Testa as versões e vê qual **funciona melhor**"
+   ]
+  },
+  {
+   "tipo": "passo",
+   "n": 0,
+   "pilula": "Como eu fiz isso",
+   "titulo": "A **ferramenta** que eu uso cria as **3 variações**",
+   "print": "assets/prints/2026-11-25_tapete/s4.jpg",
+   "y": 590,
+   "texto": "Cada cena com **fala**, **ação** e **tom**. E dá pra fazer o vídeo **com IA**: ela gera os __prompts de cada cena__."
+  },
+  {
+   "tipo": "cta",
+   "l1": "COMENTA [[TTS]] E RECEBA O",
+   "l2": "Acesso à ferramenta",
+   "card": "assets/prints/2026-11-25_tapete/s1.jpg",
+   "selo": "R$ 51 mil em 7 dias",
+   "tela": [
+    "assets/prints/2026-11-25_tapete/s4.jpg",
+    590,
+    "variação v1"
+   ]
+  }
+ ]
+}

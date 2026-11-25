@@ -94,8 +94,8 @@ async function abrir(browser, dados, rota, opc = {}) {
   page = await abrir(browser, dados, `/biblioteca/criar/${videoId}`, { cliques: ['Vender o produto do vídeo'] }); await page.screenshot({ path: path.join(saida, 's3.png') }); await page.close();
   // 4-6. Resultado
   page = await abrir(browser, dados, `/projects/${projectId}`, { espera: 2500 }); await page.screenshot({ path: path.join(saida, 's4.png') }); await page.close();
-  page = await abrir(browser, dados, `/projects/${projectId}`, { espera: 2500, cliques: ['Variação Criativa'] }); await page.screenshot({ path: path.join(saida, 's5.png') }); await page.close();
-  page = await abrir(browser, dados, `/projects/${projectId}`, { espera: 2500, cliques: ['Variação de Contexto'], rolarAte: 'Dicas de Grava' }); await page.screenshot({ path: path.join(saida, 's6.png') }); await page.close();
+  page = await abrir(browser, dados, `/projects/${projectId}`, { espera: 2500, cliques: ['Variação 3'] }); await page.screenshot({ path: path.join(saida, 's5.png') }); await page.close();
+  page = await abrir(browser, dados, `/projects/${projectId}`, { espera: 2500, cliques: ['Variação 2'], rolarAte: 'Dicas de Grava' }); await page.screenshot({ path: path.join(saida, 's6.png') }); await page.close();
   await browser.close();
   console.log('ok', saida);
 })();
