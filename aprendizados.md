@@ -1,5 +1,12 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-25
+- Sem viral (mediana dos últimos 10 fechados = 69 views; teto 3x = 207; nenhum perto de 2.000). Agenda do rodízio de formatos.
+- FECHAMENTO DO TESTE DA MÚSICA (19h manual × automáticos, 20 a 23/11): manuais 98, 27, 100, 67 (mediana 82,5; 2 saves em 4 posts; completion média 2,5%) × automáticos 19, 55, 71, 71, 84, 12, 42 (mediana 55; 5 saves em 7; 1,9%). Manual ~1,5x nas views, sem ganho em saves; longe dos 312 de mediana dos manuais de julho. Música ajuda pouco: o formato pesa mais. O 5º manual (24/11) ainda não tem leitura.
+- 24/11 A air fryer (1º dia com os 3 manuais, postado 12:10) só 9 views em ~20h, o pior recente; B video_tela e C raio-X ainda com sync pendente no Zernio (rascunhos da Caixa de entrada); o ranking de 23/11 também. Por formato: premium mediana 67 em 11 posts; ranking, raiox e video_tela sem métrica ainda.
+- O app mudou as abas para "Variação 1/2/3" + banner "Transforme em um vídeo de IA": capturar.js/gravar.js agora clicam "Variação 2"/"Variação 3", e os recortes do premium sobem para y 590 (s4/s5) e 1248 (s6b).
+- Hoje: 12h premium projetor (R$ 57 mil, eletrônicos), 19h video_tela climatizador (G2, R$ 50 mil, casa), 21h 1º antes_depois tapete (R$ 51 mil, decoração: fala original sem gancho × V1/V3).
+
 ## 2026-11-24
 - Sem viral (mediana dos últimos 10 fechados = 70 views; teto 3x = 210; nenhum perto de 2.000). Saem do rodízio de "explorar"; hoje vale a agenda do rodízio de formatos.
 - 22/11 fechou: B martelete (manual, 19h) 96 views e 2 saves = melhor premium até agora; A séruns 82 e 1 follow; C smartwatch (slide 2 "O segredo não é o produto") só 10, o pior recente. O slide 2 antigo não salvou o alcance.
