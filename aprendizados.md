@@ -1,5 +1,12 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-26
+- Sem viral (mediana dos últimos 10 fechados = 63,5 views; teto 3x = 190; nenhum perto de 2.000). Agenda do rodízio de formatos.
+- Fechados: 23/11 B ventilador (manual) 77 views, 2 comments, 1 save; A estante 45; 24/11 A air fryer só 23 (pior recente); 22/11 B martelete 101 / 2 saves (melhor premium). Premium segue com mediana ~65.
+- Formatos novos (parciais, <24h): 1º video_tela (pistola, G1, postado 25/11 ~18:55) 57 views, 2 likes, 1 save, 3,5% completion em ~13h; 1º raio-X (GTA 6, postado 25/11 12:39) 53 views, 2 likes em ~20h. Os dois já no nível da mediana em menos de 1 dia; julgar amanhã. O ranking de 23/11 continua sem métrica no Zernio (talvez não postado); os 3 de 25/11 ainda não apareceram.
+- O app trocou as abas para "Var. 1/2/3" e os prompts por cena foram pra aba "Vídeo de IA": capturar.js/gravar.js corrigidos (gravar.js ganhou c.aba()); capturar.js agora salva também s6_full.png (página inteira) pra montar o s6b do Passo 5. Recortes do premium: s4/s5 y 905, s6b y 1256 com x 30 / larg 800.
+- Hoje: 12h premium árvore de Natal (R$ 60 mil, casa/decoração), 19h video_tela macacão social (G3, R$ 45 mil, moda), 21h 1º "erros" (3 erros, exemplos da análise real de um vídeo de livros de R$ 39 mil: começo devagar, fala vaga, final repetido).
+
 ## 2026-11-25
 - Sem viral (mediana dos últimos 10 fechados = 69 views; teto 3x = 207; nenhum perto de 2.000). Agenda do rodízio de formatos.
 - FECHAMENTO DO TESTE DA MÚSICA (19h manual × automáticos, 20 a 23/11): manuais 98, 27, 100, 67 (mediana 82,5; 2 saves em 4 posts; completion média 2,5%) × automáticos 19, 55, 71, 71, 84, 12, 42 (mediana 55; 5 saves em 7; 1,9%). Manual ~1,5x nas views, sem ganho em saves; longe dos 312 de mediana dos manuais de julho. Música ajuda pouco: o formato pesa mais. O 5º manual (24/11) ainda não tem leitura.

@@ -1,0 +1,77 @@
+{
+ "titulo_post": "3 erros que fazem seu vídeo não vender no TikTok Shop",
+ "estilo": "erros",
+ "handle": "@silvaa.bnss",
+ "legenda": "3 erros que fazem seu vídeo não vender no TikTok Shop (e o que fazer no lugar) 📚 Exemplos tirados da análise de um vídeo de livros que fez R$ 39 mil em 7 dias (estimado). A ferramenta que eu uso aponta esses pontos e cria variações na mesma estrutura que já vendeu, com gancho novo. Salva e comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "slides": [
+  {
+   "tipo": "capa_texto",
+   "pilula": "Salva esse post",
+   "l1": "3 erros que fazem seu",
+   "l2": "vídeo",
+   "l3": "não vender no [[TikTok Shop]]",
+   "l4": "(e o que fazer no lugar)",
+   "l2_tam": 150
+  },
+  {
+   "tipo": "texto",
+   "pilula": "Erro 1",
+   "titulo": "Começar **devagar**",
+   "citacao": "“Não faz o menor sentido o que essa editora inventou aqui!”",
+   "fonte": "GANCHO NOVO (V3) · VÍDEO DE LIVROS, R$ 39 MIL EM 7 DIAS (ESTIMADO)",
+   "y0": 380,
+   "alt_citacao": 420,
+   "itens": [
+    "Abrir com **contexto** faz o scroll passar",
+    "Faz: **quebra o padrão** nos 3 primeiros segundos"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "pilula": "Erro 2",
+   "titulo": "Falar **vago** do produto",
+   "citacao": "“Paguei um absurdo pegando cada romance solto pela internet.”",
+   "fonte": "V1 · CENA 2 (A DOR)",
+   "y0": 380,
+   "alt_citacao": 380,
+   "itens": [
+    "\"É muito bom\" não **convence** ninguém",
+    "Faz: mostra um **contraste claro** (avulso × kit)"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "pilula": "Erro 3",
+   "titulo": "**Repetir** a mesma ideia no final",
+   "citacao": "“O trecho final repete a mesma ideia duas vezes sem adicionar novos detalhes visuais.”",
+   "fonte": "ANÁLISE DO VÍDEO ORIGINAL · PONTO FRACO",
+   "y0": 380,
+   "alt_citacao": 440,
+   "itens": [
+    "O público **sai antes** do CTA",
+    "Faz: fecha com **1 comando** direto"
+   ]
+  },
+  {
+   "tipo": "passo",
+   "n": 0,
+   "pilula": "Como eu corrijo",
+   "titulo": "A **ferramenta** que eu uso aponta e **corrige** os 3",
+   "print": "assets/prints/2026-11-26_livros/s5.jpg",
+   "y": 905,
+   "texto": "Ela cria **3 variações** na __mesma estrutura__ do vídeo que já vendeu, com gancho novo. E gera os **prompts de cada cena** pra fazer **com IA**."
+  },
+  {
+   "tipo": "cta",
+   "l1": "COMENTA [[TTS]] E RECEBA O",
+   "l2": "Acesso à ferramenta",
+   "card": "assets/prints/2026-11-26_livros/s1.jpg",
+   "selo": "R$ 39 mil em 7 dias",
+   "tela": [
+    "assets/prints/2026-11-26_livros/s5.jpg",
+    905,
+    "variação v3"
+   ]
+  }
+ ]
+}
