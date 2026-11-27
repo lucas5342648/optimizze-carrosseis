@@ -1,0 +1,68 @@
+{
+ "estilo": "dicas",
+ "tema": "vários vídeos por dia",
+ "titulo_post": "5 dicas pra fazer vários vídeos por dia no TikTok Shop",
+ "slides": [
+  {
+   "fundo": {
+    "tipo": "grade",
+    "imgs": [
+     "assets/produtos/1731428535156966971.jpg",
+     "assets/produtos/1732557589119469391.jpg",
+     "assets/produtos/1733358016393282888.jpg",
+     "assets/produtos/1735570961602217680.jpg"
+    ],
+    "cor": "#efe6df"
+   },
+   "titulo": "5 dicas pra fazer vários vídeos por dia no TikTok Shop!!",
+   "sub": "(o que eu queria ter sabido quando comecei)",
+   "y": 0.45
+  },
+  {
+   "fundo": {
+    "tipo": "produto",
+    "img": "assets/produtos/1732557589119469391.jpg"
+   },
+   "titulo": "1) Separe 1 dia só pra gravar a semana inteira",
+   "sub": "(grava 5 ou 6 produtos de uma vez e só posta nos outros dias)",
+   "y": 0.27
+  },
+  {
+   "fundo": {
+    "tipo": "produto",
+    "img": "assets/produtos/1736230887015876182.jpg"
+   },
+   "titulo": "2) Não comece do zero: parta de um vídeo que já vendeu",
+   "sub": "(o gancho, a ordem e o final já foram testados por alguém)",
+   "y": 0.27
+  },
+  {
+   "fundo": {
+    "tipo": "print",
+    "img": "assets/prints/2026-11-27_bermuda/s4.jpg"
+   },
+   "titulo": "3) Transforme 1 vídeo que já vendeu em 3 vídeos novos",
+   "sub": "(esse app monta as 3 versões, cena por cena)",
+   "y": 0.52
+  },
+  {
+   "fundo": {
+    "tipo": "produto",
+    "img": "assets/produtos/1733358016393282888.jpg"
+   },
+   "titulo": "4) Grave POV: só as mãos e o produto",
+   "sub": "(sem precisar aparecer, montar cenário ou se arrumar)",
+   "y": 0.27
+  },
+  {
+   "fundo": {
+    "tipo": "produto",
+    "img": "assets/produtos/1735570961602217680.jpg"
+   },
+   "titulo": "5) Poste o mesmo vídeo com ganchos diferentes",
+   "sub": "(testa e vê qual traz mais resultado)",
+   "y": 0.27
+  }
+ ],
+ "legenda": "5 dicas pra fazer vários vídeos por dia no TikTok Shop 🎥 salva pra não esquecer\n\n#tiktokshop #tiktokshopbr #afiliados #afiliadosiniciantes #ia"
+}

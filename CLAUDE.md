@@ -11,6 +11,33 @@ Tudo em português do Brasil, fuso America/Sao_Paulo.
   Desde 11/11 também responde "link", "aplicativo", "app" e "ferramenta", e as respostas não citam o nome da marca.
 - Imagens públicas: `https://raw.githubusercontent.com/lucas5342648/optimizze-carrosseis/main/<caminho>`
 
+## ESTRATÉGIA DESDE 28/11 (pedido do Lucas em 27/11) — VALE ACIMA DE TUDO QUE CONFLITAR ABAIXO
+**4 posts por dia, todos como RASCUNHO pro Lucas postar com música (ver "POSTAGEM PELO LUCAS"):**
+**12:00 dicas · 17:00 dicas · 19:00 video_tela · 21:00 dicas.** O premium, o rodízio de formatos (ranking, raio-X,
+erros, antes/depois) e o passo a passo em carrossel estão PAUSADOS. O vídeo (video_tela) continua igual.
+- **Carrossel "5 dicas"** (`motor/dicas.py`; referência que o Lucas mandou: "5 Hacks pra criar o hábito da leitura",
+  foto em tela cheia + texto nativo do TikTok no meio, uma dica por slide). 6 slides: capa (título "5 dicas pra ... no
+  TikTok Shop" + subtítulo entre parênteses) → "1) ..." até "5) ...", cada uma com subtítulo curto entre parênteses.
+  Exemplo: `specs/exemplo_dicas.json`. Temas prontos em `specs/temas_dicas.json` (3 temas diferentes por dia, sem repetir
+  tema dos últimos 10 dias; dá pra criar temas novos no mesmo molde e acrescentar no banco).
+- **Objetivo é DESEJO, não venda.** A dica 3 é SEMPRE a ferramenta, como mais uma dica normal: fundo = PRINT REAL do app em
+  tela cheia (a tela que combina com a dica: s2 lista dos que mais vendem, s4 variações/cenas, s5 V3, s6 dicas de gravação,
+  s7_prompts = quadro da gravação `t7_prompts` do vídeo do dia, copiado pra `assets/prints/<dia>_<slug>/s7_prompts.jpg`)
+  e texto falando "esse app", SEM o nome (logo borrado, como já sai da captura), sem preço, sem "link", sem convencer.
+  A ideia é a pessoa perguntar nos comentários qual é o app (a automação já responde "app", "aplicativo", "ferramenta").
+- **SEM CTA nos carrosséis de dicas:** nenhum slide de CTA, nada de "Comenta TTS" nos slides nem na legenda.
+  Legenda = o título do post + 1 emoji + hashtags (`#tiktokshop #tiktokshopbr #afiliados #afiliadosiniciantes #ia`).
+- **"Afiliado" LIBERADO nos carrosséis de dicas** (título, slides e legenda), ex.: "5 dicas para afiliados de TikTok Shop".
+  No vídeo continua sem. "TikTok Shop" sempre no título.
+- Fundos dos outros slides: fotos de estilo de vida de `assets/fotos/` (tipo `foto`) quando houver; enquanto não houver,
+  fotos de produtos em alta da biblioteca (`listar_em_alta` tipo produto → `assets/produtos/<id>.jpg`; tipo `produto`,
+  capa com tipo `grade` de 4 produtos). Nunca frame/capa de vídeo de outro criador. Sem `seguro.enquadrar` (tela cheia,
+  o texto já fica no miolo). Conferir a prévia: texto legível, sem cortar.
+- Dicas honestas e práticas: nada de número inventado, depoimento, promessa de venda ("vai vender", "garantido").
+- Uma captura por dia basta (a do vídeo): os prints da dica 3 dos 3 carrosséis saem dela.
+- historico.csv: estilo `dicas`, gancho = id do tema (D01..). Zernio: igual aos carrosséis (mediaType photo, rascunho),
+  tags `["carrossel", "dicas", "manual"]`, metadata.horario "12:00"/"17:00"/"21:00".
+
 ## A rotina (roda todo dia de manhã)
 1. **Preparar**: o repo já deve estar clonado; se não, `add_repo` (lucas5342648/optimizze-carrosseis, push) e clonar.
    `git pull`. Conferir `python3 -c "import PIL, playwright"`.

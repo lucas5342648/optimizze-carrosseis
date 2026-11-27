@@ -1,0 +1,285 @@
+{
+ "_uso": "Temas do carrossel 'dicas' (motor/dicas.py). Cada dia usa 3 temas diferentes, sem repetir tema dos últimos 10 dias (coluna gancho do historico.csv = id). A dica 3 é SEMPRE a ferramenta: print real (print3 = qual tela da captura do dia; s7_prompts = quadro da gravação t7_prompts) e texto falando 'esse app', sem nome, sem preço, sem CTA. Pode criar temas novos no mesmo molde (título que desperta desejo, 'TikTok Shop' no título, 'afiliado' liberado aqui) e acrescentar aqui.",
+ "temas": [
+  {
+   "id": "D01",
+   "titulo": "5 dicas para afiliados de TikTok Shop que estão começando",
+   "sub": "(o que eu queria ter sabido no começo)",
+   "print3": "s2",
+   "dicas": [
+    {
+     "titulo": "Escolha 1 nicho e fique nele por 30 dias",
+     "sub": "(o algoritmo entende pra quem mostrar seus vídeos)"
+    },
+    {
+     "titulo": "Poste todo dia, mesmo que fique simples",
+     "sub": "(constância conta mais que vídeo perfeito)"
+    },
+    {
+     "titulo": "Antes de gravar, veja o que já está vendendo essa semana",
+     "sub": "(esse app mostra os vídeos que mais faturaram em 7 dias)"
+    },
+    {
+     "titulo": "Os 3 primeiros segundos são o vídeo inteiro",
+     "sub": "(se o gancho não prende, ninguém vê o resto)"
+    },
+    {
+     "titulo": "Não desista dos primeiros 30 vídeos",
+     "sub": "(é aí que você descobre o que funciona pra você)"
+    }
+   ]
+  },
+  {
+   "id": "D02",
+   "titulo": "5 dicas pra fazer vários vídeos por dia no TikTok Shop",
+   "sub": "(o que eu queria ter sabido quando comecei)",
+   "print3": "s4",
+   "dicas": [
+    {
+     "titulo": "Separe 1 dia só pra gravar a semana inteira",
+     "sub": "(grava 5 ou 6 produtos de uma vez e só posta nos outros dias)"
+    },
+    {
+     "titulo": "Não comece do zero: parta de um vídeo que já vendeu",
+     "sub": "(o gancho, a ordem e o final já foram testados por alguém)"
+    },
+    {
+     "titulo": "Transforme 1 vídeo que já vendeu em 3 vídeos novos",
+     "sub": "(esse app monta as 3 versões, cena por cena)"
+    },
+    {
+     "titulo": "Grave POV: só as mãos e o produto",
+     "sub": "(sem precisar aparecer, montar cenário ou se arrumar)"
+    },
+    {
+     "titulo": "Poste o mesmo vídeo com ganchos diferentes",
+     "sub": "(testa e vê qual traz mais resultado)"
+    }
+   ]
+  },
+  {
+   "id": "D03",
+   "titulo": "5 dicas pra escolher produto pra divulgar no TikTok Shop",
+   "sub": "(antes de gastar tempo gravando)",
+   "print3": "s2",
+   "dicas": [
+    {
+     "titulo": "Olhe as vendas dos últimos 7 dias, não do mês",
+     "sub": "(produto bom é o que está vendendo agora)"
+    },
+    {
+     "titulo": "Prefira produto com vários vídeos vendendo",
+     "sub": "(sinal de que não foi sorte de um vídeo só)"
+    },
+    {
+     "titulo": "Eu vejo tudo isso numa lista só, com o faturamento de cada vídeo",
+     "sub": "(esse app atualiza todo dia)"
+    },
+    {
+     "titulo": "Fuja de produto que só vende com promessa milagrosa",
+     "sub": "(dá dor de cabeça e o vídeo cai)"
+    },
+    {
+     "titulo": "Escolha algo que você consegue mostrar funcionando",
+     "sub": "(demonstração vende mais que explicação)"
+    }
+   ]
+  },
+  {
+   "id": "D04",
+   "titulo": "5 dicas de gancho pra prender nos 3 primeiros segundos no TikTok Shop",
+   "sub": "(salva essa)",
+   "print3": "s5",
+   "dicas": [
+    {
+     "titulo": "Comece pelo resultado, não pela apresentação",
+     "sub": "(nada de \"oi gente, hoje eu vou mostrar\")"
+    },
+    {
+     "titulo": "Fale com uma dor que a pessoa sente",
+     "sub": "(\"cansada de cabelo armado?\" prende mais que o nome do produto)"
+    },
+    {
+     "titulo": "Teste 3 ganchos pro mesmo vídeo",
+     "sub": "(esse app me dá 3 versões do gancho de um vídeo que já vendeu)"
+    },
+    {
+     "titulo": "Mostre o produto em ação logo no primeiro segundo",
+     "sub": "(o olho para antes do ouvido)"
+    },
+    {
+     "titulo": "Corte o silêncio do começo",
+     "sub": "(meio segundo parado já faz a pessoa passar)"
+    }
+   ]
+  },
+  {
+   "id": "D05",
+   "titulo": "5 dicas pra gravar vídeo pro TikTok Shop sem aparecer",
+   "sub": "(dá pra vender sem mostrar o rosto)",
+   "print3": "s4",
+   "dicas": [
+    {
+     "titulo": "Grave POV: câmera na mão, só as mãos e o produto",
+     "sub": "(é o formato que mais aparece nos vídeos que vendem)"
+    },
+    {
+     "titulo": "Use luz de janela, de frente pro produto",
+     "sub": "(não precisa de ring light)"
+    },
+    {
+     "titulo": "Siga um passo a passo de cena, não improvise",
+     "sub": "(esse app me diz a fala, a ação e o tom de cada cena)"
+    },
+    {
+     "titulo": "Mostre textura, tamanho e o produto funcionando",
+     "sub": "(é o que a pessoa não consegue ver na foto)"
+    },
+    {
+     "titulo": "Faça a narração depois, com calma",
+     "sub": "(grava a imagem primeiro e a voz no final)"
+    }
+   ]
+  },
+  {
+   "id": "D06",
+   "titulo": "5 hacks pra postar todo dia no TikTok Shop sem travar",
+   "sub": "(de quem já ficou dias sem saber o que postar)",
+   "print3": "s4",
+   "dicas": [
+    {
+     "titulo": "Tenha uma lista de produtos pra semana inteira",
+     "sub": "(decidir o que gravar na hora é o que trava)"
+    },
+    {
+     "titulo": "Grave em lote e agende",
+     "sub": "(1 dia de gravação, 7 dias de post)"
+    },
+    {
+     "titulo": "Quando faltar ideia, parta de um vídeo que já vendeu",
+     "sub": "(esse app transforma ele em 3 vídeos novos)"
+    },
+    {
+     "titulo": "Reaproveite: mesmo produto, gancho novo",
+     "sub": "(ninguém lembra do vídeo de ontem)"
+    },
+    {
+     "titulo": "Feito é melhor que perfeito",
+     "sub": "(o vídeo que não foi postado não vende)"
+    }
+   ]
+  },
+  {
+   "id": "D07",
+   "titulo": "5 coisas que eu faria se começasse do zero no TikTok Shop",
+   "sub": "(sem perder os meses que eu perdi)",
+   "print3": "s2",
+   "dicas": [
+    {
+     "titulo": "Começaria pelo produto, não pelo vídeo",
+     "sub": "(vídeo bom de produto que não vende não adianta)"
+    },
+    {
+     "titulo": "Copiaria a estrutura, nunca o vídeo",
+     "sub": "(gancho, ordem e final de quem já vende)"
+    },
+    {
+     "titulo": "Olharia todo dia os vídeos que mais faturaram na semana",
+     "sub": "(esse app mostra a lista com as vendas de 7 dias)"
+    },
+    {
+     "titulo": "Postaria 2 ou 3 vídeos por dia",
+     "sub": "(mais vídeos = mais chances de um pegar)"
+    },
+    {
+     "titulo": "Anotaria o que deu certo e repetiria",
+     "sub": "(o que funcionou uma vez tende a funcionar de novo)"
+    }
+   ]
+  },
+  {
+   "id": "D08",
+   "titulo": "5 dicas pra fazer vídeo com IA pro TikTok Shop",
+   "sub": "(sem precisar gravar nada)",
+   "print3": "s7_prompts",
+   "dicas": [
+    {
+     "titulo": "Comece de um vídeo que já vendeu, não de uma ideia",
+     "sub": "(a IA copia melhor uma estrutura que já funciona)"
+    },
+    {
+     "titulo": "Divida o vídeo em cenas de 8 segundos",
+     "sub": "(as IAs de vídeo erram menos em cenas curtas)"
+    },
+    {
+     "titulo": "Use um prompt por cena, com fala, ação e cenário",
+     "sub": "(esse app monta o prompt de cada cena pra mim)"
+    },
+    {
+     "titulo": "Anexe a foto real do produto no prompt",
+     "sub": "(senão a IA inventa um produto parecido)"
+    },
+    {
+     "titulo": "Marque como conteúdo gerado por IA ao postar",
+     "sub": "(o TikTok pede isso em vídeo realista de IA)"
+    }
+   ]
+  },
+  {
+   "id": "D09",
+   "titulo": "5 dicas pra nunca mais ficar sem ideia de vídeo no TikTok Shop",
+   "sub": "(salva pra quando travar)",
+   "print3": "s5",
+   "dicas": [
+    {
+     "titulo": "Veja os vídeos que mais venderam ontem",
+     "sub": "(a ideia já está pronta, só falta a sua versão)"
+    },
+    {
+     "titulo": "Mude o contexto: casa, trabalho, viagem",
+     "sub": "(o mesmo produto rende vários vídeos)"
+    },
+    {
+     "titulo": "Peça 3 variações de um vídeo que já vendeu",
+     "sub": "(esse app me devolve uma fiel, uma de contexto e uma criativa)"
+    },
+    {
+     "titulo": "Responda comentários com vídeo",
+     "sub": "(a dúvida de um é a dúvida de muitos)"
+    },
+    {
+     "titulo": "Grave reação: antes x depois de usar",
+     "sub": "(é simples e prende)"
+    }
+   ]
+  },
+  {
+   "id": "D10",
+   "titulo": "5 dicas pro seu vídeo de TikTok Shop não ter cara de anúncio",
+   "sub": "(é isso que faz a pessoa passar)",
+   "print3": "s6",
+   "dicas": [
+    {
+     "titulo": "Fale como se fosse um áudio pra um amigo",
+     "sub": "(nada de voz de locutor)"
+    },
+    {
+     "titulo": "Mostre o produto no seu dia a dia",
+     "sub": "(na sua cozinha, no seu quarto, na sua bolsa)"
+    },
+    {
+     "titulo": "Siga dicas de gravação de quem já vende",
+     "sub": "(esse app me dá as dicas de cada vídeo: atuação, ritmo e tom)"
+    },
+    {
+     "titulo": "Deixe o preço pro final",
+     "sub": "(primeiro o desejo, depois o preço)"
+    },
+    {
+     "titulo": "Termine com uma frase, não com um discurso",
+     "sub": "(\"corre que tá acabando\" já basta)"
+    }
+   ]
+  }
+ ]
+}

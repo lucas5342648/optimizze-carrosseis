@@ -1,3 +1,4 @@
-Fontes OFL (SIL Open Font License) usadas no estilo premium do FigCraft:
+Fontes OFL (SIL Open Font License). TikTokSans-500/600/700: estáticas do TikTok Sans (google/fonts), usadas no motor/dicas.py.
+No estilo premium do FigCraft:
 Playfair Display, Bebas Neue, Space Mono (convertidas de @fontsource para .ttf).
 Instalar: copiar pra ~/.fonts e rodar fc-cache -f.
