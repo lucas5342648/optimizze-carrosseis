@@ -1,5 +1,12 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-27
+- Sem viral (mediana dos últimos 10 fechados = 61,5 views; teto 3x = 184,5; nenhum perto de 2.000). Agenda do rodízio de formatos.
+- O Zernio parou de sincronizar às 18:34 UTC de 26/11: os 3 de 25/11 (projetor, climatizador, tapete), o ranking de 23/11 e os 2 de 26/11 noite ainda sem métrica. A árvore (26/11 A) tinha só 6 views em ~3h (parcial).
+- Formatos com 24h+: 1º video_tela (pistola, G1) fechou 67 views, 2 likes, 1 save, 4,2% de completion (a maior completion da semana); 1º raio-X (GTA 6) 56 views, 2 likes, 4,6%. Os dois perto da mediana (61,5), nenhum com 2x. Completion acima dos premium (1–4%): o conteúdo segura mais, o alcance ainda não veio.
+- Por formato (fechados): premium mediana ~65 (pior recente 24/11 A air fryer 23, melhor 22/11 B martelete 101 / 2 saves); video_tela 67 (1 post); raiox 56 (1); antes_depois, erros e ranking sem leitura.
+- Hoje: 12h premium barra de proteína (R$ 59 mil, alimentos), 19h video_tela kit de bermudas (G4, R$ 60 mil, moda), 21h 1º "dicas" (3 coisas que eu olho antes de escolher produto: vendas 7d, faturamento × vendas, mais de 1 vídeo vendendo; dados do ranking de produtos/vídeos de 26/11). s6b do premium agora sai do s6_full (últimos 1758 px), recorte y 1262.
+
 ## 2026-11-26
 - Sem viral (mediana dos últimos 10 fechados = 63,5 views; teto 3x = 190; nenhum perto de 2.000). Agenda do rodízio de formatos.
 - Fechados: 23/11 B ventilador (manual) 77 views, 2 comments, 1 save; A estante 45; 24/11 A air fryer só 23 (pior recente); 22/11 B martelete 101 / 2 saves (melhor premium). Premium segue com mediana ~65.

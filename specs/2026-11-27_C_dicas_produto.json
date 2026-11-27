@@ -1,0 +1,77 @@
+{
+ "titulo_post": "O que eu olho antes de escolher um produto pro TikTok Shop",
+ "estilo": "dicas",
+ "handle": "@silvaa.bnss",
+ "legenda": "O que eu olho antes de escolher um produto pra divulgar no TikTok Shop: vendas dos últimos 7 dias, faturamento (não só vendas) e se tem mais de 1 vídeo vendendo 📊 Exemplos do ranking da semana (estimados). A ferramenta que eu uso mostra esses dados e cria variações na mesma estrutura do vídeo que já vendeu. Salva e comenta TTS pra receber o acesso à ferramenta 👇\n\n#tiktokshop #tiktokshopbr #ia #afiliados #afiliadosiniciantes",
+ "slides": [
+  {
+   "tipo": "capa_texto",
+   "pilula": "Salva esse post",
+   "l1": "O que eu olho antes de",
+   "l2": "escolher",
+   "l3": "um produto pro [[TikTok Shop]]",
+   "l4": "(3 coisas, com dados reais)",
+   "l2_tam": 150
+  },
+  {
+   "tipo": "texto",
+   "pilula": "1",
+   "titulo": "Vendas dos **últimos 7 dias**",
+   "citacao": "“Pasta de dente: 23.059 vendas em 7 dias”",
+   "fonte": "RANKING DE PRODUTOS DA SEMANA · ESTIMADO",
+   "y0": 380,
+   "alt_citacao": 380,
+   "itens": [
+    "Venda acumulada pode ser **pico que já passou**",
+    "Faz: escolhe o que está **vendendo agora**"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "pilula": "2",
+   "titulo": "**Faturamento**, não só vendas",
+   "citacao": "“Kit de cabelo: 3.741 vendas e R$ 2,2 milhões em 7 dias”",
+   "fonte": "RANKING DE PRODUTOS DA SEMANA · ESTIMADO",
+   "y0": 380,
+   "alt_citacao": 420,
+   "itens": [
+    "Mais vendas nem sempre é **mais faturamento**",
+    "Faz: olha **vendas e faturamento** juntos"
+   ]
+  },
+  {
+   "tipo": "texto",
+   "pilula": "3",
+   "titulo": "Mais de **1 vídeo** vendendo",
+   "citacao": "“O mesmo kit de bermudas tem 3 vídeos entre os que mais venderam na semana”",
+   "fonte": "RANKING DE VÍDEOS DA SEMANA · ESTIMADO",
+   "y0": 380,
+   "alt_citacao": 440,
+   "itens": [
+    "Se só 1 vídeo vende, pode ser **o criador**",
+    "Faz: prefere produto com **vários vídeos** vendendo"
+   ]
+  },
+  {
+   "tipo": "passo",
+   "n": 0,
+   "pilula": "De onde eu tiro isso",
+   "titulo": "Esses dados saem da **ferramenta** que eu uso",
+   "print": "assets/prints/2026-11-27_bermuda/s2.jpg",
+   "y": 1000,
+   "texto": "Ranking diário com **vendas**, **faturamento** e **views** (estimados). Depois ela cria **3 variações** na __estrutura que já vendeu__."
+  },
+  {
+   "tipo": "cta",
+   "l1": "COMENTA [[TTS]] E RECEBA O",
+   "l2": "Acesso à ferramenta",
+   "card": "assets/prints/2026-11-27_bermuda/s1.jpg",
+   "selo": "R$ 60 mil em 7 dias",
+   "tela": [
+    "assets/prints/2026-11-27_bermuda/s4.jpg",
+    905,
+    "variação v1"
+   ]
+  }
+ ]
+}
