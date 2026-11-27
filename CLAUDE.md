@@ -23,7 +23,8 @@ erros, antes/depois) e o passo a passo em carrossel estão PAUSADOS. O vídeo (v
 - **Objetivo é DESEJO, não venda.** A dica 3 é SEMPRE a ferramenta, como mais uma dica normal: fundo = PRINT REAL do app em
   tela cheia (a tela que combina com a dica: s2 lista dos que mais vendem, s4 variações/cenas, s5 V3, s6 dicas de gravação,
   s7_prompts = quadro da gravação `t7_prompts` do vídeo do dia, copiado pra `assets/prints/<dia>_<slug>/s7_prompts.jpg`)
-  e texto falando "esse app", SEM o nome (logo borrado, como já sai da captura), sem preço, sem "link", sem convencer.
+  e texto falando "esse app", SEM o nome (o motor CORTA a barra de cima do app com o logo/nome, pedido do Lucas em 27/11;
+  nada de borrão na tela), sem preço, sem "link", sem convencer.
   A ideia é a pessoa perguntar nos comentários qual é o app (a automação já responde "app", "aplicativo", "ferramenta").
 - **SEM CTA nos carrosséis de dicas:** nenhum slide de CTA, nada de "Comenta TTS" nos slides nem na legenda.
   Legenda = o título do post + 1 emoji + hashtags (`#tiktokshop #tiktokshopbr #afiliados #afiliadosiniciantes #ia`).

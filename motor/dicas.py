@@ -10,7 +10,8 @@ Uso: python3 motor/dicas.py <spec.json> <pasta_saida> <PREFIXO>
 Spec: {"slides": [{"fundo": {...}, "titulo": "1) ...", "sub": "(...)", "y": 0.42}, ...], "legenda": "...", ...}
 Fundos:
   {"tipo": "foto", "img": "caminho", "foco": [0.5, 0.5], "brilho": 0.9}   foto em tela cheia (corte central)
-  {"tipo": "print", "img": "assets/prints/.../s4.jpg", "y": 0}             tela do app em tela cheia (860x1528)
+  {"tipo": "print", "img": "assets/prints/.../s4.jpg", "y": 0}             tela do app em tela cheia, SEM a barra de cima
+                                                                            (corte_topo=112 px do print; y = descer mais)
   {"tipo": "produto", "img": "assets/produtos/x.jpg"}                       produto num card sobre o fundo desfocado dele
   {"tipo": "grade", "imgs": ["...", ...], "cor": "#f3e9e4"}                 prateleira de produtos (2 colunas)
   {"tipo": "cor", "cor": "#1c1b22"}                                         fundo liso
@@ -53,12 +54,12 @@ def fundo(f):
         im = cobrir(Image.open(RAIZ / f["img"]), foco=tuple(f.get("foco", (0.5, 0.5))))
         return ImageEnhance.Brightness(im).enhance(f.get("brilho", 0.92))
     if t == "print":
+        # Corta a barra de cima do app (menu + logo/nome) pra não mostrar a marca nem precisar borrar
+        # (pedido do Lucas em 27/11). Nos prints da captura (860 de largura) a barra acaba em y=108.
         im = Image.open(RAIZ / f["img"]).convert("RGB")
-        im = im.resize((W, round(im.height * W / im.width)), Image.LANCZOS)
-        y = min(int(f.get("y", 0)), max(0, im.height - H))
-        tela = Image.new("RGB", (W, H), im.getpixel((5, im.height - 5)))
-        tela.paste(im.crop((0, y, W, min(im.height, y + H))), (0, 0))
-        return tela
+        topo = round(f.get("corte_topo", 112) * im.width / 860)
+        im = im.crop((0, topo + int(f.get("y", 0)), im.width, im.height))
+        return cobrir(im, foco=(0.5, 0.0))
     if t == "produto":
         p = Image.open(RAIZ / f["img"]).convert("RGB")
         base = ImageEnhance.Brightness(cobrir(p).filter(ImageFilter.GaussianBlur(40))).enhance(0.7)
