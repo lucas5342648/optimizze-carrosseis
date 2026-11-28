@@ -1,5 +1,11 @@
 # Aprendizados (mais recente no topo)
 
+## 2026-11-28
+- Sem viral (mediana dos últimos 10 fechados ≈ 72 views; teto 3x ≈ 216; nenhum perto de 2.000). Começa a estratégia "5 dicas" (3 carrosséis) + video_tela.
+- video_tela é o melhor formato da semana: 26/11 macacão (G3) 80 views, 3 likes, 1 save, 1 follow, 4,2% de completion; pistola fechou 72 / 1 save / 3,8%. Premium fechou fraco: árvore 43, bold 50 (~20h), air fryer 27. Raio-X GTA 77 / 4,4%.
+- Ainda sem métrica no Zernio (não aparecem na lista de analytics): 25/11 projetor, climatizador, tapete e 26/11 erros. 27/11 dicas_produto 35 views e vídeo bermuda 19 views com menos de 15h (parcial).
+- Hoje: 12h D01 (afiliado começando, print s2), 17h D04 (gancho, print s5/V3), 19h video_tela martelete (G5, R$ 83 mil), 21h D08 (vídeo com IA, print dos prompts). Na dica 3 o print agora vai escurecido (brilho 0,45) pra legenda não brigar com o texto do app. Medir: views/saves das dicas × video_tela.
+
 ## 2026-11-27
 - Sem viral (mediana dos últimos 10 fechados = 61,5 views; teto 3x = 184,5; nenhum perto de 2.000). Agenda do rodízio de formatos.
 - O Zernio parou de sincronizar às 18:34 UTC de 26/11: os 3 de 25/11 (projetor, climatizador, tapete), o ranking de 23/11 e os 2 de 26/11 noite ainda sem métrica. A árvore (26/11 A) tinha só 6 views em ~3h (parcial).
