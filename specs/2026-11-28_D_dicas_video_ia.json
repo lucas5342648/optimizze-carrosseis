@@ -1,0 +1,70 @@
+{
+ "estilo": "dicas",
+ "tema": "D08",
+ "titulo_post": "5 dicas pra fazer vídeo com IA pro TikTok Shop",
+ "horario": "21:00",
+ "slides": [
+  {
+   "fundo": {
+    "tipo": "grade",
+    "imgs": [
+     "assets/produtos/1732258778118391461.jpg",
+     "assets/produtos/1736676764978611475.jpg",
+     "assets/produtos/1734248916088358216.jpg",
+     "assets/produtos/1735136884397016901.jpg"
+    ],
+    "cor": "#efe6df"
+   },
+   "titulo": "5 dicas pra fazer vídeo com IA pro TikTok Shop!!",
+   "sub": "(sem precisar gravar nada)",
+   "y": 0.45
+  },
+  {
+   "fundo": {
+    "tipo": "produto",
+    "img": "assets/produtos/1736333102599603475.jpg"
+   },
+   "titulo": "1) Comece de um vídeo que já vendeu, não de uma ideia",
+   "sub": "(a IA copia melhor uma estrutura que já funciona)",
+   "y": 0.27
+  },
+  {
+   "fundo": {
+    "tipo": "produto",
+    "img": "assets/produtos/1734953448383087891.jpg"
+   },
+   "titulo": "2) Divida o vídeo em cenas de 8 segundos",
+   "sub": "(as IAs de vídeo erram menos em cenas curtas)",
+   "y": 0.27
+  },
+  {
+   "fundo": {
+    "tipo": "print",
+    "img": "assets/prints/2026-11-28_martelete/s7_prompts.jpg",
+    "brilho": 0.45
+   },
+   "titulo": "3) Use um prompt por cena, com fala, ação e cenário",
+   "sub": "(esse app monta o prompt de cada cena pra mim)",
+   "y": 0.52
+  },
+  {
+   "fundo": {
+    "tipo": "produto",
+    "img": "assets/produtos/1735923576227071479.jpg"
+   },
+   "titulo": "4) Anexe a foto real do produto no prompt",
+   "sub": "(senão a IA inventa um produto parecido)",
+   "y": 0.27
+  },
+  {
+   "fundo": {
+    "tipo": "produto",
+    "img": "assets/produtos/1731428535156966971.jpg"
+   },
+   "titulo": "5) Marque como conteúdo gerado por IA ao postar",
+   "sub": "(o TikTok pede isso em vídeo realista de IA)",
+   "y": 0.27
+  }
+ ],
+ "legenda": "5 dicas pra fazer vídeo com IA pro TikTok Shop 🤖\n\n#tiktokshop #tiktokshopbr #afiliados #afiliadosiniciantes #ia"
+}

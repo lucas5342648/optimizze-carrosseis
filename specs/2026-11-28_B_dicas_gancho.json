@@ -1,0 +1,70 @@
+{
+ "estilo": "dicas",
+ "tema": "D04",
+ "titulo_post": "5 dicas de gancho pra prender nos 3 primeiros segundos no TikTok Shop",
+ "horario": "17:00",
+ "slides": [
+  {
+   "fundo": {
+    "tipo": "grade",
+    "imgs": [
+     "assets/produtos/1737988548253287699.jpg",
+     "assets/produtos/1734131787988436616.jpg",
+     "assets/produtos/1735871409346282999.jpg",
+     "assets/produtos/1732557589119469391.jpg"
+    ],
+    "cor": "#efe6df"
+   },
+   "titulo": "5 dicas de gancho pra prender nos 3 primeiros segundos no TikTok Shop!!",
+   "sub": "(salva essa)",
+   "y": 0.45
+  },
+  {
+   "fundo": {
+    "tipo": "produto",
+    "img": "assets/produtos/1734909824886146496.jpg"
+   },
+   "titulo": "1) Comece pelo resultado, não pela apresentação",
+   "sub": "(nada de \"oi gente, hoje eu vou mostrar\")",
+   "y": 0.27
+  },
+  {
+   "fundo": {
+    "tipo": "produto",
+    "img": "assets/produtos/1734592296090895958.jpg"
+   },
+   "titulo": "2) Fale com uma dor que a pessoa sente",
+   "sub": "(\"cansada de cabelo armado?\" prende mais que o nome do produto)",
+   "y": 0.27
+  },
+  {
+   "fundo": {
+    "tipo": "print",
+    "img": "assets/prints/2026-11-28_martelete/s5.jpg",
+    "brilho": 0.45
+   },
+   "titulo": "3) Teste 3 ganchos pro mesmo vídeo",
+   "sub": "(esse app me dá 3 versões do gancho de um vídeo que já vendeu)",
+   "y": 0.52
+  },
+  {
+   "fundo": {
+    "tipo": "produto",
+    "img": "assets/produtos/1733383898298418670.jpg"
+   },
+   "titulo": "4) Mostre o produto em ação logo no primeiro segundo",
+   "sub": "(o olho para antes do ouvido)",
+   "y": 0.27
+  },
+  {
+   "fundo": {
+    "tipo": "produto",
+    "img": "assets/produtos/1736676935466321171.jpg"
+   },
+   "titulo": "5) Corte o silêncio do começo",
+   "sub": "(meio segundo parado já faz a pessoa passar)",
+   "y": 0.27
+  }
+ ],
+ "legenda": "5 dicas de gancho pra prender nos 3 primeiros segundos no TikTok Shop 🎯\n\n#tiktokshop #tiktokshopbr #afiliados #afiliadosiniciantes #ia"
+}

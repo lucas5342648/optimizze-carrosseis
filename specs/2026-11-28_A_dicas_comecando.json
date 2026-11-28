@@ -1,0 +1,70 @@
+{
+ "estilo": "dicas",
+ "tema": "D01",
+ "titulo_post": "5 dicas para afiliados de TikTok Shop que estão começando",
+ "horario": "12:00",
+ "slides": [
+  {
+   "fundo": {
+    "tipo": "grade",
+    "imgs": [
+     "assets/produtos/1736230887015876182.jpg",
+     "assets/produtos/1733383898298418670.jpg",
+     "assets/produtos/1734248916088358216.jpg",
+     "assets/produtos/1734909824886146496.jpg"
+    ],
+    "cor": "#efe6df"
+   },
+   "titulo": "5 dicas para afiliados de TikTok Shop que estão começando!!",
+   "sub": "(o que eu queria ter sabido no começo)",
+   "y": 0.45
+  },
+  {
+   "fundo": {
+    "tipo": "produto",
+    "img": "assets/produtos/1732258778118391461.jpg"
+   },
+   "titulo": "1) Escolha 1 nicho e fique nele por 30 dias",
+   "sub": "(o algoritmo entende pra quem mostrar seus vídeos)",
+   "y": 0.27
+  },
+  {
+   "fundo": {
+    "tipo": "produto",
+    "img": "assets/produtos/1737811812863608396.jpg"
+   },
+   "titulo": "2) Poste todo dia, mesmo que fique simples",
+   "sub": "(constância conta mais que vídeo perfeito)",
+   "y": 0.27
+  },
+  {
+   "fundo": {
+    "tipo": "print",
+    "img": "assets/prints/2026-11-28_martelete/s2.jpg",
+    "brilho": 0.45
+   },
+   "titulo": "3) Antes de gravar, veja o que já está vendendo essa semana",
+   "sub": "(esse app mostra os vídeos que mais faturaram em 7 dias)",
+   "y": 0.52
+  },
+  {
+   "fundo": {
+    "tipo": "produto",
+    "img": "assets/produtos/1731459249637131912.jpg"
+   },
+   "titulo": "4) Os 3 primeiros segundos são o vídeo inteiro",
+   "sub": "(se o gancho não prende, ninguém vê o resto)",
+   "y": 0.27
+  },
+  {
+   "fundo": {
+    "tipo": "produto",
+    "img": "assets/produtos/1733570427443447182.jpg"
+   },
+   "titulo": "5) Não desista dos primeiros 30 vídeos",
+   "sub": "(é aí que você descobre o que funciona pra você)",
+   "y": 0.27
+  }
+ ],
+ "legenda": "5 dicas para afiliados de TikTok Shop que estão começando 🚀\n\n#tiktokshop #tiktokshopbr #afiliados #afiliadosiniciantes #ia"
+}

@@ -59,7 +59,9 @@ def fundo(f):
         im = Image.open(RAIZ / f["img"]).convert("RGB")
         topo = round(f.get("corte_topo", 112) * im.width / 860)
         im = im.crop((0, topo + int(f.get("y", 0)), im.width, im.height))
-        return cobrir(im, foco=(0.5, 0.0))
+        im = cobrir(im, foco=(0.5, 0.0))
+        # brilho < 1 apaga um pouco a tela do app pra legenda branca não brigar com o texto da interface (28/11)
+        return ImageEnhance.Brightness(im).enhance(f.get("brilho", 1.0))
     if t == "produto":
         p = Image.open(RAIZ / f["img"]).convert("RGB")
         base = ImageEnhance.Brightness(cobrir(p).filter(ImageFilter.GaussianBlur(40))).enhance(0.7)
